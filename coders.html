@@ -1,0 +1,2326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>X Billion Skills Lab :: Coders</title>
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+
+  <!-- Datepicker  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js"></script>
+  <!-- Datepicker  -->
+
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Fancybox -->
+  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" /> -->
+  <!-- Custom Style -->
+  <link rel="stylesheet" href="css/style.css?v=1212" />
+  <!-- <link rel="stylesheet" type="text/css" href="css/flipping_gallery.css" /> -->
+  <link rel="stylesheet" type="text/css" href="css/elusive-webfont.css" />
+  <link rel="stylesheet" type="text/css" href="css/hover-min.css" />
+  <link rel="stylesheet" href="css/responsive.css?v=12" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link rel="stylesheet" href="./css/mycoder.css">
+  <link rel="stylesheet" href="./css/scss.css">
+</head>
+
+<body class="no-scrollbar" id="noscroll">
+  <!-- Navbar Start -->
+  <ul class="nav programpage myheader justify-content-between align-items-center position-fixed top-0 w-100 pt-3 z-index-2 intro1"
+    id="navbar">
+    <li class="nav-item z-index-2 new-ms1">
+      <div class="d-flex justify-content-between align-items-center">
+        <div class="ks-logo-svg ks-logo-svg1">
+          <a href="index.html" class="active">
+            <img id="headerlogo" src="./new-images/logo2.png" alt="" />
+            <img class="mobile-logo" src="./images/landing/logo-header.png" alt="">
+          </a>
+        </div>
+        <!-- <div class="ks-logo-heading">
+                    <h2>X Billion Skills Lab</h2>
+                    <h6>Enhancing workplace intelligence</h6>
+                </div> -->
+      </div>
+    </li>
+    <li class="nav-item new-ms2 z-index-2 aply right-li">
+      <a onclick="togglemenu()" href="#staticBackdrop" data-bs-toggle="modal" id="menubar" class="aply1 mobileapplylink"><img class="applydesktop" src="images/landing/apply-now-button.png" /><img class="applymobile" src="./images/landing/apply-now-button-mobile.png" alt=""><span class="mobile-apply">Apply Now <img class="mobile-applyimg" src="./images/menu/contactsubmit.png" alt=""></span></a>
+      <a href="javascript:void(0);" class="apppply"></a>
+      <!-- <a href="#"><img src="images/menu-bars.svg" alt="" class="ks-menu-bars"></a> -->
+      <!-- <a onclick="togglemenu()" id="menubar" class="aply2"><img src="images/landing/menu-logo.png" /></a> -->
+
+      <!-- Toggle Menu  -->
+      <nav class="mynavbar" id="navId">
+        <button onclick="myFunction(this);" type="button" class="toggle-collapse" id="toggle-button">
+          <span class="toggle-icon"></span>
+        </button>
+
+        <!-- Menu section  -->
+        <ul class="slide-nav">
+          <li class="nav-item">
+            <a href="./index.html"><img class="one" src="./images/menu/menu-icon-1.png" alt=""><img
+                class="one-active imactive" src="./images/menu/menu-icon-1-active.png" alt=""> Home</a>
+          </li>
+          <li class="nav-item menuactive">
+            <a href="./programs.html"><img class="two" src="./images/menu/menu-icon-2.png" alt=""><img
+                class="two-active imactive" src="./images/menu/menu-icon-2-active.png" alt=""> Programs</a>
+          </li>
+          <li class="nav-item">
+            <a href="./about-us.html"><img class="three" src="./images/menu/menu-icon-3.png" alt=""><img
+                class="three-active imactive" src="./images/menu/menu-icon-3-active.png" alt=""> About Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="./impact.html"><img class="four" src="./images/menu/menu-icon-4.png" alt=""><img
+                class="four-active imactive" src="./images/menu/menu-icon-4-active.png" alt=""> Impact</a>
+          </li>
+          <li class="nav-item">
+            <a href="./science.html"><img class="five" src="./images/menu/menu-icon-5.png" alt=""><img
+                class="five-active imactive" src="./images/menu/menu-icon-5-active.png" alt=""> Science</a>
+          </li>
+          <li class="nav-item">
+            <a href="./career.html"><img class="six" src="./images/menu/menu-icon-6.png" alt=""><img
+                class="six-active imactive" src="./images/menu/menu-icon-6-active.png" alt=""> Career</a>
+          </li>
+          <li class="nav-item">
+            <a href="./contact.html"><img class="seven" src="./images/menu/menu-icon-7.png" alt=""><img
+                class="seven-active imactive" src="./images/menu/menu-icon-7-active.png" alt=""> Contact Us</a>
+          </li>
+        </ul>
+        <!-- Menu section  -->
+      </nav>
+      <!-- Toggle Menu  -->
+    </li>
+  </ul>
+  <!-- <div class="blakpatch" onclick="togglemenu()"></div> -->
+
+  <div class="mytabsection-outer-wrapper">
+    <div class="mytabsection-inner-wrapper">
+      <div class="tab-inner">
+        <ul class="tab-button-fixed new-ms1 new-ms2 nav nav-pills mb-3 main-nav-pills" id="pills-tab" role="tablist">
+
+
+          <!-- <li class="nav-item" role="presentation">
+                  <button class="nav-link active" id="pills-intro-tab" data-bs-toggle="pill" data-bs-target="#pills-intro" type="button" role="tab" aria-controls="pills-intro" aria-selected="true">Intro</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-how_works-tab" data-bs-toggle="pill" data-bs-target="#pills-how_works" type="button" role="tab" aria-controls="pills-how_works" aria-selected="false">How it<br/> Works</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="nav-link" id="pills-what_learn-tab" data-bs-toggle="pill" data-bs-target="#pills-what_learn" type="button" role="tab" aria-controls="pills-what_learn" aria-selected="false">What you'll<br/> Learn</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-who_this-tab" data-bs-toggle="pill" data-bs-target="#pills-who_this" type="button" role="tab" aria-controls="pills-who_this" aria-selected="true">Who is<br/>This For</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-advantage-tab" data-bs-toggle="pill" data-bs-target="#pills-advantage" type="button" role="tab" aria-controls="pills-advantage" aria-selected="true">Advantages</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-schedule-tab" data-bs-toggle="pill" data-bs-target="#pills-schedule" type="button" role="tab" aria-controls="pills-schedule" aria-selected="true">Schedule</button>
+                  </li>
+                  <li class="nav-item" role="presentation">
+                    <button class="nav-link " id="pills-pricing-tab" data-bs-toggle="pill" data-bs-target="#pills-pricing" type="button" role="tab" aria-controls="pills-pricing" aria-selected="true">Pricing &<br/>Placement</button>
+                  </li> -->
+
+
+          <input type="radio" id="radio-1" name="tabs" checked />
+          <label class=" nav-link active" id="pills-intro-tab" data-bs-toggle="pill" data-bs-target="#pills-intro"
+            role="tab" aria-controls="pills-intro" aria-selected="true" for="radio-1">Intro</label>
+
+          <input type="radio" id="radio-2" name="tabs" />
+          <label class="nav-link" id="pills-how_works-tab" data-bs-toggle="pill" data-bs-target="#pills-how_works"
+            role="tab" aria-controls="pills-how_works" aria-selected="false" for="radio-2">How it<br /> Works</label>
+
+          <input type="radio" id="radio-3" name="tabs" />
+          <label class="tab nav-link" id="pills-what_learn-tab" data-bs-toggle="pill" data-bs-target="#pills-what_learn"
+            type="button" role="tab" aria-controls="pills-what_learn" aria-selected="false" for="radio-3">What
+            you'll<br /> Learn</label>
+
+          <input type="radio" id="radio-4" name="tabs" />
+          <label class="tab nav-link" id="pills-who_this-tab" data-bs-toggle="pill" data-bs-target="#pills-who_this"
+            type="button" role="tab" aria-controls="pills-who_this" aria-selected="true" for="radio-4">Who is<br />This
+            For</label>
+
+          <input type="radio" id="radio-5" name="tabs" />
+          <label class="tab nav-link" id="pills-advantage-tab" data-bs-toggle="pill" data-bs-target="#pills-advantage"
+            type="button" role="tab" aria-controls="pills-advantage" aria-selected="true"
+            for="radio-5">Advantages</label>
+
+          <input type="radio" id="radio-6" name="tabs" />
+          <label class="tab nav-link" id="pills-schedule-tab" data-bs-toggle="pill" data-bs-target="#pills-schedule"
+            type="button" role="tab" aria-controls="pills-schedule" aria-selected="true" for="radio-6">Schedule</label>
+
+          <input type="radio" id="radio-7" name="tabs" />
+          <label class="tab nav-link" id="pills-pricing-tab" data-bs-toggle="pill" data-bs-target="#pills-pricing"
+            role="tab" aria-controls="pills-pricing" aria-selected="true" for="radio-7">Pricing &<br />Placement</label>
+          <span class="glider"></span>
+
+
+        </ul>
+        <div class="tab-content tab-content-scrollable" id="pills-tabContent">
+
+          <div class="tab-pane fade show active new-ms1 new-ms2" id="pills-intro" role="tabpanel"
+            aria-labelledby="pills-intro-tab">
+            <!--intro tab content  -->
+            <div class="intro mytab-content">
+              <div class="left">
+                <h1>
+                  Lakhs of <span>coders</span> graduate<br />
+                  with similar degrees<br />
+                  every year!
+                </h1>
+                <h2 class="subtitle">
+                  What differentiates you?
+                </h2>
+              </div>
+              <div class="right">
+                <img class="image-hover" src="./images/coders/intro/coders-intro1.png" alt="">
+              </div>
+            </div>
+            <!--intro tab content  -->
+            <!-- intro tab content  -->
+            <div class="intro intro2 mytab-content">
+              <div class="left">
+                <h1>
+                  We reached out to Senior Managers<br />
+                  at top companies like <span>Google,<br />
+                    Microsoft and Amazon</span>&nbsp;with<br />
+                  1 Question
+                </h1>
+                <h2 class="subtitle">
+                  ''What makes you <span>reject</span>&nbsp;a coder?''
+                </h2>
+              </div>
+              <div class="right">
+                <img class="image-hover" src="./images/coders/intro/coders-intro2.png" alt="">
+              </div>
+            </div>
+            <!-- intro tab content  -->
+            <!-- intro tab content  -->
+            <div class="intro3 mytab-content">
+              <h1>Here are a few answers that stuck out</h1>
+              <div class="right">
+                <img  src="./images/program/INTRO-2.png" alt="">
+                <div class="intro-answer-image">
+                  <img class="answer1 text-hover" src="./images/coders/intro/intro-text-1.png" alt="">
+                  <img class="answer2 text-hover" src="./images/coders/intro/intro-text-2.png" alt="">
+                  <img class="answer3 text-hover" src="./images/coders/intro/intro-text-3.png" alt="">
+                  <img class="answer4 text-hover" src="./images/coders/intro/intro-text-4.png" alt="">
+                </div>
+              </div>
+            </div>
+            <!-- intro tab content  -->
+            <!--intro tab content  -->
+            <div class="intro intro4 mytab-content">
+              <div class="left">
+                <h1>
+                  In the new world of work, only those tech professionals succeed who are technical Specialists as well as Smart Generalists.<br /><br/>
+                  <span>These are professionals who can think, communicate, create & solve beyond<br/> just software.</span>
+                </h1>
+                <p>Join Workverse - a 21st-century workplace<br/> simulation today to lay the foundation<br/> for rapid career growth.</p>
+                <p>You may have a quick question - How is this<br/> different from a real internship? 
+                </p>
+                <p>Usually interns get menial tasks. And sometimes<br/> the company you join may not really give you<br/> the exposure or hands on training you need.<br/> In the workverse, you’re joining as an employee<br/> whose decisions matter and voice is heard.<br/> “The boss” will also personally mentor you.<br/>  Therefore this experience gives a much<br/> stronger head start! </p>
+              </div>
+              <div class="right">
+                <img class="image-hover" src="./images/coders/programs-intro-tab-img-4.png" alt="">
+              </div>
+            </div>
+            <!--intro tab content  -->
+          </div>
+
+          <div class="tab-pane fade new-ms1 new-ms2" id="pills-how_works" role="tabpanel"
+            aria-labelledby="pills-how_works-tab">
+            <!-- how it works tab content  -->
+            <div class="how-it-works-tab-content">
+              <div class="myinner-tabs-wrapper">
+                <div class="d-flex align-items-start">
+                  <div class="nav nav-wrapper flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                    aria-orientation="vertical">
+                    <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                      data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                      aria-selected="true">
+                      Home
+                    </button>
+                    <button class="nav-link" id="v-pills-profile-tab" data-bs-toggle="pill"
+                      data-bs-target="#v-pills-profile" type="button" role="tab" aria-controls="v-pills-profile"
+                      aria-selected="false">
+                      Learn
+                    </button>
+                    <button class="nav-link" id="v-pills-messages-tab" data-bs-toggle="pill"
+                      data-bs-target="#v-pills-messages" type="button" role="tab" aria-controls="v-pills-messages"
+                      aria-selected="false">
+                      Play
+                    </button>
+                    <button class="nav-link" id="v-pills-settings-tab" data-bs-toggle="pill"
+                      data-bs-target="#v-pills-settings" type="button" role="tab" aria-controls="v-pills-settings"
+                      aria-selected="false">
+                      Win
+                    </button>
+                  </div>
+                  <div class="tab-content" id="v-pills-tabContent">
+                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                      aria-labelledby="v-pills-home-tab">
+                      <!-- tab content  -->
+                      <div class="row how1">
+                        <div class="col-md-7">
+                          <div class="details details1">
+                            <div class="title">
+                              <h2>
+                                In the simulation, you’ll play the
+                                role of an<br />entry-level coder in an
+                                imaginary<br /> startup - <span>‘Future Labs’</span>.
+                              </h2>
+                            </div>
+                            <h5>
+                              Your goal at the end of this<br />
+                              30-day journey is to get promoted or<br />
+                              ensure you don’t get fired!
+                            </h5>
+                          </div>
+                        </div>
+                        <div class="col-md-5">
+                          <div class="tab-howimage image-hover">
+                            <img src="./images/coders/programs-how-it-works-tab-img-1.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <!-- tab content  -->
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                      aria-labelledby="v-pills-profile-tab">
+                      <!-- tab content  -->
+                      <div class="row how2">
+                        <div class="col-md-7">
+                          <div class="details details1 details2">
+                            <div class="title">
+                              <h2>
+                                Like in the real world, the L&D department<br /> of <span>Future Labs</span> will train
+                                you.</span>
+                              </h2>
+                            </div>
+                            <h5>
+                              With training delivered via <span>live expert<br />
+                                sessions & animated videos</span>, you'll<br />
+                              quickly build the foundation<br />
+                              necessary to perform in<br />
+                              upcoming tasks &<br />
+                              challenges.
+                            </h5>
+                          </div>
+                        </div>
+                        <div class="col-md-5">
+                          <div class="tab-howimage">
+                            <img class="image-hover" src="./images/coders/programs-how-it-works-tab-img-2.png" alt="" />
+                          </div>
+                        </div>
+                      </div>
+                      <!-- tab content  -->
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-messages" role="tabpanel"
+                      aria-labelledby="v-pills-messages-tab">
+                      <!-- tab content  -->
+                      <div class="third-content how3">
+                        <h2>
+                          <span>Test your learning</span> with exciting business tasks and challenges.<br />
+                          Work individually or collaborate virtually and in groups<br/> to achieve the
+                          goals set out for you,<br /> your team,
+                          and your employer.
+                        </h2>
+                        <!-- <ul class="new-points-play">
+                          <li><p>- Win client pitches
+                          </p></li>
+                          <li><p>- Craft convincing communication 
+                          </p></li>
+                          <li><p>- Navigate office politics</p></li>
+                          <li><p>- Negotiate deals</p></li>
+                          <li><p>- Contribute to business strategy
+                          </p></li>
+                        </ul> -->
+                      </div>
+                      <div class="row">
+                        <div class="image-wrapper how3-image-wrapper">
+                          <img src="./images/coders/programs-how-it-works-tab-img-3.png" alt="">
+                        </div>
+                      </div>
+                      <!-- tab content  -->
+                    </div>
+                    <div class="tab-pane fade" id="v-pills-settings" role="tabpanel"
+                      aria-labelledby="v-pills-settings-tab">
+                      <!-- tab content  -->
+                      <div class="third-content how4 fourth-content">
+                        <h2>
+                          Everything you do, say or don’t in this simulation<br /> leads to a loss or gain in points.
+
+                        </h2>
+                        <h6>These points add up to a final score that decides<br />
+                          whether you've done well enough to get promoted<br />
+                          or if your poor performance will get you fired<br />
+                          <span>just like in real life!</span>
+                        </h6>
+                        <p>Our algorithm also produces your unique <span>Workplace<br />
+                            Intelligence Profile</span> that ranks you on the ten<br />
+                          21st-century workplace skills employers seek.<br />
+                          Perform well here to gain an edge in<br />
+                          placement opportunities that we<br />
+                          will create for you!</p>
+                      </div>
+                      <div class="image-wrapper how4-image-wrapper">
+                        <img class="image-hover" src="./images/coders/intro/HOW-IT-WORKS4.png" alt="">
+                      </div>
+                      <!-- tab content  -->
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- how it works tab content  -->
+          </div>
+
+          <div class="tab-pane fade new-ms1 new-ms2" id="pills-what_learn" role="tabpanel"
+            aria-labelledby="pills-what_learn-tab">
+            <!-- what you will learn tab content  -->
+            <div class="myinner-tabs-wrapper what-will-learn-tab-content">
+              <div class="d-flex align-items-start">
+                <div class="nav nav-wrapper flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                  aria-orientation="vertical">
+                  <button class="nav-link active" id="v-pills-home-tab1" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-home1" type="button" role="tab" aria-controls="v-pills-home1"
+                    aria-selected="true">
+                    ONBOARDING
+                  </button>
+                  <button class="nav-link" id="v-pills-profile-tab1" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-profile1" type="button" role="tab" aria-controls="v-pills-profile1"
+                    aria-selected="false">
+                    Communication
+                  </button>
+                  <button class="nav-link" id="v-pills-messages-tab1" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-messages1" type="button" role="tab" aria-controls="v-pills-messages1"
+                    aria-selected="false">
+                    Thinking in<br />framework
+                  </button>
+                  <button class="nav-link" id="v-pills-settings-tab1" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-settings1" type="button" role="tab" aria-controls="v-pills-settings1"
+                    aria-selected="false">
+                    Managing self
+                  </button>
+                  <button class="nav-link" id="v-pills-managing-tab" data-bs-toggle="pill"
+                    data-bs-target="#v-pills-managing" type="button" role="tab" aria-controls="v-pills-managing"
+                    aria-selected="false">
+                    Working with<br /> others
+                  </button>
+                </div>
+                <div class="tab-content" id="v-pills-tabContent">
+                  <div class="tab-pane fade show active" id="v-pills-home1" role="tabpanel"
+                    aria-labelledby="v-pills-home-tab1">
+                    <!-- tab content  -->
+                    <div class="what-will-wrapper">
+                      <h2>Here’s an overview of your 30 day - 60 hour long <span>Learning Journey</span></h2>
+                      <div class="onboarding-wrapper">
+                        <div class="top">
+                          <div class="top-left">
+                            <h5>Onboarding</h5>
+                          </div>
+                          <div class="top-right">
+                            <p><img src="./images/coders/intro/What-you-will-learn-clock.png" alt=""> 1 Hour</p>
+                          </div>
+                        </div>
+                        <div class="bottom">
+                          <p class="p-top">Officially kick start your journey with this session. Know more about
+                            the<br />
+                            fictitious company you'll work for, the <span>‘’colleagues’’</span> you’ll work<br />
+                            with and the <span>‘’role’’</span> you will be assigned to.</p>
+                          <p class="p-bottom">This session will give you an overview of all the surprises<br />
+                            you can expect down the line.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <!-- tab content  -->
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-profile1" role="tabpanel"
+                    aria-labelledby="v-pills-profile-tab1">
+                    <!-- tab content  -->
+                    <div class="what-will-wrapper communication">
+                      <div class="communication-top">
+                        <h2>Communication</h2>
+                        <h5>Workplace skills</h5>
+                        <p class="communi-clock"><img src="./images/coders/intro/What-you-will-learn-clock.png" alt="">
+                          13 Hours</p>
+                      </div>
+                      <div class="onboarding-wrapper">
+                        <div class="top">
+                          <div class="top-left">
+                            <h5>sTORYTELLING</h5>
+                          </div>
+                          <div class="top-right">
+                            <h5>SMART REMOTE COMMUNICATION</h5>
+                          </div>
+                        </div>
+                        <div class="bottom">
+                          <h6>By the end of this week, you should be able to -</h6>
+                          <ul>
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""> <span>Talk to
+                                anyone!</span>&nbsp; Avoid technical jargon to communicate effectively and efficiently.
+                            </li>
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>'Sell'
+                                yourself!</span>&nbsp; Build a strong personal brand to network with clients and
+                              colleagues.</li>
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Sound
+                                friendly,</span>&nbsp; act firm! Get all your work done without burning bridges.</li>
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Turn Clutter
+                                into Clarity:</span>&nbsp; Understand the elements of Business Communication and write
+                              persuasively.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="communication-bottom">
+                        <h5>3 sessions</h5>
+                        <h5>2 Modules</h5>
+                        <h5>2 tasks</h5>
+                        <h5>2 challenges</h5>
+                      </div>
+                    </div>
+                    <!-- tab content  -->
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-messages1" role="tabpanel"
+                    aria-labelledby="v-pills-messages-tab1">
+                    <!-- tab content  -->
+                    <div class="what-will-wrapper communication thinking">
+                      <div class="communication-top">
+                        <h2>Thinking in framework</h2>
+                        <h5>Workplace skills</h5>
+                        <p class="communi-clock"><img src="./images/coders/intro/What-you-will-learn-clock.png" alt="">
+                          19 Hours</p>
+                      </div>
+                      <div class="onboarding-wrapper">
+                        <div class="top">
+                          <div class="top-left">
+                            <h5>SMART THINKING HABIT</h5>
+                          </div>
+                          <div class="top-middle">
+                            <h5>ENTREPRENEURIAL MINDSET</h5>
+                          </div>
+                          <div class="top-right">
+                            <h5>CREATIVE PROBLEM SOLVING</h5>
+                          </div>
+                        </div>
+                        <div class="bottom">
+                          <h6>By the end of this slab, you should be able to -</h6>
+                          <ul>
+
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>kyc:
+                              </span>&nbsp; Know your client and your industry to build business acumen.</li>
+
+                            <li class="connect-the"><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><p><span>Connect the
+                                dots!</span> Gain the ability to make sense of diverse data and turn hard numbers
+                              into actionable insights.</p></li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Craft and ask
+                                the right questions</span>&nbsp; to get the right answers from colleagues and clients.
+                            </li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Discover
+                                'Jugaad.'</span>&nbsp; Work effectively even with fewer resources and information.</li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Think like an
+                                entrepreneur!</span>&nbsp; Learn First Principles Thinking- the Elon Musk way of Solving
+                              problems.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="communication-bottom">
+                        <h5>4 sessions</h5>
+                        <h5>3 Modules</h5>
+                        <h5>3 tasks</h5>
+                        <h5>3 challenges</h5>
+                      </div>
+                    </div>
+                    <!-- tab content  -->
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-settings1" role="tabpanel"
+                    aria-labelledby="v-pills-settings-tab1">
+                    <!-- tab content  -->
+                    <div class="what-will-wrapper communication managing">
+                      <div class="communication-top">
+                        <h2>Managing self</h2>
+                        <h5>Workplace skills</h5>
+                        <p class="communi-clock"><img src="./images/coders/intro/What-you-will-learn-clock.png" alt="">
+                          14 Hours</p>
+                      </div>
+                      <div class="onboarding-wrapper">
+                        <div class="top">
+                          <div class="top-left">
+                            <h5>Managing Workplace Emotions</h5>
+                          </div>
+                          <div class="top-right">
+                            <h5 id="productivity">Productivity Hacks & Habits</h5>
+                          </div>
+                        </div>
+                        <div class="bottom">
+                          <h6>By the end of this slab, you should be able to -</h6>
+                          <ul>
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""> <span>Pick your
+                                battle!</span>&nbsp; Avoid being crushed by deadlines by prioritizing tasks, time, and
+                              energy.</li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Prioritize
+                                Outcomes</span>&nbsp; over Process: Stop thinking. Stop Analyzing. Start taking action.
+                            </li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Rise above
+                                personal grudges</span>&nbsp; and navigate office politics.</li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Respond, not
+                                React!</span>&nbsp; Understand the root of your own emotions and those of your
+                              colleagues.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="communication-bottom">
+                        <h5>3 sessions</h5>
+                        <h5>2 Modules</h5>
+                        <h5>2 tasks</h5>
+                        <h5>2 challenges</h5>
+                      </div>
+                    </div>
+                    <!-- tab content  -->
+                  </div>
+                  <div class="tab-pane fade" id="v-pills-managing" role="tabpanel"
+                    aria-labelledby="v-pills-managing-tab">
+                    <!-- tab content  -->
+                    <div class="what-will-wrapper communication collaboration working-with-others">
+                      <div class="communication-top">
+                        <h2>Working with others</h2>
+                        <h5>Workplace skills</h5>
+                        <p class="communi-clock"><img src="./images/coders/intro/What-you-will-learn-clock.png" alt="">
+                          15 Hours</p>
+                      </div>
+                      <div class="onboarding-wrapper">
+                        <div class="top">
+                          <div class="top-left">
+                            <h5 id="collaboration">Collaboration</h5>
+                          </div>
+                          <div class="top-right">
+                            <h5 id="negotiation">Negotiation</h5>
+                          </div>
+                        </div>
+                        <div class="bottom">
+                          <h6>By the end of this slab, you should be able to -</h6>
+                          <ul>
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""> <span>Ace every
+                                Project!</span>&nbsp; Manage your Research, Resources, and Deadlines.</li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Collaborate
+                                and create!</span>&nbsp; Work with teams, divide roles, manage egos, and deal with group
+                              dynamics.
+                            </li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Brainstorm
+                                effectively!</span>&nbsp; Solve problems through the power of free-flowing ideas.</li>
+
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Use
+                                negotiation</span>&nbsp; to create win-win situations and avoid being taken advantage
+                              of.</li>
+                            <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Demand what
+                                you deserve:</span>&nbsp; Negotiate for more time/ better position/ higher salary.</li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="communication-bottom">
+                        <h5>4 sessions</h5>
+                        <h5>2 Modules</h5>
+                        <h5>2 tasks</h5>
+                        <h5>2 challenges</h5>
+                      </div>
+                    </div>
+                    <!-- tab content  -->
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- what you will learn tab content  -->
+          </div>
+
+          <div class="tab-pane fade new-ms1 new-ms2" id="pills-who_this" role="tabpanel"
+            aria-labelledby="pills-who_this-tab">
+            <!-- who is this for tab content  -->
+            <div class="who-is-this-for">
+              <div class="who-it-for-wrapper">
+                <h1>Who is <span>this</span>&nbsp; for?</h1>
+                <div class="who-images-wrapper">
+                  <div class="images coders-who-images-1">
+                    <img src="./images/coders/intro/WHO-IS-THIS-FOR1.png" alt="">
+                    <h5 class="oone animate__animated animate__fadeInDown animate__delay-2s">Final year students</h5>
+                  </div>
+                  <div class="images coders-who-images-2">
+                    <img src="./images/coders/intro/WHO-IS-THIS-FOR2.png" alt="">
+                    <h5 class="twwo animate__animated animate__fadeInDown animate__delay-3s">Drop outs/ self taught coders</h5>
+                  </div>
+                  <div class="images coders-who-images-3">
+                    <img src="./images/coders/intro/WHO-IS-THIS-FOR3.png" alt="">
+                    <h5 class="threee animate__animated animate__fadeInDown animate__delay-4s">1 year work ex but now seeking<br />
+                      more meaningful roles</h5>
+                  </div>
+                </div>
+                <p>also for anyone who Can satisfy the following Time Commitments (hrs Per Week)- Live Sessions: 5<br/>
+                  (ONLY on weekends)- Expert Session: 1 (ONLY on weekends)- Tasks : 4- Challenges: 1
+                 </p>
+              </div>
+            </div>
+            <!-- who is this for tab content  -->
+          </div>
+
+          <div class="tab-pane fade new-ms1 new-ms2" id="pills-advantage" role="tabpanel"
+            aria-labelledby="pills-advantage-tab">
+            <!-- advantage tab content  -->
+            <div class="advantages-wrapper advantage-tab-wrapper">
+              <img src="./images/coders/intro/ADVANTAGES.png" alt="">
+              <div class="text-images">
+                <img class="text1 text-hover" src="./images/coders/intro/advantages-text-1.png" alt="">
+                <img class="text2 text-hover" src="./images/coders/intro/advantages-text-2.png" alt="">
+                <img class="text3 text-hover" src="./images/coders/intro/advantages-text-3.png" alt="">
+                <img class="text4 text-hover" src="./images/coders/intro/advantages-text-4.png" alt="">
+                <img class="text5 text-hover" src="./images/coders/intro/advantages-text-5.png" alt="">
+                <img class="text6 text-hover" src="./images/coders/intro/advantages-text-6.png" alt="">
+              </div>
+            </div>
+            <!-- advantage tab content  -->
+          </div>
+
+          <div class="tab-pane fade" id="pills-schedule" role="tabpanel" aria-labelledby="pills-schedule-tab">
+            <!-- Schedule tab content  -->
+            <div class="schedule-wrapper">
+              <div class="schedule-top-wrapper">
+                <h1>Schedule</h1>
+                <div class="schedule-top-right">
+                  <h5 class="communicatin-color">Communication</h5>
+                  <h5 class="thinking-color">Thinking in<br />Frameworks</h5>
+                  <h5 class="managing-color">Managing self</h5>
+                  <h5 class="working-color">Working<br />with others</h5>
+                </div>
+              </div>
+              <div class="schedule-bottom-wrapper">
+                <div class="dates-wrapper">
+                  <h6 class="no-content"></h6>
+                  <h6 class="dates">Saturday</h6>
+                  <h6 class="dates">Sunday</h6>
+                  <h6 class="dates">Monday</h6>
+                  <h6 class="dates">Tuesday</h6>
+                  <h6 class="dates">Wednesday</h6>
+                  <h6 class="dates">Thursday</h6>
+                  <h6 class="dates">Friday</h6>
+                </div>
+                <div class="schedule-box-wrapper">
+                  <h6 class="no-content"></h6>
+                  <div class="schedule-box onboarding-div">
+                    <h5>Onboarding</h5>
+                  </div>
+                  <div class="schedule-box"></div>
+                  <div class="schedule-box child-one">
+                    <div class="inner communicatin-color">
+                      <p><span>Communication</span><br />Module 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-two">
+                    <div class="inner communicatin-color">
+                      <p><span>Communication</span><br />challenge 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-three">
+                    <div class="inner communicatin-color">
+                      <p><span>Communication</span><br />Module 2</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box">
+                    <div class="inner communicatin-color child-four">
+                      <p><span>Communication</span><br />challenge 2</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-five"></div>
+                </div>
+                <div class="schedule-box-wrapper">
+                  <h6>Week 1</h6>
+                  <div class="schedule-box">
+                    <!-- <h5>Onboarding</h5> -->
+                    <div class="inner communicatin-color">
+                      <p><span>Communication</span><br />Task 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box">
+                    <div class="inner communicatin-color">
+                      <p><span>Communication</span><br />Task 2</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-one">
+                    <div class="inner thinking-color">
+                      <p><span>Thinking in<br />Frameworks</span><br />Module 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-two">
+                    <div class="inner thinking-color">
+                      <p><span>Thinking in<br />Frameworks</span><br />challenge 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-three">
+                    <div class="inner thinking-color">
+                      <p><span>Thinking in<br />Frameworks</span><br />challenge 1</p>
+                    </div>
+                    <div class="inner communicatin-color communication-bottom-padding">
+                      <p><span>Communication</span><br />Task 1 submission</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box">
+                    <div class="inner thinking-color child-four">
+                      <p><span>Thinking in<br />Frameworks</span><br />challenge 2</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-five">
+                    <div class="inner thinking-color">
+                      <p><span>Thinking in<br />Frameworks</span><br />Module 3<br />challenge 3</p>
+                    </div>
+                    <div class="inner communicatin-color communication-bottom-padding">
+                      <p><span>Communication</span><br />Task 2 submission</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedule-box-wrapper">
+                  <h6>Week 2</h6>
+                  <div class="schedule-box">
+                    <!-- <h5>Onboarding</h5> -->
+                    <div class="inner communicatin-color thinking-left-color">
+                      <p><span>Thinking in<br />Frameworks</span><br />Task 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box">
+                    <div class="inner communicatin-color thinking-left-color">
+                      <p><span>Thinking in<br />Frameworks</span><br />Task 2<br />Task 3</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-one">
+                    <!-- <div class="inner thinking-color">
+                              <p><span>Thinking in<br/>Frameworks</span><br/>Module 1</p>
+                            </div> -->
+                  </div>
+                  <div class="schedule-box child-two">
+                    <div class="inner managing-color">
+                      <p><span>Managing self<br /></span>Module 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-three">
+                    <div class="inner managing-color">
+                      <p><span>Managing self<br /></span>challenge 1</p>
+                    </div>
+                    <div class="inner thinking-color">
+                      <p><span>Thinking in<br />Frameworks</span><br />Task 1 Submission</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box">
+                    <div class="inner managing-color child-four">
+                      <p><span>Managing self<br /></span>Module 2</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-five">
+                    <div class="inner managing-color">
+                      <p><span>Managing self<br /></span>challenge 2</p>
+                    </div>
+                    <div class="inner thinking-color">
+                      <p><span>Thinking in<br />Frameworks</span><br />Task 2&3 Submission</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedule-box-wrapper">
+                  <h6>Week 3</h6>
+                  <div class="schedule-box">
+                    <!-- <h5>Onboarding</h5> -->
+                    <div class="inner communicatin-color managin-left-color">
+                      <p><span>Managing self<br /></span>Task 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box">
+                    <div class="inner communicatin-color managin-left-color">
+                      <p><span>Managing self<br /></span>Task 2&3</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-one">
+                    <!-- <div class="inner thinking-color">
+                              <p><span>Thinking in<br/>Frameworks</span><br/>Module 1</p>
+                            </div> -->
+                  </div>
+                  <div class="schedule-box child-two">
+                    <div class="inner working-color">
+                      <p><span>Working<br />With Others<br /></span>Module 1</p>
+                    </div>
+                    <div class="inner managing-color">
+                      <p><span>Managing self<br /></span>Task 1 Submission</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-three">
+                    <div class="inner working-color">
+                      <p><span>Working<br />With Others<br /></span>challenge 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box">
+                    <div class="inner working-color child-four">
+                      <p><span>Working<br />With Others<br /></span>Module 2</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-five">
+                    <div class="inner working-color">
+                      <p><span>Working<br />With Others<br /></span>challenge 2</p>
+                    </div>
+                    <div class="inner managing-color">
+                      <p><span>Managing Self<br /></span>Task 2 Submission</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="schedule-box-wrapper last-schedule-box-wrapper">
+                  <h6>Week 4</h6>
+                  <div class="schedule-box">
+                    <!-- <h5>Onboarding</h5> -->
+                    <div class="inner communicatin-color working-left-color">
+                      <p><span>Working<br />With Others<br /></span>Task 1</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box">
+                    <div class="inner communicatin-color working-left-color">
+                      <p><span>Working<br />With Others<br /></span>Task 2&3</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-one">
+                    <!-- <div class="inner thinking-color">
+                              <p><span>Thinking in<br/>Frameworks</span><br/>Module 1</p>
+                            </div> -->
+                  </div>
+                  <div class="schedule-box child-two">
+                    <div class="inner working-color">
+                      <p><span>Working<br />With Others<br /></span>Task 1 Submission</p>
+                    </div>
+                  </div>
+                  <div class="schedule-box child-three">
+                    <!-- <div class="inner working-color">
+                              <p><span>Working<br/>With Others<br/></span>challenge 1</p>
+                            </div> -->
+                  </div>
+                  <div class="schedule-box">
+                    <!-- <div class="inner working-color child-four">
+                            <p><span>Working<br/>With Others<br/></span>Module 2</p>
+                           </div> -->
+                  </div>
+                  <div class="schedule-box child-five">
+                    <div class="inner working-color">
+                      <p><span>Working<br />With Others<br /></span>Task 2&3 Submission</p>
+                    </div>
+
+                  </div>
+                </div>
+                <div class="desktop-schedule-note">
+                  <p>NOTE: This is a Weekend ONLY program.<br/>All LIVE interactions will happen during weekends where Sessions will be delivered and Tasks<br/> will be assigned. The Assigned Tasks however might have weekday submission deadlines that<br/> will have to be met at your own discretion.</p>
+                </div>
+              </div>
+            </div>
+            <!-- Schedule tab content  -->
+          </div>
+
+          <div class="tab-pane fade new-ms1 new-ms2" id="pills-pricing" role="tabpanel"
+            aria-labelledby="pills-pricing-tab">
+            <!-- pricing tab content  -->
+            <div class="pricing-outer-wrapper">
+              <div class="pricing-content-wrapper pricing-one">
+                <h1>Pricing</h1>
+                <div class="pricing-inner-wrapper">
+                  <ul class="animate__animated animate__fadeInRight animate__delay-2s">
+                    <li>
+                      <img
+                        src="./images/coders/programs-pricing-list-arrow.png"
+                        alt=""
+                      />
+                      <p>Complete Learning Experience</p>
+                    </li>
+
+                    <li>
+                      <img
+                        src="./images/coders/programs-pricing-list-arrow.png"
+                        alt=""
+                      />
+                      <p>Certification & Workplace Intelligence Profile</p>
+                    </li>
+
+                    <li>
+                      <img
+                        src="./images/coders/programs-pricing-list-arrow.png"
+                        alt=""
+                      />
+                      <p>Career counseling & mentoring</p>
+                    </li>
+
+                    <li>
+                      <img
+                        src="./images/coders/programs-pricing-list-arrow.png"
+                        alt=""
+                      />
+                      <p>
+                        Placement training including resume building &
+                        interview<br />
+                        prep
+                      </p>
+                    </li>
+
+                    <li>
+                      <img
+                        src="./images/coders/programs-pricing-list-arrow.png"
+                        alt=""
+                      />
+                      <p>
+                        Placement support for openings in emerging and<br />
+                        established enterprises/startups
+                      </p>
+                    </li>
+                  </ul>
+                  <div class="payment-image-wrapper">
+                    <img
+                      class="pricing-mobile-img animate__animated animate__slideInUp animate__delay-0s"
+                      src="./images/coders/pricing.png"
+                      alt=""
+                    />
+                    <div id="first-payment-image-wrapper">
+                      <h4 class="payment-status animate__animated animate__fadeIn animate__delay-1s">
+                        <span>Upfront</span><br />Payment
+                      </h4>
+                      <h2 class="rupee animate__animated animate__fadeIn animate__delay-1s">INR 1999/-</h2>
+                      <h3></h3>
+                      <a class="pricing-apply" href="#staticBackdrop" data-bs-toggle="modal"
+                        ><img class="animate__animated animate__fadeIn animate__delay-1s" src="images/landing/apply-now-button.png"
+                      /></a>
+                      <a href="#pricing-two">
+                        <img class="scroll-img animate__animated animate__fadeIn animate__delay-1s" src="./images/landing/scroll-next-button.png" alt=""></a>
+                    </div>
+                   
+                  </div>
+                </div>
+              </div>
+              <div class="pricing-content-wrapper pricing-two" id="pricing-two">
+                <h3>
+                  Emerging startups and established<br />
+                  companies are looking for <span>10x coders</span><br />
+                  who can do a lot more than<br />
+                  just code software.
+                </h3>
+                <p>
+                  We will pair you with such companies.<br />
+                  You only pay us - <span>once you accept an offer!</span>
+                </p>
+                <div class="pricing-inner-wrapper">
+                  <div class="payment-image-wrapper second-payment-image-wrapper">
+                    <h4 class="payment-status">
+                      <span>Placement</span><br />Success Fee
+                    </h4>
+                    <!-- <img src="./images/coders/programs-pricing-mobile-2.png" alt=""> -->
+                    <h2 class="rupee">INR 8000/-</h2>
+                    <h3></h3>
+                    <a class="pricing-apply" href="#staticBackdrop" data-bs-toggle="modal"
+                      ><img src="images/landing/apply-now-button.png"
+                    /></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- pricing tab content  -->
+          </div>
+
+        </div>
+      </div>
+    </div>
+   
+    <div class="mobile-tab-section new-ms1 new-ms2" id="coders">
+      <div class="mobile-tab-slider">
+       
+        <!-- Bootstrap carousel  -->
+        <div id="carouselExampleIndicators" class="carousel bootstrap-slide slide program-mobile-slider" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="6" aria-label="Slide 7"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active item first-item-inner">
+                <div class="tab-title-box"><h2 class="mtabs-title">Intro</h2></div>
+                <div class="item-inner">
+                    <div class="top-title">
+                      <h1>
+                        Lakhs of <span>coders</span> graduate<br />
+                        with similar degrees<br />
+                        every year!
+                      </h1>
+                    </div>
+                    <div class="program-image-section">
+                      <img src="./images/coders/intro/coders-intro1.png" alt="">
+                    </div>
+                    <div class="program-bottom-subtitle">
+                      <h2>What differentiates you?</h2>
+                    </div>
+                  </div>
+                  <div class="item-inner">
+                    <div class="top-title">
+                      <h1>
+                        We reached out to Senior Managers<br />
+                        at top companies like <span>Google,<br />
+                          Microsoft, and Amazon</span>&nbsp; with<br />
+                        1 Question
+                      </h1>
+                    </div>
+                    <div class="program-image-section">
+                      <img src="./images/coders/intro/coders-intro2.png" alt="">
+                    </div>
+                    <div class="program-bottom-subtitle">
+                      <h2>
+                        ''What makes you <span>reject</span>&nbsp; a coder?''
+                      </h2>
+                    </div>
+                  </div>
+                  <div class="item-inner">
+                    <div class="answer-section">
+                      <h1>Here are a few answers that stuck out</h1>
+                      <div class="answer-mobile-images-wrapper">
+                        <div class="answer-mobile-images">
+                          <img class="text-hover" src="./images/program/intro-text-1.png" alt="">
+                          <img class="text-hover" src="./images/program/intro-text-2.png" alt="">
+                          <img class="text-hover" src="./images/program/intro-text-3.png" alt="">
+                          <img class="text-hover" src="./images/program/intro-text-4.png" alt="">
+                        </div>
+                        <img src="./images/program/mobile-INTRO-2.png" alt="">
+      
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item-inner">
+                    <div class="top-title">
+                      <h1>
+                        In the new world of work, only those tech professionals succeed who are technical Specialists as well as Smart Generalists.<br class="d-block" />
+                        <span>These are professionals who can think, communicate, create & solve beyond just software. </span>
+                      </h1>
+                    </div>
+                    <div class="program-image-section">
+                      <img src="./images/coders/programs-intro-tab-img-4.png" alt="">
+                    </div>
+                    <div class="program-bottom-subtitle">
+                      <p>Join Workverse - a 21st-century workplace simulation today to lay the foundation for rapid career growth.</p>
+                      <p>You may have a quick question - How is this<br/> different from a real internship? 
+                      </p>
+                      <p>Usually interns get menial tasks. And sometimes<br/> the company you join may not really give you<br/> the exposure or hands on training you need.<br/> In the workverse, you’re joining as an employee<br/> whose decisions matter and voice is heard.<br/> “The boss” will also personally mentor you.<br/>  Therefore this experience gives a much<br/> stronger head start! </p>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item item">
+                <div class="tab-title-box"><h2 class="mtabs-title">How It Works</h2></div>
+                <div class="item-inner">
+                    <div class="d-flex align-items-start mobile-tab-header">
+                      <div class="nav nav-wrapper flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link active" id="mv-pills-home-tab" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-home" type="button" role="tab" aria-controls="mv-pills-home"
+                          aria-selected="true">
+                          Home
+                        </button>
+                        <button class="nav-link" id="mv-pills-profile-tab" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-profile" type="button" role="tab" aria-controls="mv-pills-profile"
+                          aria-selected="false">
+                          Learn
+                        </button>
+                        <button class="nav-link" id="mv-pills-messages-tab" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-messages" type="button" role="tab" aria-controls="mv-pills-messages"
+                          aria-selected="false">
+                          Play
+                        </button>
+                        <button class="nav-link" id="mv-pills-settings-tab" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-settings" type="button" role="tab" aria-controls="mv-pills-settings"
+                          aria-selected="false">
+                          Win
+                        </button>
+                      </div>
+                      <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="mv-pills-home" role="tabpanel"
+                          aria-labelledby="mv-pills-home-tab">
+                          <!-- tab content  -->
+                          <div class="row how1">
+                            <div class="col-md-7">
+                              <div class="details details1">
+                                <div class="title">
+                                  <h2>
+                                    In the simulation, you’ll play the
+                                    role of an<br />entry-level coder in an
+                                    imaginary<br /> startup - <span>‘Future Labs’</span>.
+                                  </h2>
+                                </div>
+                                <h5>
+                                  Your goal at the end of this<br />
+                                  30-day journey is to get promoted or<br />
+                                  ensure you don’t get fired!
+                                </h5>
+                              </div>
+                            </div>
+                            <div class="col-md-5">
+                              <div class="tab-howimage">
+                                <img src="./images/coders/programs-how-it-works-tab-img-1.png" alt="" />
+                              </div>
+                            </div>
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                        <div class="tab-pane fade" id="mv-pills-profile" role="tabpanel"
+                          aria-labelledby="mv-pills-profile-tab">
+                          <!-- tab content  -->
+                          <div class="row how2">
+                            <div class="col-md-7">
+                              <div class="details details1 details2">
+                                <div class="title">
+                                  <h2>
+                                    Like in the real world, the L&D department<br /> of <span>Future Labs</span> will train
+                                    you.</span>
+                                  </h2>
+                                </div>
+                                <h5>
+                                  With training delivered via <span>live expert<br />
+                                    sessions & animated videos</span>, you'll<br />
+                                  quickly build the foundation<br />
+                                  necessary to perform in<br />
+                                  upcoming tasks &<br />
+                                  challenges.
+                                </h5>
+                              </div>
+                            </div>
+                            <div class="col-md-5">
+                              <div class="tab-howimage">
+                                <img src="./images/coders/programs-how-it-works-tab-img-2.png" alt="" />
+                              </div>
+                            </div>
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                        <div class="tab-pane fade" id="mv-pills-messages" role="tabpanel"
+                          aria-labelledby="mv-pills-messages-tab">
+                          <!-- tab content  -->
+                          <div class="third-content how3">
+                            <h2>
+                              <span>Test your learning</span> with exciting business tasks and challenges.<br />
+                          Work individually or collaborate virtually and in groups<br/> to achieve the
+                          goals set out for you,<br /> your team,
+                          and your employer.
+                            </h2>
+                          </div>
+                          <div class="row">
+                            <div class="image-wrapper how3-image-wrapper">
+                              <img src="./images/coders/programs-how-it-works-tab-img-3.png" alt="">
+                            </div>
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                        <div class="tab-pane fade" id="mv-pills-settings" role="tabpanel"
+                          aria-labelledby="mv-pills-settings-tab">
+                          <!-- tab content  -->
+                          <div class="third-content how4 fourth-content">
+                            <h2>
+                              Everything you do, say or don’t in this simulation<br /> leads to a loss or gain in points.
+      
+                            </h2>
+                            <h6>These points add up to a final score that decides<br />
+                              whether you've done well enough to get promoted<br />
+                              or if your poor performance will get you fired<br />
+                              <span>just like in real life!</span>
+                            </h6>
+                            <p>Our algorithm also produces your unique <span>Workplace<br />
+                                Intelligence Profile</span> that ranks you on the ten<br />
+                              21st-century workplace skills employers seek.<br />
+                              Perform well here to gain an edge in<br />
+                              placement opportunities that we<br />
+                              will create for you!</p>
+                          </div>
+                          <div class="image-wrapper how4-image-wrapper">
+                            <img src="./images/coders/intro/HOW-IT-WORKS4.png" alt="">
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item item">
+                <div class="tab-title-box"><h2 class="mtabs-title">What You'll Learn</h2></div>
+                <div class="item-inner">
+                    <div class="d-flex align-items-start mobile-tab-header">
+                      <div class="nav nav-wrapper flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                        aria-orientation="vertical">
+                        <button class="nav-link active" id="mv-pills-home-tab1" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-home1" type="button" role="tab" aria-controls="mv-pills-home1"
+                          aria-selected="true">
+                          ONBOARDING
+                        </button>
+                        <button class="nav-link" id="mv-pills-profile-tab1" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-profile1" type="button" role="tab" aria-controls="mv-pills-profile1"
+                          aria-selected="false">
+                          Communication
+                        </button>
+                        <button class="nav-link" id="mv-pills-messages-tab1" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-messages1" type="button" role="tab" aria-controls="mv-pills-messages1"
+                          aria-selected="false">
+                          Thinking in<br />framework
+                        </button>
+                        <button class="nav-link" id="mv-pills-settings-tab1" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-settings1" type="button" role="tab" aria-controls="mv-pills-settings1"
+                          aria-selected="false">
+                          Managing self
+                        </button>
+                        <button class="nav-link" id="mv-pills-managing-tab" data-bs-toggle="pill"
+                          data-bs-target="#mv-pills-managing" type="button" role="tab" aria-controls="mv-pills-managing"
+                          aria-selected="false">
+                          Working with<br /> others
+                        </button>
+                      </div>
+                      <div class="tab-content" id="v-pills-tabContent">
+                        <div class="tab-pane fade show active" id="mv-pills-home1" role="tabpanel"
+                          aria-labelledby="mv-pills-home-tab1">
+                          <!-- tab content  -->
+                          <div class="what-will-wrapper">
+                            <h2>Here’s an overview of your 30 day - 60 hour long <span>Learning Journey</span></h2>
+                            <div class="onboarding-wrapper">
+                              <div class="top">
+                                <div class="top-left">
+                                  <h5>Onboarding</h5>
+                                </div>
+                                <div class="top-right">
+                                  <p><img src="./images/coders/intro/What-you-will-learn-clock.png" alt=""> 1 Hour</p>
+                                </div>
+                              </div>
+                              <div class="bottom">
+                                <p class="p-top">Officially kick start your journey with this session. Know more about
+                                  the<br />
+                                  fictitious company you'll work for, the ‘’colleagues’’ you’ll work<br />
+                                  with and the‘’role’’ you will be assigned to.</p>
+                                <p class="p-bottom">This session will give you an overview of all the surprises<br />
+                                  you can expect down the line.</p>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                        <div class="tab-pane fade" id="mv-pills-profile1" role="tabpanel"
+                          aria-labelledby="mv-pills-profile-tab1">
+                          <!-- tab content  -->
+                          <div class="what-will-wrapper communication">
+                            <div class="communication-top">
+                              <h2>Communication</h2>
+                              <h5>Workplace skills</h5>
+                              <p class="communi-clock"><img src="./images/coders/intro/What-you-will-learn-clock.png" alt="">
+                                13 Hours</p>
+                            </div>
+                            <div class="onboarding-wrapper">
+                              <div class="top">
+                                <div class="top-left">
+                                  <h5>sTORYTELLING</h5>
+                                </div>
+                                <div class="top-right">
+                                  <h5>SMART REMOTE COMMUNICATION</h5>
+                                </div>
+                              </div>
+                              <div class="bottom">
+                                <h6>By the end of this week, you should be able to -</h6>
+                                <ul class="for-desktop">
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><p> <span>Talk to
+                                      anyone!</span>&nbsp; Avoid technical jargon to communicate effectively and efficiently.</p>
+                                  </li>
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><p><span>'Sell'
+                                      yourself!</span>&nbsp; Build a strong personal brand to network with clients and
+                                    colleagues.</p></li>
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><p><span>Sound
+                                      friendly,</span>&nbsp; act firm! Get all your work done without burning bridges.</p></li>
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><p><span>Turn Clutter
+                                      into Clarity:</span>&nbsp; Understand the elements of Business Communication and write
+                                    persuasively.</p></li>
+                                </ul>
+                                <ul class="for-mobile">
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Talk to anyone!</span>&nbsp; Avoid technical jargon to communicate effectively
+                                      and efficiently.</p>
+                                  </li>
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>'Sell' yourself!</span>&nbsp; Build a strong personal brand to network with
+                                      clients and colleagues.</p>
+                                  </li>
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Sound friendly,</span>&nbsp; act firm! Get all your work done without burning
+                                      bridges.</p>
+                                  </li>
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Turn Clutter into Clarity:</span>&nbsp; Understand the elements of Business
+                                      Communication and write persuasively.</p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="communication-bottom">
+                              <h5>3 sessions</h5>
+                              <h5>2 Modules</h5>
+                              <h5>2 tasks</h5>
+                              <h5>2 challenges</h5>
+                            </div>
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                        <div class="tab-pane fade" id="mv-pills-messages1" role="tabpanel"
+                          aria-labelledby="mv-pills-messages-tab1">
+                          <!-- tab content  -->
+                          <div class="what-will-wrapper communication thinking">
+                            <div class="communication-top">
+                              <h2>Thinking in framework</h2>
+                              <h5>Workplace skills</h5>
+                              <p class="communi-clock"><img src="./images/coders/intro/What-you-will-learn-clock.png" alt="">
+                                19 Hours</p>
+                            </div>
+                            <div class="onboarding-wrapper">
+                              <div class="top">
+                                <div class="top-left">
+                                  <h5 id="smart-thinking">SMART THINKING HABIT</h5>
+                                </div>
+                                <div class="top-middle">
+                                  <h5>ENTREPRENEURIAL MINDSET</h5>
+                                </div>
+                                <div class="top-right">
+                                  <h5>CREATIVE PROBLEM SOLVING</h5>
+                                </div>
+                              </div>
+                              <div class="bottom">
+                                <h6>By the end of this slab, you should be able to -</h6>
+                                <ul class="for-desktop">
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>kyc:
+                                    </span>&nbsp; Know your client and your industry to build business acumen.</li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Connect the
+                                      dots!</span> Gain the ability to make sense of diverse data and turn hard numbers
+                                    into actionable insights.</li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Craft and ask
+                                      the right questions</span>&nbsp; to get the right answers from colleagues and clients.
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Discover
+                                      'Jugaad.'</span>&nbsp; Work effectively even with fewer resources and information.</li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Think like an
+                                      entrepreneur!</span>&nbsp; Learn First Principles Thinking- the Elon Musk way of Solving
+                                    problems.</li>
+                                </ul>
+                                <ul class="for-mobile">
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>kyc: </span>&nbsp; Know your client and your industry to build business acumen.
+                                    </p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Connect the dots!</span>&nbsp; Gain the ability to make sense of diverse data and
+                                      turn hard numbers into actionable insights.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Craft and ask the right questions</span>&nbsp; to get the right answers from
+                                      colleagues and clients.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Discover 'Jugaad.'</span>&nbsp; Work effectively even with fewer resources and
+                                      information.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Think like an entrepreneur!</span>&nbsp; Learn First Principles Thinking- the
+                                      Elon Musk way of Solving problems.</p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="communication-bottom">
+                              <h5>4 sessions</h5>
+                              <h5>3 Modules</h5>
+                              <h5>3 tasks</h5>
+                              <h5>3 challenges</h5>
+                            </div>
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                        <div class="tab-pane fade" id="mv-pills-settings1" role="tabpanel"
+                          aria-labelledby="mv-pills-settings-tab1">
+                          <!-- tab content  -->
+                          <div class="what-will-wrapper communication managing">
+                            <div class="communication-top">
+                              <h2>Managing self</h2>
+                              <h5>Workplace skills</h5>
+                              <p class="communi-clock"><img src="./images/coders/intro/What-you-will-learn-clock.png" alt="">
+                                14 Hours</p>
+                            </div>
+                            <div class="onboarding-wrapper">
+                              <div class="top">
+                                <div class="top-left">
+                                  <h5>Managing Workplace Emotions</h5>
+                                </div>
+                                <div class="top-right">
+                                  <h5 id="productivity">Productivity Hacks & Habits</h5>
+                                </div>
+                              </div>
+                              <div class="bottom">
+                                <h6>By the end of this slab, you should be able to -</h6>
+                                <ul class="for-desktop">
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""> <span>Pick your
+                                      battle!</span>&nbsp; Avoid being crushed by deadlines by prioritizing tasks, time, and
+                                    energy.</li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Prioritize
+                                      Outcomes</span>&nbsp; over Process: Stop thinking. Stop Analyzing. Start taking action.
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Rise above
+                                      personal grudges</span>&nbsp; and navigate office politics.</li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Respond, not
+                                      React!</span>&nbsp; Understand the root of your own emotions and those of your
+                                    colleagues.</li>
+                                </ul>
+                                <ul class="for-mobile">
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p> <span>Pick your battle!</span>&nbsp; Avoid being crushed by deadlines by prioritizing
+                                      tasks, time, and energy.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Prioritize Outcomes</span>&nbsp; over Process: Stop thinking. Stop Analyzing.
+                                      Start taking action.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Rise above personal grudges</span>&nbsp; and navigate office politics.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Respond, not React!</span>&nbsp; Understand the root of your own emotions and
+                                      those of your colleagues.</p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="communication-bottom">
+                              <h5>3 sessions</h5>
+                              <h5>2 Modules</h5>
+                              <h5>2 tasks</h5>
+                              <h5>2 challenges</h5>
+                            </div>
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                        <div class="tab-pane fade" id="mv-pills-managing" role="tabpanel"
+                          aria-labelledby="mv-pills-managing-tab">
+                          <!-- tab content  -->
+                          <div class="what-will-wrapper communication collaboration working-with-others">
+                            <div class="communication-top">
+                              <h2>Working with others</h2>
+                              <h5>Workplace skills</h5>
+                              <p class="communi-clock"><img src="./images/coders/intro/What-you-will-learn-clock.png" alt="">
+                                15 Hours</p>
+                            </div>
+                            <div class="onboarding-wrapper">
+                              <div class="top">
+                                <div class="top-left">
+                                  <h5 id="collaboration">Collaboration</h5>
+                                </div>
+                                <div class="top-right">
+                                  <h5 id="negotiation">Negotiation</h5>
+                                </div>
+                              </div>
+                              <div class="bottom">
+                                <h6>By the end of this slab, you should be able to -</h6>
+                                <ul class="for-desktop">
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""> <span>Ace every
+                                      Project!</span>&nbsp; Manage your Research, Resources, and Deadlines.</li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Collaborate
+                                      and create!</span>&nbsp; Work with teams, divide roles, manage egos, and deal with group
+                                    dynamics.
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Brainstorm
+                                      effectively!</span>&nbsp; Solve problems through the power of free-flowing ideas.</li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Use
+                                      negotiation</span>&nbsp; to create win-win situations and avoid being taken advantage
+                                    of.</li>
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt=""><span>Demand what
+                                      you deserve:</span>&nbsp; Negotiate for more time/ better position/ higher salary.</li>
+                                </ul>
+                                <ul class="for-mobile">
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Ace every Project!</span>&nbsp; Manage your Research, Resources, and Deadlines.
+                                    </p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Collaborate and create!</span>&nbsp; Work with teams, divide roles, manage egos,
+                                      and deal with group dynamics.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Brainstorm effectively!</span>&nbsp; Solve problems through the power of
+                                      free-flowing ideas.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Use negotiation</span>&nbsp; to create win-win situations and avoid being taken
+                                      advantage of.</p>
+                                  </li>
+      
+                                  <li><img src="./images/coders/intro/What-you-will-learn-send.png" alt="">
+                                    <p><span>Demand what you deserve:</span>&nbsp; Negotiate for more time/ better position/
+                                      higher salary.</p>
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <div class="communication-bottom">
+                              <h5>4 sessions</h5>
+                              <h5>2 Modules</h5>
+                              <h5>2 tasks</h5>
+                              <h5>2 challenges</h5>
+                            </div>
+                          </div>
+                          <!-- tab content  -->
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item item">
+                <div class="tab-title-box"><h2 class="mtabs-title">Who is This For</h2></div>
+                <div class="item-inner">
+                    <div class="who-it-for-wrapper">
+                      <h1>Who is <span>this</span>&nbsp; for?</h1>
+                      <div class="who-images-wrapper">
+                        <div class="images coders-who-images-1">
+                          <img src="./images/coders/intro/WHO-IS-THIS-FOR1.png" alt="">
+                          <h5 class="oone">Final year<br /> students</h5>
+                        </div>
+                        <div class="images coders-who-images-2">
+                          <img src="./images/coders/intro/WHO-IS-THIS-FOR2.png" alt="">
+                          <h5 class="twwo">Drop outs/ self<br /> taught coders</h5>
+                        </div>
+                        <div class="images coders-who-images-3">
+                          <img src="./images/coders/intro/WHO-IS-THIS-FOR3.png" alt="">
+                          <h5 class="threee">1 year work ex but now<br /> seeking
+                            more meaningful roles</h5>
+                        </div>
+                      </div>
+                      <p>also for anyone who Can satisfy the following Time Commitments (hrs Per Week)- Live Sessions: 5<br/>
+                        (ONLY on weekends)- Expert Session: 1 (ONLY on weekends)- Tasks : 4- Challenges: 1
+                       </p>
+                      <!-- <div class="who-text-wrapper">
+                            <h5 class="oone">Final year<br/> students</h5>
+                            <h5 class="twwo">Drop outs/ self<br/> taught coders</h5>
+                            <h5 class="threee">1 year work ex but now<br/> seeking 
+                              more meaningful roles</h5>
+                          </div> -->
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item item">
+                <div class="tab-title-box"><h2 class="mtabs-title">Advantages</h2></div>
+                <div class="item-inner">
+                    <div class="advantages-wrapper advantage-tab-wrapper">
+                      <div class="mobile-text-images">
+                        <img class="text-hover" src="./images/program/mobile-advantages-text-1.png" alt="">
+                        <img class="text-hover" src="./images/program/mobile-advantages-text-2.png" alt="">
+                        <img class="text-hover" src="./images/program/mobile-advantages-text-3.png" alt="">
+                        <img class="text-hover" src="./images/program/mobile-advantages-text-4.png" alt="">
+                        <img class="text-hover" src="./images/program/mobile-advantages-text-5.png" alt="">
+                        <img class="text-hover" src="./images/program/mobile-advantages-text-6.png" alt="">
+                       
+                      </div>
+                      <img class="advantate-mobile-main" src="./images/program/mobile-ADVANTAGES.png" alt="">
+      
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item item">
+                <div class="tab-title-box"><h2 class="mtabs-title">Schedule</h2></div>
+                <div class="item-inner">
+                    <div class="schedule-wrapper">
+                      <div class="schedule-top-wrapper">
+                        <h1>Schedule</h1>
+                        <div class="schedule-top-right">
+                          <h5 class="communicatin-color">Communication</h5>
+                          <h5 class="thinking-color">Thinking in<br />Frameworks</h5>
+                          <h5 class="managing-color">Managing self</h5>
+                          <h5 class="working-color">Working<br />with others</h5>
+                        </div>
+                      </div>
+                      <div class="schedule-bottom-wrapper">
+                        <div class="dates-wrapper">
+                          <h6 class="no-content"></h6>
+                          <h6 class="dates">Saturday</h6>
+                          <h6 class="dates">Sunday</h6>
+                          <h6 class="dates">Monday</h6>
+                          <h6 class="dates">Tuesday</h6>
+                          <h6 class="dates">Wednesday</h6>
+                          <h6 class="dates">Thursday</h6>
+                          <h6 class="dates">Friday</h6>
+                        </div>
+                        <div class="schedule-box-wrapper">
+                          <h6 class="no-content"></h6>
+                          <div class="schedule-box onboarding-div">
+                            <h5>Onboarding</h5>
+                          </div>
+                          <div class="schedule-box"></div>
+                          <div class="schedule-box child-one">
+                            <div class="inner communicatin-color">
+                              <p><span>Communication</span><br />Module 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-two">
+                            <div class="inner communicatin-color">
+                              <p><span>Communication</span><br />challenge 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-three">
+                            <div class="inner communicatin-color">
+                              <p><span>Communication</span><br />Module 2</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box">
+                            <div class="inner communicatin-color child-four">
+                              <p><span>Communication</span><br />challenge 2</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-five"></div>
+                        </div>
+                        <div class="schedule-box-wrapper">
+                          <h6>Week 1</h6>
+                          <div class="schedule-box">
+                            <!-- <h5>Onboarding</h5> -->
+                            <div class="inner communicatin-color">
+                              <p><span>Communication</span><br />Task 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box">
+                            <div class="inner communicatin-color">
+                              <p><span>Communication</span><br />Task 2</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-one">
+                            <div class="inner thinking-color">
+                              <p><span>Thinking in<br />Frameworks</span><br />Module 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-two">
+                            <div class="inner thinking-color">
+                              <p><span>Thinking in<br />Frameworks</span><br />challenge 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-three">
+                            <div class="inner thinking-color">
+                              <p><span>Thinking in<br />Frameworks</span><br />challenge 1</p>
+                            </div>
+                            <div class="inner communicatin-color communication-bottom-padding">
+                              <p><span>Communication</span><br />Task 1 submission</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box">
+                            <div class="inner thinking-color child-four">
+                              <p><span>Thinking in<br />Frameworks</span><br />challenge 2</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-five">
+                            <div class="inner thinking-color">
+                              <p><span>Thinking in<br />Frameworks</span><br />Module 3<br />challenge 3</p>
+                            </div>
+                            <div class="inner communicatin-color communication-bottom-padding">
+                              <p><span>Communication</span><br />Task 2 submission</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="schedule-box-wrapper">
+                          <h6>Week 2</h6>
+                          <div class="schedule-box">
+                            <!-- <h5>Onboarding</h5> -->
+                            <div class="inner communicatin-color thinking-left-color">
+                              <p><span>Thinking in<br />Frameworks</span><br />Task 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box">
+                            <div class="inner communicatin-color thinking-left-color">
+                              <p><span>Thinking in<br />Frameworks</span><br />Task 2<br />Task 3</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-one">
+                            <!-- <div class="inner thinking-color">
+                                    <p><span>Thinking in<br/>Frameworks</span><br/>Module 1</p>
+                                  </div> -->
+                          </div>
+                          <div class="schedule-box child-two">
+                            <div class="inner managing-color">
+                              <p><span>Managing self<br /></span>Module 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-three">
+                            <div class="inner managing-color">
+                              <p><span>Managing self<br /></span>challenge 1</p>
+                            </div>
+                            <div class="inner thinking-color">
+                              <p><span>Thinking in<br />Frameworks</span><br />Task 1 Submission</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box">
+                            <div class="inner managing-color child-four">
+                              <p><span>Managing self<br /></span>Module 2</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-five">
+                            <div class="inner managing-color">
+                              <p><span>Managing self<br /></span>challenge 2</p>
+                            </div>
+                            <div class="inner thinking-color">
+                              <p><span>Thinking in<br />Frameworks</span><br />Task 2&3 Submission</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="schedule-box-wrapper">
+                          <h6>Week 3</h6>
+                          <div class="schedule-box">
+                            <!-- <h5>Onboarding</h5> -->
+                            <div class="inner communicatin-color managin-left-color">
+                              <p><span>Managing self<br /></span>Task 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box">
+                            <div class="inner communicatin-color managin-left-color">
+                              <p><span>Managing self<br /></span>Task 2&3</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-one">
+                            <!-- <div class="inner thinking-color">
+                                    <p><span>Thinking in<br/>Frameworks</span><br/>Module 1</p>
+                                  </div> -->
+                          </div>
+                          <div class="schedule-box child-two">
+                            <div class="inner working-color">
+                              <p><span>Working<br />With Others<br /></span>Module 1</p>
+                            </div>
+                            <div class="inner managing-color">
+                              <p><span>Managing self<br /></span>Task 1 Submission</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-three">
+                            <div class="inner working-color">
+                              <p><span>Working<br />With Others<br /></span>challenge 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box">
+                            <div class="inner working-color child-four">
+                              <p><span>Working<br />With Others<br /></span>Module 2</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-five">
+                            <div class="inner working-color">
+                              <p><span>Working<br />With Others<br /></span>challenge 2</p>
+                            </div>
+                            <div class="inner managing-color">
+                              <p><span>Managing Self<br /></span>Task 2 Submission</p>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="schedule-box-wrapper last-schedule-box-wrapper">
+                          <h6>Week 4</h6>
+                          <div class="schedule-box">
+                            <!-- <h5>Onboarding</h5> -->
+                            <div class="inner communicatin-color working-left-color">
+                              <p><span>Working<br />With Others<br /></span>Task 1</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box">
+                            <div class="inner communicatin-color working-left-color">
+                              <p><span>Working<br />With Others<br /></span>Task 2&3</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-one">
+                            <!-- <div class="inner thinking-color">
+                                    <p><span>Thinking in<br/>Frameworks</span><br/>Module 1</p>
+                                  </div> -->
+                          </div>
+                          <div class="schedule-box child-two">
+                            <div class="inner working-color">
+                              <p><span>Working<br />With Others<br /></span>Task 1 Submission</p>
+                            </div>
+                          </div>
+                          <div class="schedule-box child-three">
+                            <!-- <div class="inner working-color">
+                                    <p><span>Working<br/>With Others<br/></span>challenge 1</p>
+                                  </div> -->
+                          </div>
+                          <div class="schedule-box">
+                            <!-- <div class="inner working-color child-four">
+                                  <p><span>Working<br/>With Others<br/></span>Module 2</p>
+                                 </div> -->
+                          </div>
+                          <div class="schedule-box child-five">
+                            <div class="inner working-color">
+                              <p><span>Working<br />With Others<br /></span>Task 2&3 Submission</p>
+                            </div>
+      
+                          </div>
+                        </div>
+                        <div class="mobile-schedule-note">
+                          <p>NOTE: This is a Weekend ONLY program.<br/>All LIVE interactions will happen during weekends where Sessions will be delivered and Tasks will be assigned. The Assigned Tasks however might have weekday submission deadlines that will have to be met at your own discretion.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+              <div class="carousel-item item">
+                <div class="tab-title-box"><h2 class="mtabs-title">Pricing & Placement</h2></div>
+                <div class="item-inner">
+                    <div class="pricing-content-wrapper">
+                      <h1>Pricing</h1>
+                      <div class="pricing-for-mobile">
+                        <img class="pricingfor-mobile-img" src="./images/coders/pricing.png" alt="">
+                        <h4 class="payment-status"><span>Upfront</span><br />Payment</h4>
+                        <h2 class="rupee">INR 1999/-</h2>
+                        <h3></h3>
+                        <a href="#staticBackdrop" data-bs-toggle="modal"><img class="pricing-apply-image" src="images/landing/apply-now-button.png" /></a>
+                        <img class="scroll-img" src="./images/landing/scroll-next-button.png" alt="">
+                      </div>
+                      <div class="pricing-inner-wrapper">
+                        <ul class="desktop-pricing-ul">
+                          <li><img src="./images/coders/programs-pricing-list-arrow.png" alt="">
+                            <p>Complete Learning Experience</p>
+                          </li>
+      
+                          <li><img src="./images/coders/programs-pricing-list-arrow.png" alt="">
+                            <p>Certification & Workplace Intelligence Profile</p>
+                          </li>
+      
+                          <li><img src="./images/coders/programs-pricing-list-arrow.png" alt="">
+                            <p>Career counseling & mentoring</p>
+                          </li>
+      
+                          <li><img src="./images/coders/programs-pricing-list-arrow.png" alt="">
+                            <p>Placement training including resume building & interview<br />
+                              prep</p>
+                          </li>
+      
+                          <li><img src="./images/coders/programs-pricing-list-arrow.png" alt="">
+                            <p>Placement support for openings in emerging and<br />
+                              established enterprises/startups</p>
+                          </li>
+      
+                        </ul>
+                        <div class="payment-image-wrapper">
+                          <img class="pricing-mobile-img" src="./images/coders/pricing.png" alt="">
+                          <h4 class="payment-status"><span>Upfront</span><br />Payment</h4>
+                          <h2 class="rupee">INR 1999/-</h2>
+                          <h3></h3>
+                          <a href="#"><img class="pricing-apply-image" src="images/landing/apply-now-button.png" /></a>
+                          <img class="scroll-img" src="./images/landing/scroll-next-button.png" alt="">
+                        </div>
+                      </div>
+                    </div>
+                    <div class="pricing-content-wrapper pricing-1-content-wrapper pricing-two">
+                      <h3>Emerging startups and established<br />
+                        companies are looking for <span>Finance<br />
+                          professionals</span> who can look<br />
+                        beyond rulebooks and<br />
+                        numbers.</h3>
+                      <p>We will pair you with such companies.<br />
+                        You only pay us - once you accept an offer! </p>
+                      <div class="pricing-for-mobile">
+                        <img class="pricingfor-mobile-img" src="./images/coders/pricing.png" alt="">
+                        <h4 class="payment-status"><span>Payment</span><br />Success Fee</h4>
+                        <h2 class="rupee">INR 1999/-</h2>
+                        <h3></h3>
+                        <a href="#"><img class="pricing-apply-image" src="images/landing/apply-now-button.png" /></a>
+      
+                      </div>
+      
+                      <div class="pricing-inner-wrapper">
+      
+                        <div class="payment-image-wrapper">
+                          <h4 class="payment-status"><span>Placement</span><br />Success Fee</h4>
+                          <!-- <img src="./images/coders/programs-pricing-mobile-2.png" alt=""> -->
+                          <h2 class="rupee">INR 8000/-</h2>
+                          <h3></h3>
+                          <a href="#staticBackdrop" data-bs-toggle="modal"><img class="pricing-apply-image" src="images/landing/apply-now-button.png" /></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"><img src="./images/landing/xbsl-mobile-prev-icon-active.png" alt=""></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"><img src="./images/landing/xbsl-mobile-next-icon-active.png" alt=""></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        <!-- Bootstrap carousel  -->
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Modal Start  -->
+ <!-- Button trigger modal -->
+<!-- Modal -->
+<div class="modal fade coders-form programs-popup-form" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" id="modalclose" class="btn-close" data-bs-dismiss="modal" aria-label="Close">
+          <img src="./images/program/closeform.png" alt="">
+        </button>
+        <h5 class="modal-title" id="form1title">APPLICATION FOR CODERS</h5>
+        <h5 class="modal-title" id="form2title">Cohort Registration Details</h5>
+        <h5 class="modal-title" id="form3title">personal details</h5>
+        <h5 class="modal-title" id="form4title">Education Details</h5>
+        <h5 class="modal-title" id="form5title">Employment Details</h5>
+        <h5 class="modal-title" id="form6title">sop</h5>
+      </div>
+      <div class="modal-body">
+       <div class="note-title">
+        <h3 class="note1" id="note1">Note</h3>
+        <h3 class="note1" id="note2">Which cohort are you applying for?</h3>
+        <h3 class="note1" id="note3"></h3>
+        <h3 class="note1" id="note4"></h3>
+        <h3 class="note1" id="note5">This program provides employemnt support to all learners. Kindly fill in the following details<br/>
+          regarding your emplyoment history to help us gauge you professionally. </h3>
+          <h3 class="note1" id="note6"></h3>
+       </div>
+        <div class="main-content-form">
+          <p class="form1p" id="form1p">This program  is currently available for college<br/> 
+            students and employees with 0-2 years of experience ONLY.</p>
+          
+          <div class="form2p" id="form2p">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+              <label class="form-check-label" for="flexRadioDefault1">
+                Coders (Starts: 16th July 2022  |   Ends: 20th August 2022)
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+              <label class="form-check-label" for="flexRadioDefault2">
+                Coders (Starts: 30th July 2022  |   Ends: 2 September 2022)
+              </label>
+            </div>
+          </div>
+
+          <div class="form3p" id="form3p">
+            <form action="">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control name mt-3 mb-2" name="name">
+              </div>
+              <div class="form-group">
+                <label for="email">Email ID</label>
+                <p class="email-tooltip mb-2">*This id will serve as your point of communication in case you're accepted to the program. Kindly mention an<br/>
+                  email id that you use regularly.</p>
+                <input type="email" class="form-control email mb-2" name="email">
+              </div>
+              <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="text" class="form-control mobile-no mb-2 mt-3" name="mobile">
+              </div>
+              <div class="form-group">
+                <label for="date" class="col-sm-3 col-form-label mb-2">Date of Birth</label>
+                <div class="col-sm-3">
+                    <div class="input-group date" id="datepicker">
+                        <input type="text" class="form-control dateinput">
+                        <span class="input-group-append">
+                            <span class="input-group-text d-block">
+                                <i class="fa fa-calendar"></i>
+                            </span>
+                        </span>
+                    </div>
+                </div>
+              </div>
+            </form>
+          </div>
+
+          <div class="form4p" id="form4p">
+            <form action="">
+              <div class="form-group">
+                <label for="name">Have you completed your Graduation ?</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Yes
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    No
+                  </label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="">Year when you completed/expect to complete your Bachelor's degree </label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">Year when you completed/expect to complete your Bachelor's degree</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">College Name</label>
+                <input type="text" class="form-control">
+              </div>
+              <div class="form-group">
+                <label for="">Percentage / GPA  obtained</label>
+                <input type="text" class="form-control gpainput">
+              </div>
+            </form>
+          </div>
+
+         <div class="form5p" id="form5p">
+          <form action="">
+            <div class="form-group">
+              <label for="name">Are you employed?</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Yes
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  No
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Self employed/ Freelancing
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="name">Years of Experience</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="experience" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  NA
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="experience" id="flexRadioDefault2">
+                <label class="form-check-label others" for="flexRadioDefault2">
+                  Others
+                </label>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="name">Job role</label>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="joberole" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  NA
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="joberole" id="flexRadioDefault2">
+                <label class="form-check-label others" for="flexRadioDefault2">
+                  Others
+                </label>
+              </div>
+            </div>
+          </form>
+         </div>
+
+         <div class="form6p" id="form6p">
+          <form action="">
+            <p>Help us understand you better. Kindly answer the questions that follow,<br/> 
+              in 100-150 words.</p><br/>
+            <div class="form-group">
+              <label for="mobile">What abilities do you want to enhance through this program ?</label>
+              <textarea class="form-control mb-2 mt-3"  rows="4"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="mobile">What do you think a coder / software engineer needs to know / do apart from
+                being proficient in technical skills ? </label>
+                <textarea class="form-control mb-2 mt-3"  rows="4"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="mobile">What does meaningful work mean for you ? </label>
+              <textarea class="form-control mb-2 mt-3"  rows="4"></textarea>
+            </div>
+            <div class="form-group">
+              <label for="mobile">What interests you in the field of programming / software engineering ? </label>
+              <textarea class="form-control mb-2 mt-3"  rows="4"></textarea>
+            </div>
+          </form>
+         </div>
+            <button class="form1next nextbtn" id="next1" type="button">Next</button>
+            <button class="form1next nextbtn" id="next2" type="button">Next</button>
+            <button class="form1next nextbtn" id="next3" type="button">Next</button>
+            <button class="form1next nextbtn" id="next4" type="button">Next</button>
+            <button class="form1next nextbtn" id="next5" type="button">Next</button>
+            <button class="form1next nextbtn" id="next6" type="button">Submit</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Modal End -->
+
+  <!-- jQuery -->
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer"></script> -->
+  <!-- JavaScript Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <!-- Fancybox -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script> -->
+
+  <!-- Custom JavaScript -->
+  <!-- <script type="text/javascript" src="js/fullpage.js"></script> -->
+  <!-- <script type="text/javascript" src="js/jquery.flipping_gallery.js"></script> -->
+  <!-- <script src="js/script-new.js"></script> -->
+
+  <!-- <script src="js/jquery.mobile-1.5.0-rc1.js"></script> -->
+
+  
+  <script src="./js/coders.js"></script>
+  <script src="./js/mscript.js"></script>
+  <script>
+   var myCarousel = document.querySelector('.bootstrap-slide')
+var carousel = new bootstrap.Carousel(myCarousel, {
+  interval: false,
+  wrap: false,
+  ride: false,
+  touch: false
+})
+
+
+  </script>
+   <script type="text/javascript">
+    $(function() {
+        $('#datepicker').datepicker();
+    });
+</script>
+  <script>
+     $("#next1").click(function(){
+          $("#note1").css("display", "none");
+          $("#next1").css("display", "none");
+          $("#form1p").css("display", "none");
+          $("#form1title").css("display", "none");
+          $("#form2title").css("display", "block");
+          $("#note2").css("display", "block");
+          $("#next2").css("display", "block");
+          $("#form2p").css("display", "block");
+      });
+      $("#next2").click(function(){
+          $("#form2title").css("display", "none");
+          $("#note2").css("display", "none");
+          $("#next2").css("display", "none");
+          $("#form2p").css("display", "none");
+          $("#form3title").css("display", "block");
+          $("#note3").css("display", "block");
+          $("#next3").css("display", "block");
+          $("#form3p").css("display", "block");
+      });
+      $("#next3").click(function(){
+          $("#form3title").css("display", "none");
+          $("#note3").css("display", "none");
+          $("#next3").css("display", "none");
+          $("#form3p").css("display", "none");
+          $("#form4title").css("display", "block");
+          $("#note4").css("display", "block");
+          $("#next4").css("display", "block");
+          $("#form4p").css("display", "block");
+      });
+      $("#next4").click(function(){
+          $("#form4title").css("display", "none");
+          $("#note4").css("display", "none");
+          $("#next4").css("display", "none");
+          $("#form4p").css("display", "none");
+          $("#form5title").css("display", "block");
+          $("#note5").css("display", "block");
+          $("#next5").css("display", "block");
+          $("#form5p").css("display", "block");
+      });
+      $("#next5").click(function(){
+          $("#form5title").css("display", "none");
+          $("#note5").css("display", "none");
+          $("#next5").css("display", "none");
+          $("#form5p").css("display", "none");
+          $("#form6title").css("display", "block");
+          $("#note6").css("display", "block");
+          $("#next6").css("display", "block");
+          $("#form6p").css("display", "block");
+      });
+
+
+      
+      $("#modalclose").click(function(){
+        $("#note1").css("display", "block");
+        $("#next1").css("display", "block");
+        $("#form1p").css("display", "block");
+        $("#form1title").css("display", "block");
+
+
+        $("#form2title").css("display", "none");
+          $("#note2").css("display", "none");
+          $("#next2").css("display", "none");
+          $("#form2p").css("display", "none");
+
+          $("#form3title").css("display", "none");
+          $("#note3").css("display", "none");
+          $("#next3").css("display", "none");
+          $("#form3p").css("display", "none");
+
+          $("#form4title").css("display", "none");
+          $("#note4").css("display", "none");
+          $("#next4").css("display", "none");
+          $("#form4p").css("display", "none");
+
+          $("#form5title").css("display", "none");
+          $("#note5").css("display", "none");
+          $("#next5").css("display", "none");
+          $("#form5p").css("display", "none");
+
+          $("#form6title").css("display", "none");
+          $("#note6").css("display", "none");
+          $("#next6").css("display", "none");
+          $("#form6p").css("display", "none");
+         
+      });
+  </script>
+</body>
+
+</html>

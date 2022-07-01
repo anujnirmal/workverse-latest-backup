@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>X Billion Skills Lab :: Programs</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+      integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Fancybox -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css"
+    />
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css?v=1212" />
+    <!-- <link rel="stylesheet" type="text/css" href="css/flipping_gallery.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/elusive-webfont.css" />
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/responsive.css?v=12" />
+    <link rel="stylesheet" href="./css/mycoder.css">
+  </head>
+
+  <body class="no-scrollbar" id="noscroll">
+    <!-- Navbar Start -->
+    <ul
+      class="nav mobile-header myprogram-header justify-content-between align-items-center position-fixed top-0 w-100 pt-3 z-index-2 intro1"
+      id="navbar"
+    >
+      <li class="nav-item z-index-2 new-ms1">
+        <div class="d-flex justify-content-between align-items-center">
+          <div class="ks-logo-svg ks-logo-svg1">
+            <a href="index.html" class="active">
+              <img id="headerlogo" src="./images/landing/logo-header.png" alt="" />
+            </a>
+          </div>
+          <!-- <div class="ks-logo-heading">
+                    <h2>X Billion Skills Lab</h2>
+                    <h6>Enhancing workplace intelligence</h6>
+                </div> -->
+        </div>
+      </li>
+      <li class="nav-item new-ms2 z-index-2 aply right-li">
+        <!-- <a onclick="togglemenu()" href="./career.html" id="menubar" class="aply1 mobileapplylink"
+          ><img class="applydesktop" src="images/landing/apply-now-button.png" /><img class="applymobile" src="./images/landing/apply-now-button-mobile.png" alt=""><span class="mobile-apply">Apply Now <img class="mobile-applyimg" src="./images/menu/contactsubmit.png" alt=""></span></a> -->
+        <a href="javascript:void(0);" class="apppply"></a>
+        <!-- <a href="#"><img src="images/menu-bars.svg" alt="" class="ks-menu-bars"></a> -->
+        <!-- <a onclick="togglemenu()" id="menubar" class="aply2"><img src="images/landing/menu-logo.png" /></a> -->
+
+        <!-- Toggle Menu  -->
+        <nav class="mynavbar" id="navId">
+          <button
+            onclick="myFunction(this);"
+            type="button"
+            class="toggle-collapse"
+            id="toggle-button"
+          >
+            <span class="toggle-icon"></span>
+          </button>
+
+          <!-- Menu section  -->
+          <ul class="slide-nav">
+            <li class="nav-item">
+                <a href="./index.html"><img class="one" src="./images/menu/menu-icon-1.png" alt=""><img class="one-active imactive" src="./images/menu/menu-icon-1-active.png" alt=""> Home</a>
+            </li>
+            <li class="nav-item menuactive">
+                <a href="./programs.html"><img class="two" src="./images/menu/menu-icon-2.png" alt=""><img class="two-active imactive" src="./images/menu/menu-icon-2-active.png" alt=""> Programs</a>
+            </li>
+            <li class="nav-item">
+                <a href="./about-us.html"><img class="three" src="./images/menu/menu-icon-3.png" alt=""><img class="three-active imactive" src="./images/menu/menu-icon-3-active.png" alt=""> About Us</a>
+            </li>
+            <li class="nav-item">
+                <a href="./impact.html"><img class="four" src="./images/menu/menu-icon-4.png" alt=""><img class="four-active imactive" src="./images/menu/menu-icon-4-active.png" alt=""> Impact</a>
+            </li>
+            <li class="nav-item">
+                <a href="./science.html"><img class="five" src="./images/menu/menu-icon-5.png" alt=""><img class="five-active imactive" src="./images/menu/menu-icon-5-active.png" alt=""> Science</a>
+            </li>
+            <li class="nav-item">
+                <a href="./career.html"><img class="six" src="./images/menu/menu-icon-6.png" alt=""><img class="six-active imactive" src="./images/menu/menu-icon-6-active.png" alt=""> Career</a>
+            </li>
+            <li class="nav-item">
+                <a href="./contact.html"><img class="seven" src="./images/menu/menu-icon-7.png" alt=""><img class="seven-active imactive" src="./images/menu/menu-icon-7-active.png" alt=""> Contact Us</a>
+            </li>
+        </ul>
+          <!-- Menu section  -->
+        </nav>
+        <!-- Toggle Menu  -->
+      </li>
+    </ul>
+    <!-- <div class="blakpatch" onclick="togglemenu()"></div> -->
+
+   <div class="program-outer-wrapper program">
+       <div class="program-inner-wrapper new-ms1 new-ms2">
+        <h1 class="program-title">
+            <span>21'st century workplace &nbsp;</span>skills are
+            essential <br />for success across domains which you’ll master<br/> in a simulated workplace setting
+          </h1>
+          <p class="top-para">
+            <strong>We've customized</strong> our programs to demonstrate
+            how they can be<br />applied to tackle workplace scenarios
+            in specific sectors.
+          </p>
+          <div class="program-wrapper">
+            <div class="program-inner-wrapper program-top-inner-wrapper">
+              <div class="program-box top-wrapper">
+                <a href="./coders.html">
+                  <div class="p-box">
+                    <img
+                      src="./images/program/PROGRAM-first.jpg"
+                      alt=""
+                    />
+                    <p class="para-first">Workverse Smart Generalist program<br/> for Coders </p>
+                    <p class="para-second"><span class="bold-font">Fee:</span> INR 1999 for the entire 30 day immersive program<br/> 
+                      + INR 8,000 (payable only on successful placement)</p>
+                    <p class="para-third first-entry"><span class="bold-font">For:</span> Final year students & entry level professionals
+                    </p>
+                    <div class="time-money-wrapper">
+                        <div class="time">
+                            <p><img src="./images/program/PROGRAM-clock.png" alt=""> x hours a week x 5 weeks</p>
+                        </div>
+                        <div class="money">
+                            <p>INR 1999</p>
+                        </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div class="program-box top-wrapper">
+                <a href="./finance.html">
+                    <div class="p-box">
+                      <img
+                        src="./images/program/PROGRAM-second.jpg"
+                        alt=""
+                      />
+                      <p class="para-first second-para-first">Grant Thornton x Workverse Smart Generalist<br/> program for Finance Professions </p>
+                      <p class="para-second"><span class="bold-font">Fee:</span>  INR 1999 for program<br/> 
+                        + INR 8,000 (payable only on successful placement)
+                        </p>
+                      <p class="para-third second-entry"><span class="bold-font">For:</span> Final year students & entry level finance<br/> 
+                        professionals including B.COM, CAs, CS, B.A.F etc</p>
+                      <div class="time-money-wrapper">
+                          <div class="time">
+                              <p><img src="./images/program/PROGRAM-clock.png" alt=""> x hours a week x 5 weeks</p>
+                          </div>
+                          <div class="money">
+                              <p>INR 1999</p>
+                          </div>
+                      </div>
+                    </div>
+                  </a>
+              </div>
+            </div>
+            <div class="program-inner-wrapper ">
+                <div class="program-box comming-soon">
+                  <a href="#">
+                    <div class="p-box">
+                      <img
+                        src="./images/program/PROGRAM-third.jpg"
+                        alt=""
+                      />
+                      <p class="para-first third-para-first">Workverse Smart Generalist program for<br/> New Media & marketing professionals  </p>
+                      <p class="para-second"><span class="bold-font">Fee:</span>  INR 1999 for program<br/> 
+                        + INR 8,000 (payable only on successful placement)</p>
+                      <p class="para-third first-entry"><span class="bold-font">For:</span> Final year students & entry level</p>
+                      <div class="time-money-wrapper">
+                          <div class="time">
+                              <p><img src="./images/program/PROGRAM-clock.png" alt=""> x hours a week x 5 weeks</p>
+                          </div>
+                          <div class="money">
+                              <p>INR 1999</p>
+                          </div>
+                      </div>
+                    </div>
+                  </a>
+                  <div class="comming"><h1>Comming Soon</h1></div>
+                </div>
+                <div class="program-box comming-soon">
+                  <a href="#">
+                      <div class="p-box">
+                        <img
+                          src="./images/program/PROGRAM-four.jpg"
+                          alt=""
+                        />
+                        <p class="para-first fourth-para-first">Workverse Smart Generalist program<br/> for Healthcare professionals </p>
+                        <p class="para-second"><span class="bold-font">Fee:</span>  INR 1999 for program<br/> 
+                          + INR 8,000 (payable only on successful placement)</p>
+                        <p class="para-third second-entry"><span class="bold-font">For:</span> Final year students & entry level finance<br/> 
+                          </p>
+                        <div class="time-money-wrapper">
+                            <div class="time">
+                                <p><img src="./images/program/PROGRAM-clock.png" alt=""> x hours a week x 5 weeks</p>
+                            </div>
+                            <div class="money">
+                                <p>INR 1999</p>
+                            </div>
+                        </div>
+                      </div>
+                    </a>
+                    <div class="comming"><h1>Comming Soon</h1></div>
+                </div>
+              </div>
+          </div>
+       </div>
+   </div>
+
+   <!-- Footer  -->
+   <div class="position-relative pt-5 think footer-area">
+    <div class="footer-outer-wrapper">
+      <div class="footer-inner-wrapper">
+          <a href="./index.html"><img class="footer-icon" src="./new-images/workverse-footer-icon.png" alt=""></a>
+      </div>			
+      <div class="footer-inner-wrapper">
+          <div class="conte-link">
+              <ul>
+              <li><a href="./index.html">HOME</a></li>
+              <li><a href="./programs.html">PROGRAMS</a></li>
+              <li><a href="./about-us.html">ABOUT US</a></li>
+              <li><a href="./impact.html">IMPACT</a></li>
+              <li><a href="./science.html">SCIENCE</a></li>
+              <li><a data-role="button" target="_self" href="career.html">CAREER</a></li>
+              <li><a href="./contact.html">CONCACT US</a></li>
+              </ul>
+          </div>											 
+      </div>
+      <div class="footer-inner-wrapper">
+         <div class="footer-inner-wrapper-right">
+          <img class="footer-icon-text" src="./new-images/workverse-footer-text.png" alt="">
+          <div class="socials-icons">
+              <a href=""><img src="images/landing/footer-instagram.png"></a>
+              <a href=""><img src="images/landing/footer-linkedin.png"></a>
+              <a href=""><img src="images/landing/footer-facebook.png"></a>
+              <a href=""><img src="images/landing/footer-youtube.png"></a>
+          </div>
+          <p> All Rights Reserved © <a href="www.xbillionskillslab.com">xbillionskillslab.com</a></p>
+         </div>
+      </div>				
+  </div>		   
+</div>
+   <!-- Footer  -->
+
+
+    <!-- Modal Start  -->
+    <div
+      class="modal fade"
+      id="ksFoundationModal"
+      aria-hidden="true"
+      aria-labelledby="ksFoundationModalLabel"
+      tabindex="-1"
+    >
+      <div class="modal-dialog modal-fullscreen">
+        <div class="modal-content">
+          <div class="bg-darkblue w-100">
+            <div class="ks-foundation-img">
+              <div class="ms-5 pt-4">
+                <ul
+                  class="nav justify-content-between align-items-center position-fixed top-0 w-custom pt-4 z-index-2"
+                >
+                  <li class="nav-item z-index-2 ms-4">
+                    <div
+                      class="d-flex justify-content-between align-items-center"
+                    >
+                      <div class="ks-logo-svg">
+                        <img src="new-images/logo.png" alt="" />
+                      </div>
+                      <!-- <div class="ks-logo-heading">
+                                            <h2>X Billion Skills Lab</h2>
+                                            <h6>Enhancing workplace intelligence</h6>
+                                        </div> -->
+                    </div>
+                  </li>
+                  <li class="nav-item me-5 z-index-2">
+                    <a
+                      href="#"
+                      data-bs-dismiss="modal"
+                      aria-label="Close"
+                      class="closebtn border pt-1-5 px-2 pb-1"
+                      ><i class="fas fa-times text-white"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="conatiner pt-5 mt-4">
+                <div class="row mt-5 w-100 align-items-center">
+                  <div class="col-md-6 text-light px-5 pt-3">
+                    <div class="ms-5">
+                      <h2 class="ks-h1-text">1. FOUNDATION</h2>
+                      <hr class="green" />
+                      <p class="ks-foundation-text">
+                        Lorem ipsum dolor sit amet, consectetuer adipiscing
+                        elit, sed diam nonummy nibh euismod tincidunt ut laoreet
+                        dolore magna aliquam erat volutpat. Ut wisi enim ad
+                        minim veniam, quis nostrud exerci tation ullamcorper
+                        suscipit lobortis nisl ut
+                      </p>
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <img
+                      src="images/testimonial-img.jpg"
+                      class="img-fluid w-90 border1"
+                      alt=""
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal End -->
+
+    <!-- jQuery -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <!-- <script type="text/javascript" src="js/jquery.flipping_gallery.js"></script> -->
+    <script src="js/script-new.js"></script>
+
+    <script src="js/jquery.mobile-1.5.0-rc1.js"></script>
+
+    <script type="text/javascript">
+      $(document).ready(function () {
+        // $(".gallery").flipping_gallery({
+        //     enableScroll: false,
+        //     spacing: 40,
+        // });
+        designaname.oninput = function () {
+          if (designaname.value != "") {
+            $(".message").html("");
+          }
+        };
+
+        $(".contact_form_submit-1").click(function () {
+          if ($("#designaname").val() != "") {
+            if ($(window).width() < 768) {
+              result.innerHTML = $("#designaname").val();
+              $("html, body").animate(
+                {
+                  scrollTop: $("#section1").offset().top,
+                },
+                1000
+              );
+            } else {
+              result.innerHTML = $("#designaname").val();
+              $("#section0").removeClass("active");
+              $("#section1").addClass("active");
+            }
+          } else {
+            $(".message").html("This field is required");
+          }
+        });
+      });
+      document.addEventListener("DOMContentLoaded", () => {});
+      $(window).on("load", function () {
+        $("head").append(
+          "<style>.ks-landing::before{  -webkit-transform: scaleX(0) !important; transform: scaleX(0)!important;}</style>"
+        );
+      });
+
+      if ($(window).width() < 768) {
+        $(".how-but").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: $("#section2").offset().top,
+            },
+            1000
+          );
+        });
+      } else {
+        var myFullpage = new fullpage("#fullpage", {
+          anchors: ["firstPage", "secondPage", "3rdPage", "4rdPage", "5rdPage"],
+          navigation: true,
+          navigationPosition: "right",
+          scrollOverflow: true,
+          normalScrollElements: ".scrollable-content",
+          navigationTooltips: [
+            "First page",
+            "Second page",
+            "Third",
+            "forth",
+            "fifth",
+          ],
+          afterLoad: function (origin, destination, direction) {
+            var loadedSection = this;
+            // console.log(origin);
+            console.log(destination.index);
+            // console.log(direction);
+            //using index
+
+            $("#navbar").removeClass("sticky-header-bg");
+
+            //using anchorLink
+            if (destination.index == 0) {
+              $(".newclgdiam").css({ opacity: "0" });
+            } else {
+              $(".newclgdiam").css({ opacity: "1" });
+            }
+
+            if (destination.index == 4) {
+              // function counter(id, start, end, duration) {
+              //     let obj = document.getElementById(id),
+              //         current = start,
+              //         range = end - start,
+              //         increment = end > start ? 1 : -1,
+              //         step = Math.abs(Math.floor(duration / range)),
+              //         timer = setInterval(() => {
+              //             current += increment;
+              //             obj.textContent = current;
+              //             if (current == end) {
+              //                 // clearInterval(timer);
+              //             }
+              //         }, step);
+              // }
+              // counter("count1", 99900, 100000, 1000);
+              // counter("count2", 0, 50, 1000);
+              // counter("count3", 0, 92, 1000);
+              // counter("count4", 0, 70, 1000);
+            }
+            if (destination.index == 1) {
+              $(".intro1").addClass("intro");
+            }
+            if (destination.index == 3) {
+              $(".intro1").addClass("intro");
+            }
+            if (destination.index == 0) {
+              $(".intro1").removeClass("intro");
+            }
+            if (destination.index == 2) {
+              $("#headerlogo").attr("src", "images/landing/logo-header.png");
+            }
+            if (destination.index == 4) {
+              $("#headerlogo").attr("src", "images/landing/logo-header.png");
+              $(".aply").removeClass("aply3");
+              $("#section4").addClass("scrollable-content");
+
+              $("#navbar").addClass("sticky-header-bg");
+            }
+            if (destination.index == 5) {
+              $("#headerlogo").attr(
+                "src",
+                "images/landing/logo-header-white-bg.png"
+              );
+              $(".aply").addClass("aply3");
+              $(".ks-logo-svg1").addClass("ks-logo-svg0 img");
+            }
+            if (destination.index == 3) {
+              $("#headerlogo").attr(
+                "src",
+                "images/landing/logo-header-white-bg.png"
+              );
+            } else {
+              fullpage_api.setAllowScrolling(true, "down");
+              fullpage_api.setAllowScrolling(true, "up");
+            }
+          },
+        });
+      }
+
+      var disabledScroll = 0;
+      $(window).bind("mousewheel DOMMouseScroll", function (event) {
+        if (
+          event.originalEvent.wheelDelta > 0 ||
+          event.originalEvent.detail < 0
+        ) {
+          var currentScroll = $(this).scrollTop();
+          if (disabledScroll > 5 && currentScroll == 0) {
+            $("#section4").removeClass("scrollable-content");
+          } else if (currentScroll == 0) {
+            disabledScroll = disabledScroll + 1;
+          } else {
+            disabledScroll = 0;
+          }
+        } else {
+          disabledScroll = 0;
+          $("#section4").addClass("scrollable-content");
+        }
+      });
+
+      var tabs = [];
+      var currenttabs = 1;
+      tabs[1] = "<div><span>INTRO</span></div>";
+      tabs[2] = "<div><span>HOW IT WORKS</span></div>";
+      tabs[3] = "<div><span>WHAT YOU'LL LEARN</span></div>";
+      tabs[4] = "<div><span>WHO IS THIS FOR</span></div>";
+      tabs[5] = "<div><span>ADVANTAGES</span></div>";
+      tabs[6] = "<div><span>SCHEDULE</span></div>";
+      tabs[7] = "<div><span>PRICING & PLACEMENT</span></div>";
+
+      if ($(window).width() < 768) {
+        $(".tab-next").click(function () {
+          var tab = currenttabs + 1;
+          if ($("#tab" + tab).length > 0) {
+            $("#tab" + tab).prop("checked", true); // Change tab
+
+            $("#c" + tab)
+              .css("left", "500px")
+              .animate({ left: "0px" }, 100);
+
+            $(".tab-heading").html(tabs[tab]); // Chang tab heading
+            $(".tab-bullets .bullet").removeClass("active"); // remove class from bullet
+            $(".tab-bullets .bullet-" + tab).addClass("active"); // add class in currnt bullet
+            currenttabs = currenttabs + 1;
+          }
+        });
+        $(".tab-prev").click(function () {
+          var tab = currenttabs - 1;
+          if ($("#tab" + tab).length > 0) {
+            $("#tab" + tab).prop("checked", true);
+
+            $("#c" + tab).css("left", "unset");
+            $("#c" + tab)
+              .css("right", "500px")
+              .animate({ right: "0px" }, 100);
+
+            $(".tab-heading").html(tabs[tab]);
+            $(".tab-bullets .bullet").removeClass("active"); // remove class from bullet
+            $(".tab-bullets .bullet-" + tab).addClass("active"); // add class in currnt bullet
+            currenttabs = currenttabs - 1;
+          }
+        });
+
+        // $('.howtabview .content').on('swipeleft', function() {
+        //    alert();
+        // });
+
+        $(document).on("swipeleft", ".howtabview .content", function (event) {
+          var tab = currenttabs + 1;
+          if ($("#tab" + tab).length > 0) {
+            $("#tab" + tab).prop("checked", true); // Change tab
+
+            // $('#c'+currenttabs).hide("slide", { direction: "left" }, 500, function () {
+            //     $('#c'+tab).show("slide", { direction: "left" }, 500);
+            // });
+
+            $("#c" + tab)
+              .css("left", "500px")
+              .animate({ left: "0px" }, 100);
+
+            $(".tab-heading").html(tabs[tab]); // Chang tab heading
+            $(".tab-bullets .bullet").removeClass("active"); // remove class from bullet
+            $(".tab-bullets .bullet-" + tab).addClass("active"); // add class in currnt bullet
+            currenttabs = currenttabs + 1;
+          }
+        });
+        $(document).on("swiperight", ".howtabview .content", function (event) {
+          var tab = currenttabs - 1;
+          if ($("#tab" + tab).length > 0) {
+            $("#tab" + tab).prop("checked", true);
+
+            // $('#c'+currenttabs).hide("slide", { direction: "right" }, 500, function () {
+            //     $('#c'+tab).show("slide", { direction: "right" }, 500);
+            // });
+            $("#c" + tab).css("left", "unset");
+            $("#c" + tab)
+              .css("right", "500px")
+              .animate({ right: "0px" }, 100);
+
+            $(".tab-heading").html(tabs[tab]);
+            $(".tab-bullets .bullet").removeClass("active"); // remove class from bullet
+            $(".tab-bullets .bullet-" + tab).addClass("active"); // add class in currnt bullet
+            currenttabs = currenttabs - 1;
+          }
+        });
+      }
+    </script>
+
+<script src="./js/mscript.js"></script>
+  </body>
+</html>

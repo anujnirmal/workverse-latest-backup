@@ -1,0 +1,319 @@
+.tab ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .tab {
+    margin: 0 0 2em;
+  }
+  .tabs-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .tab-btn {
+    flex: 1;
+    /* color: #333; */
+    text-align: center;
+    /* padding: 1em 2em; */
+    /* background-color: #d0ddec; */
+    /* border: 1px solid #000; */
+    /* border-radius: 10px 10px 0 0; */
+    cursor: pointer;
+}
+  .tab-btn:not(:last-of-type) {
+    border-right: 0;
+  }
+  .tab-content {
+    display: none;
+    /* padding: 1em;
+    border: 1px solid #000;
+    border-top: 0; */
+    /* background-color: #fff; */
+  }
+  
+  /* tab open */
+  .tab-btn.tab-open {
+    font-weight: bold;
+    /* background-color: #fff; */
+    border-bottom: 0;
+  
+    transition: 0.3s;
+  }
+  .tab-content.tab-open {
+    display: block;
+  }
+  
+
+  .science-page .sciencelanding {
+    height: 100%;
+    padding-top: 120px;
+}
+
+.tab-btn span {
+    color: #05859C;
+    font-weight: 800;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-family: century-gothic-bold;
+}
+.tab-btn:first-child {
+    text-align: left;
+}
+.tab-btn:last-child {
+    text-align: center;
+}
+.tab-btn.tab-open span {
+    padding: 0px 8px;
+    background: #fff;
+    border-radius: 5px 0px 5px 5px;
+}
+.science-page .container {
+  max-width: 1260px;
+}
+.science-page {
+    background-image: url(../images/Science/science-background-img.jpg);
+    position: relative;
+    background-size: cover;
+  }
+  .science-page .sciencelanding #learningexperience img {
+    max-width: 98%;
+}
+.science-page .sciencelanding  .scrollable.scrollbarstyle {
+    overflow-x: hidden;
+    height: 70vh;
+}
+.science-page .sciencelanding #learningexperience  .title {
+    color: #92F6D9;
+    text-transform: uppercase;
+    font-family: century-gothic-bold;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.science-page .sciencelanding #learningexperience p {
+    color: #ffff;
+    font-family: 'century-gothic';
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.science-page .sciencelanding #learningexperience p.bg1 {
+    background-image: url(../images/Science/science-learning-experience-background-box-1.png);
+    position: relative;
+    background-size: 100% 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 6px 15px -4px rgb(0 0 0 / 52%);
+}
+
+.science-page .sciencelanding #learningexperience p.bg2 {
+    background-image: url(../images/Science/science-learning-experience-background-box-2.png);
+    position: relative;
+    background-size: 100% 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 6px 15px -4px rgb(0 0 0 / 52%);
+}
+.science-page .sciencelanding #learningexperience .lastnot {
+    text-transform: uppercase;
+    font-family: century-gothic-bold;
+    font-size: 19px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.science-page .scrollbarstyle::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: #508B99;
+}
+
+.science-page .scrollbarstyle::-webkit-scrollbar
+{
+	width: 10px;
+	background-color: #508B99;
+}
+
+.science-page .scrollbarstyle::-webkit-scrollbar-thumb
+{
+	background-color: #96F4E0;
+	height:160px;
+}
+.science-page .scrollbarstyle::-moz-scrollbar { width: 10px; 
+	background-color: #508B99;}
+
+
+.science-page .scrollbarstyle {
+    height: 400px;
+    overflow-y: scroll;
+	scrollbar-width: thin;
+	scrollbar-color: #96F4E0 #508B99;
+}
+
+
+.science-page .sciencelanding #measurement  .title {
+    color: #92F6D9;
+    text-transform: uppercase;
+    font-family: century-gothic-bold;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.science-page .sciencelanding .immersive .subtitle , .science-page .sciencelanding #measurement .subtitle{
+    color: #fff;
+    font-family: century-gothic-bold;
+    font-size: 21px;
+    margin-bottom: 3px;
+}
+.science-page .sciencelanding #measurement p {
+    color: #ffff;
+    font-family: 'century-gothic';
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.science-page .sciencelanding .immersive p.bg3 {
+    background-image: url(../images/Science/science-learning-experience-background-box-3.png);
+    position: relative;
+    background-size: 100% 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 6px 15px -4px rgb(0 0 0 / 52%);
+}
+
+.science-page .sciencelanding .immersive p.bg4 {
+    background-image: url(../images/Science/science-learning-experience-background-box-4.png);
+    position: relative;
+    background-size: 100% 100%;
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    box-shadow: 0px 6px 15px -4px rgb(0 0 0 / 52%);
+}
+.science-page .sciencelanding .immersive .row .col-md-4 {
+    margin-top: 20px;
+}
+.science-page .sciencelanding .immersive .col-md-4 p {
+    height: 100%;
+    display: block;
+    font-size: 15px;
+    font-style: italic;
+}
+.science-page .sciencelanding .immersive .centergrimg img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    margin-top: 10%;
+}
+.science-page .sciencelanding .immersive .row {
+    margin-right: 0;
+}
+.science-page .sciencelanding #measurement .col-md-4 p i {
+    font-weight: 600;
+    font-family: century-gothic-bold;
+}
+.science-page .sciencelanding .immersive .title.secondtitle {
+    margin-top: 60px;
+}
+.science-page .sciencelanding #measurement ul {
+    color: #fff;
+    font-family: 'century-gothic';
+    font-size: 17px;
+    margin-bottom: 24px;
+    margin-top: 26px;
+}
+.science-page .sciencelanding #measurement ul li {
+    margin-bottom: 10px;
+}
+.science-page .sciencelanding #measurement ul li:before {
+    content: "";
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 10px;
+}
+.science-page .sciencelanding  #validation .mainsec {
+    display: block;
+    width: 100%;
+    margin-bottom: 25px;
+}
+.science-page .sciencelanding  #validation .mainsec .leftlogo {
+    width: 16%;
+    display: inline-block;
+    vertical-align: top;
+}
+.science-page .sciencelanding  #validation .mainsec .leftlogo img {
+    max-width: 100%;
+    vertical-align: top;
+}
+.science-page .sciencelanding  #validation .mainsec .rightcon {
+    display: inline-flex;
+    width: 84%;
+    vertical-align: top;
+    padding-left: 3%;
+}
+.science-page .sciencelanding  #validation .mainsec .rightcon .colorbox {
+    /* border: 0.1vw solid #71D6AA; */
+    /* border-radius: 0; */
+    /* background: rgb(114 207 215 / 35%) radial-gradient(rgb(30 47 48 / 78%), transparent); */
+    color: #fff;
+    font-size: 17px;
+    padding: 10px;
+    width: 98%;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 17px;
+    font-family: 'century-gothic';
+}
+.science-page .sciencelanding  #validation .mainsec .rightcon .colorbox p {
+    margin-bottom: 0;
+    letter-spacing: 0.5px;
+}
+
+.science-page .sciencelanding  #validation .mainsec .rightcon .colorbox.full {
+    width: 99%;
+}
+
+.science-page .sciencelanding  #validation .mainsec .rightcon .colorbox.bg1{
+    background-image: url(../images/Science/science-validation-background-box-1.png);
+    position: relative;
+    background-size: 100% 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 6px 15px -4px rgb(0 0 0 / 52%); 
+}
+
+.science-page .sciencelanding  #validation .mainsec .rightcon .colorbox.bg2{
+    background-image: url(../images/Science/science-validation-background-box-2.png);
+    position: relative;
+    background-size: 100% 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 6px 15px -4px rgb(0 0 0 / 52%); 
+    height: 92%;
+}
+.science-page .sciencelanding  #validation .mainsec .rightcon .colorbox.bg3 {
+    background-image: url(../images/Science/science-validation-background-box-3.png);
+    position: relative;
+    background-size: 100% 100%;
+    padding: 48px 10px 10px 10px;
+    text-align: center;
+    box-shadow: 0px 6px 15px -4px rgb(0 0 0 / 52%);
+    height: 92%;
+}
+
+.science-page .sciencelanding  #validation .mainsec .rightcon .colorbox.bg4{
+    background-image: url(../images/Science/science-validation-background-box-4.png);
+    position: relative;
+    background-size: 100% 100%;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0px 6px 15px -4px rgb(0 0 0 / 52%); 
+}
+.science-page .sciencelanding #validation .mainsec:nth-child(2) {
+    margin-top: 50px;
+}
+.science-page .sciencelanding #validation .mainsec:nth-child(2) .leftlogo {
+    padding-top: 1%;
+}
+.science-page .sciencelanding #validation .mainsec:first-child .leftlogo {
+    padding-top: 7%;
+}

@@ -1,0 +1,5376 @@
+/* ============================================= Media 240 - 480 ================================================  */
+@media only screen and (min-width: 240px) and (max-width:480px)  {
+    html {
+        position: relative;
+        display: block;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    body {
+        -webkit-transform-style: unset !important;
+        -webkit-backface-visibility: unset !important;
+    }
+    .ks-logo-svg img {
+        width: 175px !important;
+    }
+    .nav-item a img {
+        width: 25px;
+    }
+    .rightmenu {
+        height: 100%;
+        position: fixed;
+        right: -54%;
+        width: 50%;
+        top: 0;
+        z-index: 111111;
+        background: rgb(0 4 9 / 84%);
+        transition: 500ms ease-out;
+    }
+    .student-landing #section0 .col-6 {
+        width: 100%;
+    }
+    .rightmenu .getstarted {
+        font-size: 16px;
+        letter-spacing: .2vw;
+        font-weight: 500;
+        padding: 10px 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 81%;
+    }
+    .rightmenu .knowmore {
+        transition: 350ms;
+        font-family: Eurostile;
+        font-size: 16px;
+        letter-spacing: .2vw;
+        font-weight: 500;
+        padding: 8px 7px;
+        position: absolute;
+        display: block;
+        width: 78%;
+        bottom: 12px;
+        left: -6%;
+        cursor: pointer;
+    }
+    .rightmenu .menu a {
+        font-size: 19px;
+    }
+    .rightmenu .menu .diamond {
+        width: 13px;
+        height: 12px;
+        margin-right: 15px;
+    }
+    .rightmenu .menu span {
+        margin-bottom: 18px;
+    }
+    .rightmenu .menu span::before {
+        width: 4px;
+        height: 30px;
+        border-right: 1px dashed #fff;
+        position: absolute;
+        left: 0.45vw;
+        top: -6px;
+    }
+    .student-landing .ks-landing .ks-heading .h2 {
+        font-size: 22px;
+        line-height: 25px;
+        padding-top: 0 !important;
+        margin-top: 0 !important;
+    }
+    .student-landing .ks-landing .ks-heading .h2 br {
+        display: none;
+    }
+    .ks-landing .ks-heading .span-2 {
+        font-size: 36px;
+        line-height: 44px;
+    }
+    .ks-landing .ks-heading .flareimg {
+        position: relative;
+        display: block;
+    }
+    .ks-landing .ks-heading .flareimg .img1 {
+        position: absolute;
+        top: -30px;
+        left: -46px;
+        opacity: 0.7;
+        width: 36%;
+    }
+    .ks-landing .ks-heading .flareimg img.img2 {
+        position: absolute;
+        right: 26px;
+        top: -2px;
+        opacity: 0.7;
+        width: 36%;
+    }
+    .student-landing .ks-landing .ks-heading p {
+        font-size: 25px !important;
+        line-height: 25px;
+        /* letter-spacing: 2px; */
+        width: auto;
+        margin-bottom: 0;
+        padding-top: 5px;
+        margin-top: 27px;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .student-landing .ks-landing .ks-heading p span {
+        font-size: 15px !important;
+        display: block;
+        line-height: initial;
+        margin-top: 8px;
+    }
+    .tell-us {
+        width: 90%;
+        margin: 9px auto auto auto;
+    }
+    .tell-us li {
+        display: inline-block;
+        width: 67%;
+    }
+    .tell-us .form-control_3 {
+        background: #248188;
+        /* color: rgb(255 255 255 / 70%); */
+        border-radius: 10px 0px 0px 10px;
+        border: 2px solid;
+        font-size: 11px;
+        box-shadow: 3px 4px 0px 0px #00c4c2;
+        height: 8vw;
+        padding-left: 2vw;
+        overflow: hidden !important;
+    }
+    .tell-us li .btn_a img {
+        background: transparent;
+        width: 27vw;
+        margin-left: 0.5vw;
+    }
+    .jobe {
+        top: 486px;
+        bottom: unset;
+    }
+    .jobe p {
+        font-size: 25px;
+    }
+    .student-landing .ks-landing .ks-heading p br {
+        display: none;
+    }
+    
+    .ks-landing .ks-heading .span-3 {
+        font-size:21px;
+    }
+    .student-landing .ks-heading .btn {
+      font-size: 16px !important;
+        letter-spacing: initial;
+        padding: 6px 31px !important;
+        text-align: center;
+        width: 46%;
+    }
+    .student-landing .ks-heading .btn:first-child {
+        margin-right: 18px !important;
+    }
+    .student-landing .ks-heading .btn:last-child {
+        padding: 5px 30px !important;
+    }
+    .student-landing #section0 .btn-grp {
+        margin-top: 10px !important;
+        text-align: center;
+        margin-left: -1.7vw!important;
+    }
+.student-landing #section0 {
+    height: 860px;
+}
+.ks-landing .ms-5 {
+    margin-left: 0 !important;
+}
+    .ks-landing {
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+        height: 100vh;
+        background-image: url(../new-images/Home/Landing/xbsl-landing-background.jpg);
+    }
+    .student-landing #section0 .col-6:nth-child(2) {
+        position: absolute;
+        top: 54px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .student-landing #section0 .col-6:first-child {
+        margin-top: 55vh;
+        padding-bottom: 34px;
+    }
+    .ks-landing .spinncircle {
+           position: absolute;
+    max-width: 58%;
+    top: 72px;
+    right: -50px !important;
+    cursor: pointer;
+    padding: 0;
+    left: unset;
+    }
+    .ks-landing .ks-storytelling::before {
+           width: 100%;
+            bottom: 19px;
+            height: 25px;
+            left: unset;
+            right: -5px;
+    }
+    .student-landing #section0 span.ks-storytelling {
+        font-size: 16px;
+        left: 36%;
+        margin-top: 17%;
+    }
+    .ks-landing .ks-creative-problem-solving {
+           font-size: 16px;
+        margin-top: 45%;
+        left: 8%;
+    }
+    
+    
+    .ks-landing .ks-creative-problem-solving::before {
+            width: 100%;
+        bottom: 42px;
+        height: 25px;
+        right: -6px;
+    }
+    .ks-landing .ks-entrepreneurship {
+       font-size: 16px;
+        position: absolute;
+        margin-top: 78%;
+        right: 30%;
+    }
+    .ks-landing .ks-entrepreneurship::before {
+        content: "";
+        width: 77%;
+        bottom: 13px;
+        height: 25px;
+        right: 0;
+    }
+    .ks-landing::before {
+        content: unset;
+        position: relative;
+        z-index: -1;
+    }
+    .ks-landing-what {
+        background-size: cover;
+        height: auto;
+        padding-bottom: 35px;
+    }
+    .student-landing #section1 .ks-landing-what h3 {
+        font-size: 20px;
+    }
+    .student-landing #section1 .ks-landing-what h3::before {
+        width: 45px;
+        left: 64px;
+        top: 10px;
+    }
+    .ks-landing-what h3::after {
+        content: "";
+        width: 4px;
+        height: 4px;
+        left: 109px;
+        top: 8px;
+        border-radius: 100%;
+    }
+    .student-landing #section1 .ks-landing-what .ks-landing-what-para {
+        font-size: 14px;
+        width: 100%;
+    }
+    .student-landing #section1 .ks-landing-what .landing-page-what-img {
+        width: 98%;
+        top: 0;
+        right: 0;
+        min-width: auto;
+        position: relative !important;
+        margin: 10px auto auto auto;
+    }
+    .landing-page-what-thinking-skills {
+        position: relative;
+        margin-top: 25px;
+        font-size: 16px;
+        padding: 13px;
+        width: 289px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .landing-page-what-thinking-skills::before , .landing-page-what-process-skills::before, .landing-page-what-people-skills::before{
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-thinking-skills p , .landing-page-what-process-skills p, .landing-page-what-people-skills p{
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        top: -24px;
+        left: -1px;
+        right: unset;
+    text-align: left;
+    }
+    .landing-page-what-thinking-skills li.my-1 , .landing-page-what-process-skills li.my-1, .landing-page-what-people-skills li.my-1{
+        font-size: 14px;
+        margin-left: 13px;
+    }
+    .landing-page-what-thinking-skills ul::after , .landing-page-what-process-skills  ul::after, .landing-page-what-people-skills ul::after{
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-thinking-skills::after , .landing-page-what-process-skills::after, .landing-page-what-people-skills::after {
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-thinking-skills p::before,  .landing-page-what-process-skills  p::before, .landing-page-what-people-skills  p::before{
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-thinking-skills p::after,  .landing-page-what-process-skills p::after, .landing-page-what-people-skills p::after{
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-process-skills {
+        position: relative;
+        margin-top: 50px;
+        font-size: 16px;
+        padding: 13px;
+        width: 289px; margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .landing-page-what-people-skills{
+        position: relative;
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 13px;
+        width: 289px; margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .student-landing #section2 .ks-landing-why .col-5{
+        width: 100%;
+        padding-bottom: 50px !important;
+    }
+    
+    .student-landing #section2 .ks-landing-why .col-7 {
+        width: 100%;
+    }    
+    .student-landing #section2 .ks-landing-why h3 {
+        font-size: 20px;
+        padding-left: 0;
+    }
+    .student-landing #section2 .ks-landing-why h3::before {
+        top: 9px;
+        right: 40px;
+        left: unset;
+        width: 68px;
+    }
+    .student-landing #section2 .ks-landing-why h3::after {
+        content: "";
+        width: 4px;
+        height: 4px;
+        right: 39px;
+        top: 8px;
+        border-radius: 100%;
+        left: unset;
+    }
+    .student-landing #section2 .ks-landing-why .card-img-top {
+       width: 65px;
+        height: auto;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .student-landing #section2 .ks-landing-why .col-5 .col-4 .card {
+        display: block;
+    }
+    .student-landing #section2 .ks-landing-why .col-5 .col-4 .card .card-body {
+        display: inline-block;
+        width: 75%;
+    }
+    .student-landing #section2 .ks-landing-why .col-5 .col-4 .card .card-body p {
+        text-align: left !important;
+        margin-left: 10px;
+        vertical-align: top;
+    }
+    .student-landing #section2 .ks-landing-why .col-5 .col-4 {
+        width: 100%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ks-landing-why-para {
+        font-size: 14px;
+    }
+    
+    .student-landing #section2 .ks-landing-why .card-text {
+        font-size: 14px;
+        width: 100%;
+    }    
+    .student-landing #section2 .ks-landing-why .card-text br {
+        display: none;
+    }
+    .student-landing #section2 .ks-landing-why hr.ks-hr {
+        border-top: dashed 2px !important;
+        height: auto;
+        margin-top: 40px !important;
+        display: block;
+        position: relative;
+        clear: both;
+        margin-bottom: 15px;
+    }
+    .student-landing #section2 .ks-landing-why h6 {
+        font-size: 18px;
+    }
+    .student-landing #section2 .ks-landing-why #ksLandingPageWhy .carousel-inner {
+        padding: 10px;
+    }
+    .student-landing #section2 .ks-landing-why #ksLandingPageWhy .card img {
+        width: 30px;
+        height: auto;
+    }
+    .student-landing #section2 .ks-landing-why #ksLandingPageWhy .carousel-indicators {
+        bottom: -45px;
+    }
+    .student-landing #section2 .ks-landing-why  #ksLandingPageWhy .carousel-indicators [data-bs-target] {
+        width: 11px;
+        height: 12px;
+    }
+    .student-landing #section2 .ks-landing-why  #ksLandingPageWhy .carousel-indicators [data-bs-target].active {
+        width: 11px;
+        height: 12px;
+    }
+    .ks-landing-why-details p {
+        font-size: 11px;
+        padding-bottom: 1.2vw;
+        position: relative;
+        padding-right: 15px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .ks-landing-why-details p br{
+        display: none;
+    }
+    .student-landing #section2 .ks-landing-why .col-7 .col-3:nth-child(3) p {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    .student-landing #section2 .ks-landing-why .ks-landing-why-details p::before {
+        display: none;
+    }
+    .student-landing #section2 .ks-landing-why .ks-landing-why-details p::after {
+        display: none;
+    }
+    .ks-landing-why-details img {
+        max-width: 100%;
+        margin: auto;
+        display: block;
+        margin-left: auto;
+        margin-top: 36px;
+        position: relative;
+        z-index: 1;
+        margin-bottom: 35px;
+    }
+    .ks-landing-how .ks-landing-how-animation .slidegalbnav .nav-next {
+        width: 33px;
+        height: 30px;
+        background: url(../images/next-arrow-program.png);
+        background-size: cover;
+        cursor: pointer;
+        background-position: 0;
+        background-repeat: no-repeat;
+            transform: rotate(90deg);
+    }
+    .ks-landing-how .ks-landing-how-animation .slidegalbnav .nav-prev {
+        width: 33px;
+        height: 30px;
+        background: url(../images/prev-arrow-program.png);
+        background-size: cover;
+        cursor: pointer;
+        background-position: 0;
+        background-repeat: no-repeat;
+        transform: rotate(90deg);
+        margin-bottom: 51px;
+        margin-top: 23px;  
+    }
+    .ks-landing-how .ks-landing-how-animation .slidegalbnav {
+        position: absolute;
+        top: 52px;
+        right: 15px;
+    }
+    .student-landing #section3 .ks-landing-how h3 {
+        font-size: large;
+        padding: 0px 10px;
+    }
+    .ks-landing-how  .toptext {
+        padding: 0 10px;
+    }
+    .student-landing #section3 .ks-landing-how .ks-landing-how-para {
+        font-size: 14px;
+        width:60%;
+    }
+    .ks-landing-how h3::before, #ksWhatSec h3::before {
+        left: 56px;
+        top: 11px;
+    }
+    .student-landing #section3 .ks-landing-how h3::after {
+        content: "";
+        width: 4px;
+        height: 4px;
+        top: 10px;
+        border-radius: 100%;
+        left: 99px;
+    }
+    .ks-landing-what > .ms-5 {
+        margin-left: 0 !important;
+    }
+    .ks-landing-why > .ms-5.pt-5 {
+        margin-left: 0 !important;
+    }
+    .ks-landing-why .container {
+        max-width: 90%;
+        width: 100%;
+    }
+    .ks-landing-how > .ms-5.pt-4 {
+        margin-left: 0 !important;
+    }
+    .ks-landing-how .ks-landing-how-animation{
+        position: relative;
+        width: 80%;
+        left: auto;
+        top: 0;
+        right: auto;
+        margin: auto;
+        overflow: hidden;
+    }
+    .student-landing .gallery.fg-body {
+          max-width: 70%;
+        position: relative;
+        margin-top: 63%;
+        margin-left: unset;
+        margin-right: unset;
+        height: 230px;
+            z-index: 1;
+    }
+    #section3 .ks-landing-how .ks-landing-how-accelerator {
+        position: absolute;
+        width: 40%;
+        right: -16px;
+        bottom: unset;
+        display: block;
+        top: 0;
+    }
+    .ks-landing-how .ks-landing-how-accelerator h4 {
+        font-size: 13px;
+    }
+    .ks-landing-how .ks-landing-how-accelerator div {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        position: relative !important;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .ks-landing-how .ks-landing-how-accelerator div {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+        position: relative !important;
+        width: 100% !important;
+    }
+    .ks-landing-how .ks-landing-how-accelerator svg, #ksWhatSec .ks-landing-how-accelerator svg {
+        height: 9px;
+        margin-right: 4px;
+    }
+    .ks-landing-how .ks-landing-how-accelerator div::after, #ksWhatSec .ks-landing-how-accelerator div::after {
+        content: "";
+        width: 5px;
+        height: 19px;
+        border-right: 1px dashed #fff;
+        position: absolute;
+        left: 0px;
+        top: 14px;
+    }
+    .ks-landing-how .ks-landing-how-accelerator .text-white:hover span {
+        padding-left: 2px;
+    }
+    .ks-testimonial .container, #ksAchiveSec {
+        max-width: 98%;
+        margin: auto;
+    }
+    .student-landing #section4 h4.ks-heading {
+        font-size: 20px;
+    }
+    .student-landing #section4 .ks-course.mb-0.text-uppercase {
+        font-size: 12px;
+    }
+    .student-landing #section4 .ks-pecentage {
+        font-size: 18px;
+    }
+    .student-landing #section4 #ksAchiveSec .row .col-md-6 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+    .student-landing #section4 .ks-heading, #ksAchiveSec .ks-heading {
+        font-size: 20px;
+        margin-top: 25px;
+    }
+    .student-landing #section4 #ksAchiveSec .carousel-inner img.w-50.img-fluid {
+        width: 85% !important;
+        margin-top: 15px;
+    }
+    .ks-testimonial .carousel-indicators [data-bs-target].active, #ksAchiveSec .carousel-indicators [data-bs-target].active {
+        width: 11px;
+        height: 12px;
+    }
+    .ks-testimonial .carousel-indicators [data-bs-target], #ksAchiveSec .carousel-indicators [data-bs-target] {
+        width: 11px;
+        height: 12px;
+    }
+    .student-landing #section4 #ksAchiveSec #carouselExampleIndicators {
+        padding-bottom: 40px;
+    }
+    .ks-testimonial .carousel-indicators, #ksAchiveSec .carousel-indicators {
+        bottom: -18px;
+    }
+    .student-landing #section4 #ksAchiveSec .col-md-6.ps-5 {
+        padding-left: 0 !important;
+    }
+    .ks-border-end {
+        border-right: 0;
+    }
+    #ksAchiveSec .ks-circlenew {
+        width: 70px;
+        height: 70px !important;
+        margin-bottom: 10px;
+    }
+    .ks-position, #ksAchiveSec .ks-position {
+        font-size: 12px;
+    }
+    #ksAchiveSec .ks-circlenew.user-2 {
+        margin-top: 20px;
+    }
+    .ks-Aniruddh, #ksAchiveSec .ks-Aniruddh {
+        font-size: 14px;
+    }
+    .ks-testimonial .ks-fs, #ksAchiveSec .ks-fs {
+        font-size: 12px;
+    }
+    .ks-testimonial .ks-testimonial-para, #ksAchiveSec .ks-testimonial-para {
+        font-size: 12px;
+        color: #ffffff;
+        line-height: normal;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .ks-circle, #ksAchiveSec .ks-circle {
+        width: 60px;
+        height: 60px !important;
+        margin-left: unset;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .student-landing #section4  .ks-testimonial .testimonialpart {
+        padding-bottom: 50px;
+    }
+    body.modal-open {
+        -webkit-transform-style: unset !important;
+        -webkit-backface-visibility: unset !important;
+        overflow: hidden;
+        scroll-behavior: unset;
+    }
+    body.modal-open::-webkit-scrollbar {
+        width: 0;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    /* Optional: show position indicator in red */
+    body.modal-open::-webkit-scrollbar-thumb {
+        background: #FF0000;
+    }
+    #ksFoundationModal.modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 11111;
+        display: none;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        outline: 0;
+    }
+    #ksFoundationModal.modal .nav-item.z-index-2.ms-4 {
+        margin-left: 0 !important;
+    }
+    #ksFoundationModal.modal .ks-h1-text {
+        font-size: 20px;
+    }
+    #ksFoundationModal.modal .ks-foundation-text {
+        font-size: 14px;
+        width: 100%;
+    }
+    #ksFoundationModal.modal .ks-foundation-img img.border1 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        margin-top: 10px;
+    }
+    #ksFoundationModal.modal .conatiner.pt-5 {
+        margin-top: 30% !important;
+        position: relative !important;
+        transform: unset;
+    }
+    .ks-about-1 .ks-diamond-sidebar {
+        display: none;
+    }
+    .ks-about-1 #fullpage #section0 {
+        margin-top: 45px;
+    }
+    .ks-about-1 h6 {
+        font-size: 14px;
+    }
+    .ks-about-1 h3 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .ks-about-1 h3::before {
+        content: "";
+        width: 75px;
+        left: 110px;
+        top: 10px;
+    }
+    .ks-about-1 h3::after {
+        top: 8.5px;
+        left: 182px;
+        width: 4px;
+        height: 4px;
+    }
+    .ks-about-2 .hr1, .ks-about-2 .hr4 {
+        margin: 6px 0 !important;
+    }
+    .ks-about-1 h4 {
+        font-size: 18px;
+        margin-top: 25px !important;
+    }
+    .ks-about-1 p {
+        color: #fff;
+        width: 95%;
+        font-size: 14px;
+        margin-block-start: 1vw;
+        margin-block-end: 1vw;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 {
+        border: 0;
+        padding-left: 0 !important;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 #carouselExampleIndicators {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 #carouselExampleIndicators .carousel-inner {
+        width:100%;
+        margin: auto;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 #carouselExampleIndicators .carousel-control-prev {
+        height: 40px;
+        width: 7%;
+        left:-20px;
+        display: none;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 #carouselExampleIndicators .carousel-control-next{
+        height: 40px;
+        width: 7%;
+        right: -20px;
+        display: none;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators [data-bs-target]::after { 
+        content: "";
+        width: 50px;
+        height: 27px;
+        background-color: unset;
+        border-top: 1px dashed #00f2ff;
+        position: absolute;
+        top: 12.5px;
+        left: 8px;
+        right: 0;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators [data-bs-target]::before {
+        content: "";
+        width: 9px;
+        height: 9px;
+        background: url(../new-images/diamond.svg) no-repeat;
+        position: absolute;
+        top: 8px;
+        right: 4vw;
+        left: 0;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators [data-bs-target] {
+        background: transparent;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators {
+        bottom: 55px;
+        margin-bottom: 1vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .ks-about-1.ks-about-2 div#section1 {
+        padding-top: 40px;
+    }
+    .ks-about-1.ks-about-2  div#section2 {
+        padding-top: 40px;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators [data-bs-target] span {
+        font-size: 14px;
+    }
+    .ks-about-1 .ks-about-1-carousel p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .ks-about-1 #fullpage #section1  h3::after {
+        left: 111px !important;
+        top: 8px;
+    }
+    .ks-about-1 #fullpage #section1 h3::before {
+        left: 67px !important;
+        width: 44px;
+    }
+    .about-team-members .team-img:nth-child(2n) {
+        margin-right: 0;
+    }
+    .about-team-members .team-img {
+        text-align: center;
+        margin-top: 30px;
+        width: 44%;
+        display: inline-block;
+        margin-right: 9%;
+    }
+    .about-team-members .team-img.blank {
+        display: none;
+    }
+    .about-team-members .team-img.marginright {
+        margin-right: 9% !important;
+    }
+    .about-team-members .team-img.marginleft {
+        margin-right: 0;
+    }
+    .ks-about-1 .fullpage-wrapper #section3  .scrollable.scrollbarstyle {
+        height: auto;
+        overflow-x: hidden;
+        padding: 0 0 25px 0;
+        overflow-y: visible;
+    }
+    .ks-about-1 #section3 {
+        margin-top: 60px;
+    }
+    .media-img:first-child {
+        margin-top: 15px;
+    }
+    .media-img {
+        width: 100%;
+        margin-top: 35px;
+        margin-right: 0;
+    }
+    .media-img:hover {
+        -ms-transform: unset;
+        -webkit-transform: unset;
+        transform: unset;
+    }
+    .ks-about-1 #fullpage #section2  h3::after {
+        left: 253px !important;
+        top: 8.5px;
+    }
+    .ks-about-1 #fullpage #section2 h3::before {
+        left: 189px !important;
+        width: 65px;
+    }
+
+    .ks-about-1 #fullpage #section3  h3::after {
+        left: 160px !important;
+        top: 8.4px;
+    }
+    .ks-about-1 #fullpage #section3 h3::before {
+        left: 88px !important;
+        width: 75px;
+    }
+
+    .ks-about-1 #fullpage #section4  h3::after {
+        left: 156px!important;
+        top: 9.4px;
+    }
+    .ks-about-1 #fullpage #section4 h3::before {
+        left: 74px !important;
+        width: 75px;
+    }
+    .ks-about-1 #fullpage #section4 .media-img {
+        width: 47%;
+        margin-right: 4%;
+    }
+    .ks-about-1 #fullpage #section4 .media-img:nth-child(2n) {
+        margin-right: 0;
+    }
+    .ks-about-1 #fullpage #section4  .about-team-members1 {
+        padding-bottom: 50px !important;
+    }
+    .ks-assessment-btn-1 {
+        font-size: 14px;
+    }
+    .ks-Science {
+        margin-top: 0;
+        overflow: hidden;
+        height: 100vh;
+        background-size: cover;
+        padding-top: 40px !important;
+    }
+    .ks-Science .ks-Science-heading {
+        font-size: 20px;
+    }
+    .ks-Science .ks-Science-heading::before {
+        width: 75px;
+        height: 0.8px;
+        left: 90px !important;
+        top: 13px !important;
+    }
+    .ks-Science .ks-Science-heading::after {
+        width: 4px;
+        height: 4px;
+        top: 12px;
+        left: 165px !important;
+    }
+    .ks-Science .container {
+        max-width: 95%;
+    }
+    .ks-Science .tabset > label {
+        width: 49%;
+        font-size: 13px;
+        text-align: left;
+        padding: 5px !important;
+        padding: 0px 0px 15px;
+        background: #73b8d78f;
+        margin-bottom: 5px;
+    }
+    .ks-Science .tabset > label:nth-child(6) {
+        padding-left: 0;
+    }
+    .ks-Science .tabset > input:checked + label {
+        background: #75d8a2a8;
+    }
+    .ks-Science .tabset > input:checked + label {
+        background: #75d8a2a8;
+    }
+    .ks-Science .tabset label:nth-child(4) .name {
+        margin-left: unset;
+    }
+    .ks-Science .tabset label:nth-child(8) .name {
+        margin-left: unset;
+    }
+    .ks-Science .tabset label:nth-child(6) .name {
+        margin: unset;
+    }
+    .ks-Science .tabset > input:checked + label .name {
+        padding: 0;
+        border: unset;
+    }
+    .ks-Science #content h2 {
+        font-size: 18px;
+    }
+    .ks-Science #content .points .point .head img {
+        width: 15%;
+    }
+    .ks-Science #content .points .point .head span {
+        font-size: 16px;
+    }
+    .ks-Science #content .points .point p {
+        font-size: 14px;
+        max-width: 95%;
+    }
+    .ks-Science #content .points .point {
+        width: 100%;
+    }
+    .ks-Science #content .desc {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        max-width: 95%;
+    }
+    .ks-Science #content .mentalbox {
+        width: 95%;
+        font-size: 14px;
+    }
+    .ks-Science #content .mentalbox:last-child {
+        margin-left: 0;
+    }
+    .ks-Science #learningexperience .scrollable > p {
+        max-width: 95%;
+        font-size: 14px;
+    }
+    .ks-Science #learningexperience h2 {
+        font-size: 16px;
+    }
+    .ks-Science #learningexperience .leftcontent {
+        width: 100%;
+    }
+    .ks-Science #learningexperience p.box {
+        font-size: 14px;
+        max-width: 95%;
+    }
+    .ks-Science #learningexperience p {
+        font-size: 14px;
+    }
+    .ks-Science #learningexperience .scrollable.scrollbarstyle {
+        padding-top: 0;
+    }
+    .ks-Science #learningexperience .rightcont {
+        width: 94%;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: unset;
+        margin-bottom: 11px;
+        margin-top: 29px;   
+    }
+    .ks-Science #learningexperience .keycomponent .leftsec {
+        width: 96%;
+    }
+    .ks-Science #learningexperience .keycomponent .keybox .content .title {
+        font-size: 16px;
+    }
+    .ks-Science #learningexperience .keycomponent .rightsec {
+         width: 96%;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    .ks-Science #learningexperience .keycomponent .rightsec .keybox:nth-child(3) {
+        margin-top: 20px;
+    }
+    .ks-Science #learningexperience .keycomponent {
+        margin-top: 50px;
+    }
+    .ks-Science .tab-panel {
+        padding: 20px 0;
+    }
+    .ks-Science #assesment h2.headb {
+        font-size: 16px;
+    }
+    .ks-Science #assesment .leftsec {
+        width: 99%;
+    }
+    .ks-Science #assesment .rightsec {
+        width: 95%;
+        padding-left: 0;
+    }
+    .ks-Science #assesment p {
+        font-size: 14px;
+        max-width: 96%;
+    }
+    .ks-Science #validation .mainsec .leftlogo {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .ks-Science #validation .mainsec .rightcon .colorbox {
+        font-size: 14px;
+        width: 97%;
+    }
+    .ks-Science #validation .mainsec .rightcon .colorbox:nth-child(2n) {
+        margin-left: 0;
+    }
+    .ks-Science #validation .mainsec .rightcon {
+        width: 100%;
+            padding-left: 0;
+    }
+    .ks-Science #validation .industrycap .headb {
+        font-size: 18px;
+    }
+    .ks-Science #validation .industrycap .profilebox {
+        width: 94%;
+        margin-bottom: 10%;
+    }
+    .ks-Science #validation .industrycap .profilebox .leftsec {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .ks-Science #validation .industrycap .profilebox .rightsec {
+        width: 100%;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 14px;
+        text-align: center;
+    }
+    .ks-Science #validation .industrycap .profilebox .leftsec .name {
+        font-size: 12px;
+    }
+    .ks-Science #validation .industrycap .profilebox .leftsec .desig {
+        font-size: 12px;
+    }
+    .ks-Science #validation .industrycap .profilebox p {
+        font-size: 14px;
+        width: 100%;
+        padding-left: 0;
+    }
+    .ks-Science #validation .industrycap .profilebox.right {
+        margin-left: 0;
+    }
+    .ks-Science #learningexperience .scrollable.scrollbarstyle {
+        height: 65vh;
+    }
+    .ks-Science #assesment .scrollbarstyle {
+        overflow-y: scroll;
+        height: 66vh;
+    }
+    .ks-Science #assesment .domed {
+        display: block;
+    }
+    .ks-Science #assesment .domed1 {
+        display: block;
+    }
+    .ks-Science .tab-panel .domed svg {
+        height: 10px;
+        position: absolute;
+        right: -3px;
+        top: 16px;
+    }   
+    .ks-Science .tab-panel  .domed1 svg {
+        height: 10px;
+        position: absolute;
+        right: -2px;
+        bottom: 12px;
+    }
+    .ks-Careers .container {
+        max-width: 93%;
+    }
+    .ks-Careers {
+        margin-top: 50px;
+        height: auto;
+        background-size: cover;
+    background-position: 61% 0;
+    padding-bottom: 50px;
+    }
+    .ks-Careers .ks-careers-heading {
+        font-size: 20px;
+    }
+    .ks-Careers .ks-careers-heading::before {
+        width: 50px;
+        left: 100px !important;
+        top: 14px !important;
+    }
+    .ks-Careers .ks-careers-heading::after {
+        width: 4px;
+        height: 4px;
+        top: 11.5px !important;
+        left: 150px !important;
+    }
+    .ks-Careers p {
+        font-size: 14px;
+    }
+    .ks-landing-why-details p::before {
+        display:none !important;
+    }
+    .ks-landing-why-details p::after {
+        display:none !important;
+    }
+    .ks-landing-why-details  .col-3 {
+        width: 100%;
+        text-align: center;
+    }
+    .ks-landing-why-details .col-3 p {
+        text-align: center !important;
+        font-size: 14px  !important;
+    }
+    .ks-Careers .ks-landing-why-details {
+        margin-top: 5%;
+    }
+    .ks-landing-why-details  .col-6 {
+        width: 100%;
+    }
+     .ks-landing-why-details .arro1 {
+        margin-top: 24px;
+    }
+     .ks-Careers .arro1 {
+        margin-top: 40px;
+    }
+    .ks-Careers .arro1 img {
+        width: 10%;
+        margin-top: -4px;
+    }
+    .ks-jobrole .container {
+        max-width:100%;
+        margin-left: 0;
+    }
+    .ks-jobrole .c_imag {
+        width: 100%;
+    }
+    .ks-jobrole .c_imag a {
+        width: 63%;
+        display: block;
+        margin-bottom: 12px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ks-jobrole .c_imag img {
+        width: 100%;
+        transition: 0.5s;
+        height: auto;
+    }
+    .ks-jobrole p {
+        font-size: 12px;
+    }
+    .ks-jobrole .ks-jobrole-heading {
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .ks-jobrole .careers-aply {
+        max-width: 100%;
+    }
+    .ks-career-img .carrermodeltab .content-container .content {
+        padding: 15px 0;
+        width: 94%;
+    }
+    .ks-jobrole .ks-jobrole-heading::before {
+        width: 65px;
+        height: 0.8px;
+        right: 0;
+        left: 108px !important;
+        top: 9px;
+    }
+    .ks-jobrole .ks-jobrole-heading::after {
+        width: 4px;
+        height: 4px;
+        top: 8px;
+        left: 172px !important;
+    }
+    .ks-jobrole .ks-role-title {
+        font-size: 14px;
+    }
+    .ks-jobrole .btn {
+        padding: 3px 10px !important;
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    .ks-jobrole .card.careers-aply {
+        margin-top: 20px;
+    }
+    .ks-jobrole {
+         margin-top: 35px !important;
+        padding-bottom: 30px;
+        height: auto;
+        background-size: cover;
+        background-position: 61% 0;
+    }
+    .ks-careers-jobrole .container {
+        max-width: 100%;
+    }
+    .ks-careers-jobrole p {
+        font-size: 12px;
+    }
+   .ks-careers-jobrole .ks-careers-jobrole-heading {
+        font-size: 18px;
+    }
+    .ks-careers-jobrole .btn {
+        padding: 5px 10px 3px 10px !important;
+        font-size: 14px;
+    }
+    .ks-careers-jobrole .accordion-item .accordion-header .accordion-button {
+        font-size: 16px;
+        padding-top: 15px !important;
+    }
+    .ks-careers-jobrole .scrollbarstyle {
+        height: auto;
+        overflow: visible;
+    }
+    .ks-careers-jobrole .domed,.ks-careers-jobrole .domed1 {
+        display: none;
+    }
+    
+    .ks-careers-jobrole .accordion-body {
+        font-size: 14px;
+    }
+    .ks-careers-jobrole .accordion-button::after {
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+    .ks-careers-jobrole {
+        height: auto;
+        background-size: auto 800px;
+        background-position: 61% 0;
+        padding-bottom: 50px;
+        display: none !important;
+    }
+    .nav .nav-item a.ks-assessment-btn-1 {
+        display: none;
+    }
+    .ks-careers-jobrole .ks-careers-jobrole-heading::before {
+        display:none;
+    }
+     .ks-careers-jobrole .ks-careers-jobrole-heading::after {
+        display:none;
+    }
+    .ks-Programs {
+        margin-top: 37px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ks-Programs .ks-Programs-heading {
+        font-size: 20px;
+    }
+    .ks-Programs .ks-Programs-heading::before {
+        width: 84px;
+        height: 0.8px;
+        left: 120px !important;
+        top: 14px;
+    }
+    .ks-Programs .ks-Programs-heading::after {
+        width: 4px;
+        height: 4px;
+        top: 13px;
+        left: 200px !important;
+    }
+    .ks-Programs  .card .card-body .title.d-flex {
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        width: 100%;
+        letter-spacing: 0.5px;
+    }
+    .ks-Programs .card .card-body .subtitle {
+        font-size: 11px;
+    }
+    .ks-Programs .card .card-body .text {
+        font-size: 15px;
+    }
+    .ks-Programs .card .card-body ul li img {
+        display: inline-block;
+        max-width: 12%;
+    }
+    .ks-Programs .card .card-body ul {
+        font-size: 14px;
+    }
+    .ks-Programs  .card {
+        margin-bottom: 20px;
+    }
+    .ks-Science.programdetail .ks-Science-topheading {
+        font-size: 12px;
+        margin-top: 10px;
+    }
+    .ks-Science.programdetail .container {
+        max-width: 97%;
+    }
+    .ks-Science.programdetail .ks-Science-heading::before {
+       display: none;
+    }
+    .ks-Science.programdetail .ks-Science-heading::after {
+        display: none;
+     }
+     .ks-Science.programdetail {
+        margin-top: 52px;
+    }
+    .ks-Science.programdetail .freetrial {
+        font-size: 14px;
+        width: 42%;
+        top: -18%;
+    }
+    .ks-Science.programdetail .tabset .tablist > label {
+        font-size: 14px;
+        margin: 0 15px;
+    }
+    .ks-Science.programdetail .cata-sub-nav  .nav-prev {
+        background-image: url(../images/prev-arrow-program.png);
+        background-color: #021413;
+        z-index: 1;
+        width: 35px;
+        height: 35px;
+        background-size: 56% 83%;
+        background-position: 5px center;
+    }
+    .ks-Science.programdetail .cata-sub-nav .nav-next {
+        background-image: url(../images/next-arrow-program.png);
+        background-color: #021413;
+        z-index: 1;
+        width: 35px;
+        height: 35px;
+        background-size: 56% 83%;
+        background-position: 12px center;
+    }
+    .ks-Science.programdetail section#introduction .leftsect {
+        width: 100%;
+    }
+    .ks-Science.programdetail section#introduction p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail section#introduction .rightsec {
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .ks-Science.programdetail section#introduction .rightsec img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .ks-Science.programdetail section#introduction .rightsec .content span {
+        font-size: 12px;
+        width: 93px;
+    }
+    .ks-Science.programdetail section#introduction .rightsec .content {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont {
+        width: 100%;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont .subtitle {
+        font-size: 12px;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont .title {
+        font-size: 20px;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont a {
+        width: 19%;
+        margin: 10% auto 40px auto;
+        display: none;
+    }
+    .ks-Science.programdetail #coursecontent .rightcont {
+        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        margin-left: 0;
+    }
+    .ks-Science.programdetail #coursecontent .rightcont .imgbox {
+        width: 47%;
+        margin-bottom: 5%;
+    }
+    .ks-Science.programdetail #coursecontent .rightcont .imgbox .name {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #learningexper .scrollable > p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        max-width: 100%;
+        letter-spacing: 0.5px;
+    }
+    .ks-Science.programdetail #learningexper .featurebox {
+        width: 45%;
+        margin-bottom: 6%;
+        margin-right: 4%;
+    }
+    .ks-Science.programdetail #learningexper .featurebox p {
+        color: #fff;
+        font-size: 14px;
+        width: 100%;
+        margin-top: 7px;
+        text-align: center;
+    }
+    .ks-Science.programdetail #learningexper h3 {
+        color: #8af4fb;
+        font-size: 18px;
+        margin-top: 1%;
+        margin-bottom: 30px;
+    }
+    .ks-Science.programdetail #learningexper .featurebox:nth-child(3), .ks-Science.programdetail #learningexper .featurebox:nth-child(7),.ks-Science.programdetail #learningexper .featurebox:nth-child(12) {
+        margin-right: 0;
+    }
+    .ks-Science.programdetail #learningexper .featurebox.lefttext img {
+        margin-right: auto;
+    }
+    
+    .ks-Science.programdetail #benefits .scrollable > p {
+        color: #fff;
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #benefits .boxlist {
+        display: block;
+    }
+    .ks-Science.programdetail #benefits .boxlist .sameheight {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+    }
+    .ks-Science.programdetail #benefits .boxlist .imagebox p b {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #benefits .boxlist .imagebox p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #benefits .boxlist .imagebox {
+        width: 93%;
+    }
+    .ks-Science.programdetail #certification .leftsec {
+        width: 98%;
+    }
+    .ks-Science.programdetail #certification .rightsec {
+        width:98%;
+        margin-left: 0;
+    }
+    .ks-Science.programdetail #certification .leftsec p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #howitwork .content img {
+        display: none;
+    }
+    .ks-Science.programdetail #howitwork .content .iconbox {
+        position: relative !important;
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto auto 26px auto !important;
+        display: block;
+        top: 0 !important;
+        bottom: 0 !important;
+    }
+    .ks-Science.programdetail #howitwork .content .iconbox img {
+        display: inline-block !important;
+        max-width: 25%;
+        margin-right: 3% !important;
+    }
+    .ks-Science.programdetail #placement .rightsec img {
+        max-width: 95%;
+    }
+    .ks-Science.programdetail #placement .leftsec ul li::before {
+        vertical-align: text-top;
+    }
+    .ks-Science.programdetail #howitwork .content .iconbox span {
+        font-size: 16px !important;
+        vertical-align: middle !important;
+        display: inline-block !important;
+        width: 68% !important;
+        text-align: left !important;
+    }
+    .ks-Science.programdetail section#introduction .rightsec img.desktop {
+        display: none;
+    }
+    .ks-Science.programdetail section#introduction .rightsec img.mobile {
+        display: block;
+    }
+    .ks-Science.programdetail section#introduction .rightsec .content span {
+        position: relative !important;
+        font-size: 15px;
+        text-align: center !important;
+        width: 100% !important;
+        display: block;
+        top: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        margin-top: 11px;
+    }
+    .ks-Science.programdetail #faqs .accordion-button::after {
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+    .ks-Science.programdetail #faqs .accordion-item .accordion-header .accordion-button {
+        padding-right: 32px;
+        font-size: 14PX;
+        margin-top: 10px;
+    }
+    .ks-Science.programdetail #faqs .accordion-body {
+        padding: 0;
+        font-size: 14PX;
+    }
+    .ks-Science.programdetail #placement .leftsec {
+        width: 100%;
+    }
+    .ks-Science.programdetail #placement .leftsec p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #placement .leftsec h3 {
+        font-size: 16px;    
+    }
+    .ks-Science.programdetail #placement .leftsec ul {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #placement .leftsec ul li span {
+        display: inline-block;
+        width: 92%;
+        font-size: 14px;
+        vertical-align: top;
+        padding-left: 5px;
+    }
+    .ks-Science.programdetail #placement .rightsec {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .ks-Science.programdetail section#introduction .scrollable.scrollbarstyle, .ks-Science.programdetail #coursecontent .scrollable.scrollbarstyle,  .ks-Science.programdetail #learningexper .scrollable.scrollbarstyle, .ks-Science.programdetail #benefits .scrollable.scrollbarstyle, .ks-Science.programdetail #certification .scrollable.scrollbarstyle , .ks-Science.programdetail #howitwork .scrollable.scrollbarstyle , .ks-Science.programdetail #faqs .scrollable.scrollbarstyle, .ks-Science.programdetail #placement .scrollable.scrollbarstyle {
+        height: 63vh;
+        overflow-y: scroll;
+    }
+
+    .ks-Science.programdetail section#introduction .domed, .ks-Science.programdetail #coursecontent .domed, .ks-Science.programdetail #certification .domed , .ks-Science.programdetail #howitwork .domed , .ks-Science.programdetail #faqs .domed, .ks-Science.programdetail #placement .domed {
+        display: block;
+    }
+    .ks-Science.programdetail section#introduction .domed1, .ks-Science.programdetail #coursecontent .domed1 , .ks-Science.programdetail #certification .domed1  , .ks-Science.programdetail #howitwork .domed1, .ks-Science.programdetail #faqs .domed1, .ks-Science.programdetail #placement .domed1{
+        display: block;
+    }
+    .ks-Science.programdetail section#introduction .domed1  svg,  .ks-Science.programdetail #coursecontent .domed1  svg ,  .ks-Science.programdetail #placement .domed1  svg{
+        height: 10px;
+        position: absolute;
+        right: -3px;
+        bottom: -8px;
+    }
+    .ks-Science.programdetail #certification .domed1  svg,  .ks-Science.programdetail #howitwork .domed1  svg,  .ks-Science.programdetail #faqs .domed1  svg  {
+        bottom:10px;
+        right: -2.7px;
+    }
+    .ks-Science.programdetail {
+        min-height: 100vh;
+        background-size: cover;
+        background-position: 39% 0px;
+        margin-top: 0;
+        padding-top: 55px !important;
+    }
+    .ks-Science.programdetail #faqs .scrollable.scrollbarstyle .conent {
+        max-width: 96%;
+    }
+    .ks-heading .h2 {
+        color: #fff;
+        font-family: Eurostile;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        word-spacing: initial;
+        line-height: initial;
+    }
+    .ks-heading p {
+        font-family: Eurostile;
+        width: auto;
+        font-size: 14px;
+        line-height: initial;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+    }
+    .ks-heading .btn {
+        font-size: 14px !important;
+        letter-spacing: 0.5px;
+    }
+    .ks-heading .btn#kSBottomSec {
+        padding-top: 2px !important;
+        padding-bottom: 0px !important;
+    }
+    .collegesecone .ks-home-img {
+        height: 100vh;
+        padding-top: 36vh;
+        background-size: cover;
+        padding-bottom: 25px;
+        /* background: url(../new-images/For-collage/xbsl-college-landing-background.jpg); */
+        background-repeat: no-repeat;
+        background-position: 83% 0;
+    }
+    .collegesecone .ks-home-img .ks-image-bg {
+        left: unset;
+        right: 11px;
+        justify-content: right !important;
+        top: 20px;
+        height: 218px;
+    }
+    .collegesecone .ks-home-img .ks-heading .h2 {
+        font-size: 22px;
+        margin-top: 35px !important;
+    }
+    .collegesecone .ks-home-img .ks-heading p {
+        font-size: 16px;
+        line-height: 19px;
+        /* letter-spacing: 2px; */
+        width: auto;
+        margin-bottom: 0;
+        padding-top: 5px;
+    }
+    .collegesecone .ks-home-img .ks-heading .btn {
+        font-size: 16px !important;
+        letter-spacing: initial;
+        padding: 6px 31px !important;
+        text-align: center;
+        margin-right: 18px !important;
+        width: 45%;
+    }
+    .collegesecone .ks-home-img .btn-grp {
+        margin-top: 25px !important;
+        text-align: center;
+    }
+    .collegesecone .ks-home-img .ks-heading .btn#kSBottomSec {
+        padding: 5px 30px !important;
+        margin-right: 10px !important;
+    }
+    .collegesectwo .ks-change #ksWhySec {
+        margin-right: 0;
+        margin-left: 0;
+    }   
+    .bg-darkblue.collegesectwo .ks-landing-how-para {
+        font-size: 14px;
+        width: 60% !important;
+    }
+    .collegesecone .ks-home-img .ks-heading .h2 .span-2 {
+        font-size: 36px;
+        line-height: 44px;
+        clear: both;
+        display: block;
+    }
+    .collegesecone .ks-home-img .ks-box {
+        width: 64%;
+        height: 172px;
+        top: 38px;
+        left: 0;
+        right: unset;
+        box-shadow: 0 0 0.3vw 0.1px #00ffb2, 0 0 0.3vw 0.1px #00ffb2 inset;
+    }
+    .collegesecone .ks-home-img .ks-box h3 {
+        font-size: 16px;
+    }
+    .collegesecone .ks-home-img .ks-box li {
+        font-size: 16px;
+        padding-left: 15px;
+    }
+    .ks-box li::before {
+        top: 9px;
+        width: 6px;
+        height: 6px;
+        left: 0;
+    }
+    .forcollege #ksWhySec .col-md-5.ps-5 {
+        padding-left: 0 !important;
+    }
+    .forcollege  .ks-change .container {
+        max-width: 100% !important;
+        height: auto;
+    }
+    .forcollege .ks-change h6 {
+        font-size: 16px;
+    }
+    .forcollege .ks-change h3 {
+        color: #00ffb2;
+        font-family: 'Oxanium', cursive;
+        position: relative;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    .forcollege .ks-change h3::before {
+        width: 100px !important;
+        height: 1px !important;
+        left: 144px !important;
+        top: 11px !important;
+        display: none;
+    }
+    .forcollege .ks-change h3::after {
+        left: 244px !important;
+        width: 5px !important;
+        height: 5px !important;
+        top: 9px !important;
+        border-radius: 100% !important;
+        display: none;
+    }
+    .forcollege .ps-5 {
+        padding-left: 0 !important;
+    }
+    .forcollege .ks-change .card img {
+        height: auto;
+        width: 132px;
+        margin: auto;
+    }
+    .forcollege .ks-change .card .card-text {
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+    }
+    .forcollege .ks-change-para {
+        font-family: 'Oxanium', cursive;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .ks-change-second p {
+        font-size: 14px;
+        text-align: center !important;
+    }
+    .ks-change-second p::after {
+        display: none;
+    }
+    .ks-change-second p::before {
+        display: none;
+    }
+    .ks-change-second img {
+        height: auto;
+        max-width: 45%;
+    }
+    .ks-change {
+        height: auto;
+    }
+    .ks-change.whatsec .container div#ksWhatSec {
+        height: auto;
+        padding: 0 !important;
+    }
+    .ks-landing-how h3, #ksWhatSec h3 {
+        font-size: 18px;
+    }
+    .ks-landing-how .ks-landing-how-para, #ksWhatSec .ks-landing-how-para {
+        font-size: 14px;
+        width: 100%;
+    }
+    .ks-landing-how .ks-landing-how-animation, #ksWhatSec .ks-landing-how-animation {
+           position: relative;
+        width: 100%;
+        left: 0;
+        top: 0;
+        right: unset;
+        margin: unset;
+    }
+    .forcollege .gallery.fg-body {
+        max-width: 70%;
+        position: relative;
+        margin-top: 63%;
+        margin-left: unset;
+        margin-right: unset;
+        height: 300px;
+        z-index: 1;
+    }
+    .forcollege .ks-landing-how-animation {
+        overflow: hidden;
+    }
+    
+    .forcollege .ks-landing-how-animation .slidegalbnav {
+        position: absolute;
+        top: 52px;
+        right: 15px;
+    }
+    .forcollege .ks-landing-how-animation .slidegalbnav .nav-prev {
+        width: 33px;
+        height: 30px;
+        background: url(../images/prev-arrow-program.png);
+        background-size: cover;
+        cursor: pointer;
+        background-position: 0;
+        background-repeat: no-repeat;
+        transform: rotate(90deg);
+        margin-bottom: 51px;
+        margin-top: 23px;
+    }
+    .forcollege .ks-landing-how-animation .slidegalbnav .nav-next {
+        width: 33px;
+        height: 30px;
+        background: url(../images/next-arrow-program.png);
+        background-size: cover;
+        cursor: pointer;
+        background-position: 0;
+        background-repeat: no-repeat;
+        transform: rotate(90deg);
+    }
+    .forcollege #section4 .achiveSec{
+        padding-bottom: 20px;
+    }
+    #ksWhatSec .ks-landing-how-accelerator {
+        width: 25%;
+        right: 3%;
+        bottom: 385px;
+    }
+    .bg-darkblue.collegesectwo #ksWhatSec .ks-landing-how-accelerator {
+        width: 40%;
+        right: -16px;
+        bottom: unset;
+        display: block;
+        top: 0;
+    }
+    .bg-darkblue.collegesectwo  #ksWhatSec .ks-landing-how-accelerator div {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+        position: relative !important;
+        width: 100% !important;
+    }
+    #ksWhatSec .ks-landing-how-accelerator svg {
+        height: 9px;
+        margin-right: 4px;
+        top: 0;
+        vertical-align: top;
+    }
+    .ks-landing-how-accelerator .text-white span {
+        display: inline-block;
+        width: 80%;
+        padding-bottom: 4px;
+    }
+
+    .bg-darkblue.collegesectwo #ksWhatSec .ks-landing-how-accelerator div div::after {
+        content: "";
+        width: 5px;
+        height: 14px !important;
+        border-right: 1px dashed #fff;
+        position: absolute;
+        left: 0px;
+        top: 13px;
+        display: inline-block;
+    }
+    .bg-darkblue.collegesectwo #ksWhatSec .ks-landing-how-accelerator div div:last-child::after{
+        display: none;
+    }
+    #ksWhatSec .ks-landing-how-accelerator svg {
+        height: 9px;
+        margin-right: 4px;
+        top: 0;
+        vertical-align: top;
+    }
+    #ksWhatSec .ks-landing-how-accelerator h4 {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+    #ksKeyBenifit h3 {
+        color: #00ffb2;
+        font-size: 18px;
+    }
+    #ksKeyBenifit .card .img-fluid {
+        max-width: unset !important;
+        height: auto;
+        width: 50px !important;
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+        left: 7px;
+    }
+    #ksKeyBenifit .card .card-text {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .ks-paraSection .text-end {
+        text-align: left !important;
+    }
+    .ks-paraSection {
+        position: relative;
+        left: unset;
+        margin-top: 250px;
+    }
+    .ks-paraSection .row {
+        left: unset !important;
+        padding-left: 0 !important;
+    }
+    .ks-paraSection .row .col-md-4 {
+        width: 20%;
+        display: inline-block;
+        text-align: left !important;
+        padding-left: 0 !important;
+    }
+    .ks-paraSection .row .col-md-8 {
+        display: inline-block;
+        width: 79%;
+        vertical-align: top;
+    }
+    .ks-insitute {
+        font-size: 20px;
+        position: relative;
+        text-align: center !important;
+        padding-left: 4px;
+    }
+    .key-circle-1{
+        width: 44%;
+    }
+    .spinncircle-student img.key-circle-2 {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(82deg);
+        margin-top: 21px;
+    }
+    .spinncircle-student:hover  img.key-circle-2 {
+        -webkit-transform: rotate(82deg);
+        transform: rotate(82deg);
+    }
+    .spinncircle-student img.key-circle {
+        position: absolute;
+        top: 15%;
+        left: -7px;
+        z-index: 1;
+        width: 37%;
+        right: 0;
+        margin: auto;
+    }
+    .ks-third-paraSectionChild.pe-3 .card-text.text-end {
+        margin-left: 8px;
+        margin-top: 15px;
+    }
+    .ks-Child3-StudentSection .card-text.text-start {
+        margin-top: 9px;
+    }
+    .ks-Child4-StudentSection .card-text.text-start {
+        margin-top: 10px;
+    }
+    .spinncircle-institute img.key-circle-1 {
+        transform: rotate(278deg);
+    }
+    .spinncircle-institute:hover  img.key-circle-1 {
+        -webkit-transform: rotate(278deg);
+        transform: rotate(278deg);
+    }
+    .spinncircle-institute img.key-circle {
+        position: absolute;
+        top: 15%;
+        left: 2%;
+        z-index: 1;
+        width: 37%;
+        right: 0;
+        margin: auto;
+    }
+    .ks-image-SectionChild {
+        left: unset;
+    }
+    .ks-image-SectionChild .col-md-4 {
+        text-align: left !important;
+        width: 20%;
+        display: inline-block;
+        padding-left: 0 !important;
+    }
+    .ks-image-SectionChild .col-md-8 {
+        width: 80%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .ks-StudentSection {
+        margin-top: 32px;
+        margin-bottom: 35px;
+    }
+    .ks-StudentSection .position-relative .row .col-md-4 {
+        width: 20%;
+        display: inline-block;
+        text-align: left !important;
+        padding-left: 0 !important;
+    }
+    .ks-StudentSection .position-relative .row .col-md-8 {
+        display: inline-block;
+        width: 79%;
+        vertical-align: top;
+    }
+    .ks-image-Section {
+        position: absolute;
+        left: unset;
+        top: 0;
+    }
+    .ks-StudentSection .position-relative .row {
+        right: unset;
+    }
+    .key-circle-1, .key-circle-2 {
+        width: 53%;
+        margin: auto;
+        display: block;
+    }
+    .forcollege #ksAchiveSec .ks-course {
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 500;
+        letter-spacing: 0.1vw;
+    }
+    .forcollege #ksAchiveSec .ks-pecentage {
+        font-size: 18px;
+        color: #00ffc2;
+        font-weight: 700;
+        letter-spacing: 0.1vw;
+    }
+    .forcollege #ksAchiveSec .row .col-md-6 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+    .forcollege #ksAchiveSec .carousel-inner img.w-50.img-fluid {
+        width: 85% !important;
+        margin-top: 15px;
+    }
+    .forcollege #ksAchiveSec #carouselExampleIndicators {
+        padding-bottom: 40px;
+    }
+    .ks-contact {
+        background-size: cover;
+        width: 100%;
+        height: auto;
+    }
+    .ks-contact .leftsec {
+        margin-top: 45px;
+    }
+    .ks-contact .leftsec .ks-heading {
+        margin-left: 0;
+    }
+    .ks-contact .ks-heading {
+        font-size: 22px;
+    }
+    .ks-contact .leftsec ul {
+        padding: 0;
+        margin-top: 0;
+    }
+    .ks-contact .leftsec ul li .img {
+        width: 42px;
+    }
+    .ks-contact .leftsec ul li p {
+        font-size: medium;
+    }
+    .ks-contact .leftsec .ks-heading::before {
+        width: 100px;
+        left: 45%;
+        top: 11px;
+    }
+    .ks-contact .leftsec .ks-heading::after {
+        width: 5px;
+        height: 5px;
+        left: 74%;
+        top: 9px;
+    }
+    .ks-contact .rightsec {
+        padding-left: 6px;
+        padding-right: 1px;
+        margin-top: 22px;
+    }
+    .ks-contact .rightsec  .row .right {
+        padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 22px;
+    }
+    .ks-contact .rightsec  .row .left {
+        padding-left: 0;
+        padding-right: 5px;
+        margin-bottom: 16px;
+    }
+    .ks-landing-welive {
+        background-size: cover;
+        min-height: 980px;
+    }
+    .ks-landing-welive .ms-5 {
+        margin-left: 0 !important;
+    }
+    .ks-landing-welive .think {
+        margin-left: 0;
+    }
+    .ks-landing-welive .farst-img {
+        position: absolute;
+        top: 173px;
+        left: 0;
+        right: 0;
+        max-width: 100%;
+    }
+    .ks-landing-welive .farst-img .im4 {
+        /* display: none; */
+        position: absolute;
+        bottom: -168%;
+        /* width: 200%; */
+        /* left: -50%; */
+    }
+    .ks-landing-welive .farst-img img.im5 {
+        position: relative;
+        width: 98%;
+        height: auto;
+        right: 0;
+        bottom: -68px;
+    }
+    .ks-landing-welive h3 {
+        font-size: large;
+    }
+    .ks-landing-welive .topline {
+        color: #fff;
+        margin-top: 10px;
+        margin-bottom: 0;
+    }
+    .ks-landing-welive  .welivewthrbox {
+        margin-top: 20px;
+    }
+    .ks-landing-welive  .welivewthrbox .col-md-3 {
+        margin-bottom: 19px;
+        margin-top: 5px;
+    }
+    .ks-landing-welive .lastline {
+        padding-bottom: 25px;
+    }
+    .ks-landing-how h3 {
+        max-width: 100%;
+    }
+    .ks-landing-what .landing-page-what-img {
+        min-width: unset;
+        width: 100%;
+        right: unset;
+        top: 0;
+        left: 0;
+        z-index: 1;
+        position: relative !important;
+    }
+    .ks-landing-what h3 {
+        font-size: large;
+    }
+    .ks-landing-what .thinkskill {
+        position: relative;
+        top: 0;
+        right: 0;
+      z-index: 0;
+    }
+    .ks-landing-what .processskil {
+        position: relative;
+        bottom: unset;
+        left: 0;
+        margin-top: 24px;
+        z-index: 0;
+    }
+    .ks-landing-what .peopleskil {
+        position: relative;
+        bottom: 0;
+        right: 0;
+        z-index: 0;
+        margin-top: 24px;
+    }
+    .ks-landing-what .thinkskill li::before {
+        display: none;
+    }
+    .ks-landing-what .thinkskill li, .ks-landing-what .peopleskil li, .ks-landing-what .processskil li {
+        font-size: medium;
+        width: 74%;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .ks-landing-what .processskil li:before{
+        display: none; 
+    }
+
+    .ks-landing-what .peopleskil li:before{
+        display: none; 
+    }
+    .ks-landing-what .thinkskill ul {
+        padding: 0;
+    }
+    .ks-landing-why h3 {
+        font-size: larger;
+    }
+    .ks-landing-why h3::before {
+        content: "";
+        width: 22vw;
+        left: 63%;
+    }
+    .ks-landing-why h3::after {
+        width: 4px;
+        height: 4px;
+        left: 88%;
+        top: 9px;
+    }
+    .ks-landing-why h6 {
+        font-weight: 700;
+        font-size: medium;
+    }
+    .ks-landing-why .card .card-text {
+        font-size: small;
+        text-align: center;
+    }
+    #ksLandingPageWhy .card img {
+        height: auto;
+        width: 20%;
+        margin: 11px auto auto auto;
+    }
+    #ksLandingPageWhy .carousel-indicators [data-bs-target].active {
+        width: 10px;
+        height: 10px;
+    }
+    #ksLandingPageWhy .carousel-indicators [data-bs-target] {
+        width: 10px;
+        height: 10px;
+    }
+    #ksLandingPageWhy.carousel {
+        margin-bottom: 46px;
+    }
+    .ks-landing-why .card .card-body {
+        min-height: 181px;
+    }
+    .ks-course, #ksAchiveSec .ks-course {
+        font-size: medium;
+    }
+    .ks-pecentage, #ksAchiveSec .ks-pecentage {
+        font-size: larger;
+        margin-bottom: 10px;
+    }
+    .ks-career-img .carrermodeltab .content-container .domed svg {
+        height: 10px;
+        right: 2.5%;
+    }
+    .ks-career-img .carrermodeltab .content-container .domed1 svg {
+        height: 10px;
+        right: 2.5%;
+        top: 11px;
+    }
+    .ks-career-img .carrermodeltab .content-container .domed , .ks-career-img .carrermodeltab .content-container .domed1{
+        display: none;
+    }
+    .ks-career-img .carrermodeltab .content-container {
+        height: 87vh;
+    }
+    .ks-career-img .carrermodeltab .content-container .scrollbarstyle {
+        height: auto;
+            overflow: auto;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .jobdescr .btn {
+        font-size: medium;
+        margin-bottom: 20px;
+        width: 97%;
+        padding: 8px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .btn {
+        font-size: medium;
+    }
+    .ks-career-img a.closebtn {
+        width: 25px;
+        height: 25px;
+        padding: 2px 0px 0 0px !important;
+    }
+    .ks-landing-how .container {
+            height: auto;
+        padding-top: 50px;
+        position: relative;
+        padding-bottom: 10px;
+    }
+    #section3 .ks-landing-how > div .container {
+        height: auto;
+    }
+    .ks-landing-how .container.howtabview .content-container .details {
+        text-align: center;
+    }
+    .ks-landing-how .container.howtabview .content-container .content#c1::before,
+    .ks-landing-how .container.howtabview .content-container .content#c2::before ,
+    .ks-landing-how .container.howtabview .content-container .content#c3::before ,
+    .ks-landing-how .container.howtabview .content-container .content#c4::before ,
+    .ks-landing-how .container.howtabview .content-container .content#c5::before ,
+    .ks-landing-how .container.howtabview .content-container .content#c6::before  {
+      display: none;
+    }
+    .ks-landing-how .container.howtabview .btntitle {
+        position: absolute;
+        top: 12px;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .ks-landing-how .container.howtabview label {
+        height: 100%;
+        width: 48%;
+        font-size: 13px;
+        text-align: left;
+        padding: 8px 0px 5px 5px;
+        background: #73b8d78f;
+        margin-bottom: 5px;
+        line-height: normal;
+    }
+    .ks-landing-how .container.howtabview label:nth-child(2) {
+        padding-left: 5px;
+    }
+    .ks-landing-how .container.howtabview label::before {
+        opacity: 0;
+        display: none;
+    }
+    .ks-landing-how .container.howtabview label::after {
+        opacity: 0;
+        display: none;
+    }
+    .ks-landing-how .container.howtabview .content-container {
+        position: relative;
+        height: auto;
+        overflow: visible;
+        margin-top: 5px;
+        background: #ffff;
+    }
+    div#ksLandingNewHow .bg-tab {
+        display: none;
+    }
+    .ks-landing-how .container.howtabview .content-container .content {
+        position: relative;
+        padding: 11px 17px;
+        box-shadow: 0px 0px 13px #c1c1c1;
+        height: 430px;
+        overflow: hidden;
+    }
+    .ks-landing-how .container.howtabview input:checked + label {
+        background: #75d8a2a8;
+        color: #fff;
+    }
+    .ks-landing-how .container.howtabview label:nth-child(12) {
+        padding-right: 0;
+        padding-bottom: 20px;
+    }
+    .ks-landing-what .thinkskill h5,.ks-landing-what .processskil h5,.ks-landing-what .peopleskil h5 {
+        display: block;
+        color: #00ffc1;
+        font-size: large;
+        text-align: center;
+        margin-top: 15px;
+        padding-bottom: 5px;
+    }
+    div#ksLandingNewImpact .testimonialpart {
+        padding-bottom: 20px;
+    }
+    .ks-landing-how {
+        background-size: 250%  790px;
+        background-position: top;
+    }
+    .ks-career-img .title {
+        letter-spacing: 1px;
+        font-weight: 600;
+        font-size: 12px;
+        margin-top: 3px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .jobdescr p span {
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .right {
+        /* padding-right: 0;
+        padding-left: 0;
+        margin-bottom: 16px; */
+        width: 50%;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .left {
+        /* padding-left: 0;
+        padding-right: 0;
+        margin-bottom: 16px; */
+        width: 50%;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .full {
+        padding: 0;
+        margin-bottom: 16px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row div:nth-child(7) {
+        display: none;
+    }
+    .aply .aply1 img {
+        width: 24vw;
+    }
+    .ks-landing.ks-landing1 .col-9 {
+        width: 100%;
+        margin-top: 13%;
+    }
+    .hi-text h1 {
+        font-size: 23px;
+        line-height: normal;
+        font-family: century-gothic;
+        text-align: center;
+    }
+    .mt-4.hi-text span.hi {
+        font-size: 26px !important;
+    }
+    .mt-4.hi-text span {
+        font-size: 23px;
+        line-height: 42px;
+    }
+    .ks-landing-welive .hi-text h1 span {
+        display: block;
+        width: 95%;
+        margin: auto;
+        line-height: 31px;
+    }
+    .farst-img .desktop {
+        display: none;
+    }
+    .farst-img img.mobile {
+        display: block;
+        width: 100%;
+    }
+    .ks-landing-welive .ico-text {
+        position: absolute;
+        top: 161px;
+        right: 2px;
+        /* width: 50%; */
+        margin-right: 0;
+    }
+    .solving0 img.ring {
+        left: -1.6px;
+        margin-top: -0.9px;
+    }
+    .solving .ring {
+        width: 34px;
+    }
+    .solving1 img.ring {
+        left: 10px;
+    }
+    .solving2 img.ring {
+        left: 4px;
+    }
+    .solving p {
+        font-size: 10px;
+    }
+    .solving img {
+        display: inline-block;
+        width: 33px;
+    }
+    .solving2 img {
+        width: 32px;
+    }
+    .solving2 {
+        margin-right: 25%;
+    }
+    .solving1 {
+        margin-right: 2%;
+    }
+    .skils-text {
+        width: 95%;
+        display: block;
+        margin: 40px auto auto auto;
+    }
+    .skils-text h2 {
+        font-family: century-gothic-bold;
+        font-size: 23px;
+    }
+    .skils-text p {
+        font-size: 20px;
+        /* margin-bottom: 12px; */
+        font-family: century-gothic;
+    }
+    .skils-text p span {
+        font-size: 40px !important;
+        font-weight: 700;
+        font-family: century-gothic-bold;
+    }
+    .ks-landing-welive  .col-md-7 {
+        margin-top: 62%;
+    }
+    .skils-text p .mobilebottom {
+        margin-top: 27px;
+        display: block;
+        font-style: normal;
+    }
+    .new-but a {
+        width: 63%;
+        display: block;
+        margin: 4px auto auto auto;
+    }
+    .new-but img {
+        width: 100%;
+    }
+    .how-but {
+        text-align: center;
+        width: 30%;
+        margin: 35px auto 10px auto;
+    }
+    .how-but img {
+        width: 25px;
+    }
+    .how-but p {
+        font-size: 13px;
+    }
+    .ks-landing-what .pt-6.think {
+        margin-left: 0;
+        padding-top: 9px !important;
+    }
+    .ks-landing-what .master-text span {
+        width: 95%;
+        display: block;
+        background: #fff !important;
+        color: #275967 !important;
+        font-size: 22px;
+        margin: 5px auto 5px auto;
+        padding: 0 0px !important;
+        line-height: 30px;
+    }
+    .ks-landing-what .row .skils-text1 h2 span {
+        font-size: 16px;
+    }
+    .ks-landing-what .row .skils-text1 h2:nth-of-type(2) span:nth-of-type(1) {
+        padding-bottom: 6px;
+        display: block;
+    }
+    .ks-landing-what .row .skils-text1 h2 {
+        font-size: 16px;
+        width: 74%;
+        margin-bottom: 29px;
+    }
+    .ks-landing-what .row {
+        padding: 0 15px;
+    }
+    .ks-landing-what .farst-img {
+        margin-top: 49px;
+    }
+    .ks-landing-what .farst-img .im6 {
+        height: 66vw;
+        right: -33px;
+        bottom: -46px;
+    }
+    .ks-landing-what .farst-img .im7 {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 42vw;
+        animation: blinker 0.7s linear infinite;
+        margin-top: -56px;
+        margin-left: 13px;
+    }
+    .ks-landing-why .pt-5.think.pp1 {
+        padding-top: 0.4vw !important;
+        margin-left: 0;
+    }
+    .ks-landing-why .hi-text h1 {
+        font-weight: 600;
+    }
+    .ks-landing-why .hi-text.changed span {
+        font-size: 23px !important;
+    }
+    .ks-landing-why  .changed-text {
+        text-align: center;
+        margin-right: unset;
+    }
+    .changed-hed h2 {
+        font-size: 20px;
+        width: 71%;
+        border-radius: 5px 0 5px 5px;
+        margin-top: 25px;
+    }
+    .changed-p.changedp2 img {
+        margin-left: 20px;
+    }
+    .changed-p.changedp1 img {
+        margin-right: 40px;
+    }
+    .changed-p p {
+        font-size: 13px;
+    }
+    .changedp3 p {
+        text-align: right;
+        width: 40%;
+    }
+    .changedp2 p {
+        text-align: left;
+        width: 40%;
+    }
+    .ks-landing-why .changed-text.changed-text1 .changedp2 p {
+        width: 46%;
+    }
+    .last-p p {
+        font-size: 14px;
+        margin-top: 8vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ks-landing-why {
+        padding-bottom: 5vw;
+    }
+    .footer-area {
+        padding-left: 15px;
+        padding-bottom: 15px;
+    }
+    .footer-area .col-md-6 {
+        width: 50%;
+    }
+    .icon-text {
+        margin-bottom: 14px;
+    }
+    .icon-text img {
+        display: inline-block;
+        width: 12%;
+    }
+    .icon-text p {
+        display: inline-block;
+        font-size: 12px;
+    }
+    .conte-link {
+        text-align: right;
+        margin-right: 15px;
+    }
+    .conte-link a {
+        color: #273449;
+        text-decoration: none;
+        font-size: 11px;
+        font-weight: 100;
+        font-family: century-gothic-bold;
+    }
+    .copy-text p {
+        font-size: 12px;
+    }
+    .w-custom1 {
+        width: 100%;
+        background: #8df9da;
+        margin-left: -24px;
+        padding-left: 11px;
+        padding-top: 7px !important;
+        padding-bottom: 6px;
+    }
+
+    .howtabview > label {
+        display: none !important;
+    }
+    .mobile-tabs{
+        display:block;
+    }
+    .ks-landing-how .container.howtabview {
+        padding: 20px 15px;
+    }
+    #ksLandingNewHow .think {
+        margin: 0px;
+    }
+    .tab-prev {
+        background: url(../images/landing/xbsl-mobile-prev-icon.png);
+        width: 25px;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-size: 58%;
+        background-position: center left;
+        float: left;
+        cursor: pointer;
+    }
+    .tab-next {
+        background: url(../images/landing/xbsl-mobile-next-icon.png);
+        width: 25px;
+        height: 24px;
+        background-repeat: no-repeat;
+        background-size: 58%;
+        background-position: center right;
+        float: right;
+        cursor: pointer;
+    }   
+    .tab-prev:hover{
+        background: url(../images/landing/xbsl-mobile-prev-icon-active.png);
+        background-repeat: no-repeat;
+        background-size: 58%;
+        background-position: center left;
+    }
+    .tab-next:hover{
+        background: url(../images/landing/xbsl-mobile-next-icon-active.png);
+        background-repeat: no-repeat;
+        background-size: 58%;
+        background-position: center right;
+    }
+    .mobile-tabs {
+        overflow: hidden;
+        display: flex !important;
+    }
+    .tab-heading {
+        float: left;
+        color: #28485B !important;
+        font-weight: 500;
+        font-size: 3.4vw;
+        padding: 2px 0;
+        width: 63%;
+        padding-right: 10px;
+        font-family: century-gothic-bold;
+        letter-spacing: 0.5px;
+    }
+    .ks-landing-how .container.howtabview .content-container .details .title {  
+        font-size: 5.2vw !important;
+    }
+    .ks-landing-how .container.howtabview .content-container .content p {
+        margin: 0px 0;
+        font-size: 3.7vw !important;
+    }
+    .ks-landing-how .container.howtabview .content-container .details p .free {
+        font-size: 16px !important;
+    }
+    
+    .tab-bullets {
+        float: right;
+        display: flex;
+        padding: 6px 0px;
+    }
+    .bullet.active {
+        background: #2A4B5B;
+    }
+    .tab-bullets .bullet {
+        width: 12px;
+        height: 12px;
+        border: 1px solid;
+        margin-right: 5px;
+        display: block;
+        /* border-radius: ; */
+        border-radius: 100px;
+    }
+  
+    .tab-heading > div::after {
+        content: '';
+        border-top: 1px solid #2A4B5B;
+        display: block;
+        position: relative;
+        top: -10px;
+    }
+    .tab-heading > div span {
+        background: #fff;
+        position: relative;
+        z-index: 1;
+        padding-right: 11px;
+    }
+    .tab-howimage {
+        text-align: center;
+        padding: 40px 0 20px;
+    }
+    .ks-landing-how .container.howtabview .content-container .details p span {
+        font-size: 17px !important;
+    }
+    .show-desktop{
+        display:none !important;
+    }  
+    .show-mobile{
+        /* display:block !important; */
+    }  
+    ul#navbar.position-fixed {
+        background: #2C4B5D;
+        padding-bottom: 13px;
+    }
+    span#result {
+        right: 50%;
+        bottom: 50%;
+        font-size: 9px;
+        margin-bottom: -94px;
+        margin-right: -55px;
+    }
+    .tab-howimage img {
+        width: 92%;
+    }
+    .tab-howimage1 img {
+        width: 84%;
+    }
+    .ks-landing2 {
+        background-position: 0 0;
+    }
+    .conte-link ul {
+        margin-top: -3px;
+    }
+    .jobe::before {
+        border: unset;
+    }
+    .jobe {
+        padding-right: 3.5vw;
+        border: none;
+        padding-left: 7vw;
+        background: url('../images/landing/mobile-jobs-arrow-background.png');
+        background-repeat: no-repeat;
+        background-position: 2px 0px;
+        background-size: cover;
+    }
+    .changed-p p.show-mobile {
+        display: inline-block !important;
+    }
+    .changed-text1 .changed-p.changedp2 img {
+        margin-left: 45px;
+    }
+    .bg-darkblue {
+        background: url('../images/landing/landing-background-mobile.jpg');
+        background-size: 100%;
+        /* background-position: 0px 43px; */
+    }
+    .landing-why-bg{
+        background: unset !important;
+    }
+    .home-desktop-statistics{
+        background: url('../images/landing/landing-background-mobile.jpg');
+        background-size: 100%;
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        display: none !important;
+    }
+    .price-with-shadow img {
+        width: 59.3vw;
+        margin-top: 3.4vw;
+        margin-left: 1.6vw;
+    }
+    .statistics-section {
+        background: url('../images/landing/partners-section-mobile.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .home-statistic-slider-wrapper{
+        display: none;
+    }
+        
+    .statistics ul {
+        display: flex;
+        padding: 10px 12px 40px;
+    }
+    .statistics ul li {
+        /* width: 38%; */
+        list-style: none;
+        position: relative;
+        text-align: center;
+    }
+    .statistics ul li img {
+        width: 100%;
+    }
+    
+    .statistics ul li span {
+        position: absolute;
+        left: 0;
+        width: 100%;
+        bottom: -3.4vw;
+        line-height: 3.6vw;
+        font-size: 12.2px;
+        color: #fff;
+        font-weight: 500;
+        height: 30px;
+        font-family: century-gothic;
+    }
+    
+.partner-section .logos ul {
+    display: flex;
+    padding: 2vw 2vw;
+  }
+  .partner-section .logos ul li img {
+    width: 100%;
+  }
+  .partner-section .logos ul li {
+    list-style: none;
+  }
+  .partner-section {
+	border-bottom: 1px solid #ffffff4a;
+	margin: 0 5vw;
+	padding: 0px 0px;
+	border-left: 1px solid #ffffff4a;
+	border-right: 1px solid #ffffff4a;
+}
+  .statistics-section {
+    padding-bottom: 28px;
+  }
+  .partner-section h3 {
+	color: #fff;
+	position: relative;
+	top: -3.4vw;
+	/* background: #fff; */
+	font-size: 18px;
+	font-weight: 600;
+	letter-spacing: 0.2vw;
+	padding-left: 7px;
+}
+.partner-section h3::after {
+	content: '';
+	border-top: 1px solid #ffffff4a;
+	width: 73%;
+	/* height: 6vw; */
+	position: absolute;
+	bottom: 2.5vw;
+	z-index: 0;
+	margin-left: 2vw;
+	right: 0;
+}
+  .partner-section .logos ul li:nth-child(2) {
+    position: relative;
+    top: -6vw;
+  }
+  .partner-section .logos ul li:nth-child(4) {
+    position: relative;
+    top: -6vw;
+  }
+    #carriculummodel .nav {
+        z-index: 9999999 !important;
+    }
+    .new-but span {   
+        margin-bottom: 3px;
+        text-align: center;
+        margin-top: 29px;
+    }
+}
+
+/* ============================================= Media 481 - 601 ================================================  */
+@media only screen and (min-width: 481px) and (max-width:601px)  {
+    html {
+        position: relative;
+        display: block;
+        width: 100%;
+        overflow-x: hidden;
+    }
+    .ks-logo-svg img {
+        width: 206px !important;
+    }
+    .nav-item a img {
+        width: 25px;
+    }
+    .rightmenu {
+        height: 100vh;
+        position: fixed;
+        right: -54%;
+        width: 50%;
+        top: 0;
+        z-index: 111111;
+        background: rgb(0 4 9 / 84%);
+        transition: 500ms ease-out;
+    }
+    .student-landing #section0 .col-6 {
+        width: 100%;
+    }
+    .rightmenu .getstarted {
+        font-size: 16px;
+        letter-spacing: .2vw;
+        font-weight: 500;
+        padding: 10px 15px;
+        margin-left: 20px;
+        margin-top: 20px;
+        width: 81%;
+    }
+    .rightmenu .knowmore {
+        transition: 350ms;
+        font-family: Eurostile;
+        font-size: 16px;
+        letter-spacing: .2vw;
+        font-weight: 500;
+        padding: 8px 7px;
+        position: absolute;
+        display: block;
+        width: 78%;
+        bottom: 12px;
+        left: -6%;
+        cursor: pointer;
+    }
+    .rightmenu .menu a {
+        font-size: 16px;
+    }
+    .rightmenu .menu .diamond {
+        width: 13px;
+        height: 12px;
+        margin-right: 15px;
+    }
+    .rightmenu .menu span {
+        margin-bottom: 18px;
+    }
+    .rightmenu .menu span::before {
+        width: 4px;
+        height: 30px;
+        border-right: 1px dashed #fff;
+        position: absolute;
+        left: 0.45vw;
+        top: -6px;
+    }
+    .student-landing .ks-landing .ks-heading .h2 {
+        font-size: 17px;
+        line-height: initial;
+    }
+    .student-landing .ks-landing .ks-heading p {
+        font-size: 16px;
+        line-height: initial;
+        letter-spacing: 2px;
+        width: auto;
+    }
+    .student-landing .ks-heading .btn {
+        font-size: 16px !important;
+        letter-spacing: initial;
+        padding: 3px 15px !important;
+        text-align: center;
+    }
+    .student-landing .ks-heading .btn:last-child {
+        padding: 2px 15px !important;
+    }
+    .student-landing #section0 .btn-grp {
+        margin-top: 20px !important;
+    }
+
+    .ks-landing {
+        background-image: url(../images/landing-page-bg.jpg);
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+    .student-landing #section0 .col-6:nth-child(2) {
+        position: absolute;
+        top: 54px;
+        right: 0;
+        left: 0;
+        margin: auto;
+    }
+    .student-landing #section0 .col-6:first-child {
+        margin-top: 185px;
+        padding-bottom: 34px;
+    }
+    .ks-landing .ks-storytelling::before {
+        width: 100%;
+        bottom: -17px;
+        height: 25px;
+        left: 0;
+    }
+    .student-landing #section0 span.ks-storytelling {
+        font-size: 12px;
+        left: 40%;
+    }
+    .ks-landing .ks-creative-problem-solving {
+        font-size: 12px;
+        margin-top: 31%;
+        left: 40%;
+    }
+    
+    
+    .ks-landing .ks-creative-problem-solving::before {
+        width: 100%;
+        bottom: -17px;
+        height: 25px;
+        right: 0;
+    }
+    .ks-landing .ks-entrepreneurship {
+        font-size: 12px;
+        position: absolute;
+        margin-top: 17%;
+        right: 24%;
+    }
+    .ks-landing .ks-entrepreneurship::before {
+        content: "";
+        width: 100%;
+        bottom: -17px;
+        height: 25px;
+    }
+    .ks-landing::before {
+        content: unset;
+        position: relative;
+        z-index: -1;
+    }
+    .ks-landing-what {
+        background-size: cover;
+        height: auto;
+        padding-bottom: 56px;
+    }
+    .student-landing #section1 .ks-landing-what h3 {
+        font-size: 20px;
+    }
+    .student-landing #section1 .ks-landing-what h3::before {
+        width: 45px;
+        left: 64px;
+        top: 10px;
+    }
+    .ks-landing-what h3::after {
+        content: "";
+        width: 4px;
+        height: 4px;
+        left: 109px;
+        top: 8px;
+        border-radius: 100%;
+    }
+    .student-landing #section1 .ks-landing-what .ks-landing-what-para {
+        font-size: 14px;
+        width: 100%;
+    }
+    .student-landing #section1 .ks-landing-what .landing-page-what-img {
+        width: 98%;
+        top: 0;
+        right: 0;
+        min-width: auto;
+        position: relative !important;
+        margin: 10px auto auto auto;
+    }
+    .landing-page-what-thinking-skills {
+        position: relative;
+        margin-top: 25px;
+        font-size: 16px;
+        padding: 13px;
+        width: 289px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .landing-page-what-thinking-skills::before , .landing-page-what-process-skills::before, .landing-page-what-people-skills::before{
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-thinking-skills p , .landing-page-what-process-skills p, .landing-page-what-people-skills p{
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        top: -24px;
+        left: -1px;
+        right: unset;
+    text-align: left;
+    }
+    .landing-page-what-thinking-skills li.my-1 , .landing-page-what-process-skills li.my-1, .landing-page-what-people-skills li.my-1{
+        font-size: 14px;
+        margin-left: 13px;
+    }
+    .landing-page-what-thinking-skills ul::after , .landing-page-what-process-skills  ul::after, .landing-page-what-people-skills ul::after{
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-thinking-skills::after , .landing-page-what-process-skills::after, .landing-page-what-people-skills::after {
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-thinking-skills p::before,  .landing-page-what-process-skills  p::before, .landing-page-what-people-skills  p::before{
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-thinking-skills p::after,  .landing-page-what-process-skills p::after, .landing-page-what-people-skills p::after{
+        content: unset;
+        display: none;
+    }
+    .landing-page-what-process-skills {
+        position: relative;
+        margin-top: 50px;
+        font-size: 16px;
+        padding: 13px;
+        width: 289px; margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .landing-page-what-people-skills{
+        position: relative;
+        margin-top: 10px;
+        font-size: 16px;
+        padding: 13px;
+        width: 289px; margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+        display: block;
+    }
+    .student-landing #section2 .ks-landing-why .col-5{
+        width: 100%;
+        padding-bottom: 50px !important;
+    }
+    
+    .student-landing #section2 .ks-landing-why .col-7 {
+        width: 100%;
+    }    
+    .student-landing #section2 .ks-landing-why h3 {
+        font-size: 20px;
+        padding-left: 0;
+    }
+    .student-landing #section2 .ks-landing-why h3::before {
+        top: 9px;
+        right: 40px;
+        left: unset;
+        width: 68px;
+    }
+    .student-landing #section2 .ks-landing-why h3::after {
+        content: "";
+        width: 4px;
+        height: 4px;
+        right: 39px;
+        top: 8px;
+        border-radius: 100%;
+        left: unset;
+    }
+    .student-landing #section2 .ks-landing-why .card-img-top {
+        width: 65px;
+        height: auto;
+    }
+    .student-landing #section2 .ks-landing-why .col-5 .col-4 {
+        width: 47%;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .student-landing #section2 .ks-landing-why .card-text {
+        font-size: 14px;
+        width: 100%;
+    }    
+    .student-landing #section2 .ks-landing-why .card-text br {
+        display: none;
+    }
+    .student-landing #section2 .ks-landing-why hr.ks-hr {
+        border-top: dashed 2px !important;
+        height: auto;
+        margin-top: 40px !important;
+        display: block;
+        position: relative;
+        clear: both;
+        margin-bottom: 15px;
+    }
+    .student-landing #section2 .ks-landing-why h6 {
+        font-size: 18px;
+    }
+    .student-landing #section2 .ks-landing-why #ksLandingPageWhy .carousel-inner {
+        padding: 10px;
+    }
+    .student-landing #section2 .ks-landing-why #ksLandingPageWhy .card img {
+        width: 30px;
+        height: auto;
+    }
+    .student-landing #section2 .ks-landing-why #ksLandingPageWhy .carousel-indicators {
+        bottom: -45px;
+    }
+    .student-landing #section2 .ks-landing-why  #ksLandingPageWhy .carousel-indicators [data-bs-target] {
+        width: 11px;
+        height: 12px;
+    }
+    .student-landing #section2 .ks-landing-why  #ksLandingPageWhy .carousel-indicators [data-bs-target].active {
+        width: 11px;
+        height: 12px;
+    }
+    .ks-landing-why-details p {
+        font-size: 11px;
+        padding-bottom: 1.2vw;
+        position: relative;
+        padding-right: 15px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .ks-landing-why-details p br{
+        display: none;
+    }
+    .student-landing #section2 .ks-landing-why .col-7 .col-3:nth-child(3) p {
+        padding-right: 0;
+        padding-left: 10px;
+    }
+    .student-landing #section2 .ks-landing-why .ks-landing-why-details p::before {
+        display: none;
+    }
+    .student-landing #section2 .ks-landing-why .ks-landing-why-details p::after {
+        display: none;
+    }
+    .ks-landing-why-details img {
+        max-width: 100%;
+        margin: auto;
+        display: block;
+        margin-left: auto;
+        margin-top: 36px;
+        position: relative;
+        z-index: 11111;
+    }
+    .student-landing #section3 .ks-landing-how h3 {
+        font-size: 20px;
+    }
+    .student-landing #section3 .ks-landing-how .ks-landing-how-para {
+        font-size: 14px;
+        width:60%;
+    }
+    .ks-landing-how h3::before, #ksWhatSec h3::before {
+        left: 56px;
+        top: 11px;
+    }
+    .student-landing #section3 .ks-landing-how h3::after {
+        content: "";
+        width: 4px;
+        height: 4px;
+        top: 10px;
+        border-radius: 100%;
+        left: 99px;
+    }
+    .ks-landing-what > .ms-5 {
+        margin-left: 0 !important;
+    }
+    .ks-landing-why > .ms-5.pt-5 {
+        margin-left: 0 !important;
+    }
+    .ks-landing-why .container {
+        max-width: 90%;
+        width: 100%;
+    }
+    .ks-landing-how > .ms-5.pt-4 {
+        margin-left: 0 !important;
+    }
+    .ks-landing-how .ks-landing-how-animation{
+        position: relative;
+        width: 80%;
+        left: auto;
+        top: 0;
+        right: auto;
+        margin: auto;
+        overflow: hidden;
+    }
+    .student-landing .gallery.fg-body {
+        max-width: 100%;
+        position: relative;
+        margin-top: 63%;
+        margin-left: auto;
+        margin-right: auto;
+        height: 230px;
+    }
+    #section3 .ks-landing-how .ks-landing-how-accelerator {
+        position: absolute;
+        width: auto;
+        right: 0px;
+        bottom: unset;
+        display: block;
+        top: 0;
+    }
+    .ks-landing-how .ks-landing-how-accelerator h4 {
+        font-size: 13px;
+    }
+    .ks-landing-how .ks-landing-how-accelerator div {
+        font-size: 12px;
+        letter-spacing: 0.5px;
+        position: relative !important;
+        width: 100% !important;
+        margin-bottom: 10px;
+    }
+    .ks-landing-how .ks-landing-how-accelerator div {
+        font-size: 11px;
+        letter-spacing: 0.5px;
+        position: relative !important;
+        width: 100% !important;
+    }
+    .ks-landing-how .ks-landing-how-accelerator svg, #ksWhatSec .ks-landing-how-accelerator svg {
+        height: 9px;
+        margin-right: 4px;
+    }
+    .ks-landing-how .ks-landing-how-accelerator div::after, #ksWhatSec .ks-landing-how-accelerator div::after {
+        content: "";
+        width: 5px;
+        height: 19px;
+        border-right: 1px dashed #fff;
+        position: absolute;
+        left: 0px;
+        top: 10px;
+    }
+    .ks-landing-how .ks-landing-how-accelerator .text-white:hover span {
+        padding-left: 2px;
+    }
+    .ks-testimonial .container, #ksAchiveSec {
+        max-width: 98%;
+        margin: auto;
+    }
+    .student-landing #section4 h4.ks-heading {
+        font-size: 20px;
+    }
+    .student-landing #section4 .ks-course.mb-0.text-uppercase {
+        font-size: 12px;
+    }
+    .student-landing #section4 .ks-pecentage {
+        font-size: 18px;
+    }
+    .student-landing #section4 #ksAchiveSec .row .col-md-6 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+    .student-landing #section4 .ks-heading, #ksAchiveSec .ks-heading {
+        font-size: 20px;
+        margin-top: 15px;
+    }
+    .student-landing #section4 #ksAchiveSec .carousel-inner img.w-50.img-fluid {
+        width: 85% !important;
+        margin-top: 15px;
+    }
+    .ks-testimonial .carousel-indicators [data-bs-target].active, #ksAchiveSec .carousel-indicators [data-bs-target].active {
+        width: 11px;
+        height: 12px;
+    }
+    .ks-testimonial .carousel-indicators [data-bs-target], #ksAchiveSec .carousel-indicators [data-bs-target] {
+        width: 11px;
+        height: 12px;
+    }
+    .student-landing #section4 #ksAchiveSec #carouselExampleIndicators {
+        padding-bottom: 40px;
+    }
+    .ks-testimonial .carousel-indicators, #ksAchiveSec .carousel-indicators {
+        bottom: -18px;
+    }
+    .student-landing #section4 #ksAchiveSec .col-md-6.ps-5 {
+        padding-left: 0 !important;
+    }
+    .ks-Aniruddh, #ksAchiveSec .ks-Aniruddh {
+        font-size: 14px;
+    }
+    .ks-testimonial .ks-fs, #ksAchiveSec .ks-fs {
+        font-size: 12px;
+    }
+    .ks-testimonial .ks-testimonial-para, #ksAchiveSec .ks-testimonial-para {
+        font-size: 12px;
+        color: #ffffff;
+        line-height: normal;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .ks-circle, #ksAchiveSec .ks-circle {
+        width: 60px;
+        height: 60px !important;
+        margin-left: unset;
+        margin-bottom: 10px;
+        margin-top: 20px;
+    }
+    .student-landing #section4  .ks-testimonial .testimonialpart {
+        padding-bottom: 50px;
+    }
+    body.modal-open {
+        -webkit-transform-style: unset !important;
+        -webkit-backface-visibility: unset !important;
+        overflow: hidden;
+        scroll-behavior: unset;
+    }
+    body.modal-open::-webkit-scrollbar {
+        width: 0;  /* Remove scrollbar space */
+        background: transparent;  /* Optional: just make scrollbar invisible */
+    }
+    /* Optional: show position indicator in red */
+    body.modal-open::-webkit-scrollbar-thumb {
+        background: #FF0000;
+    }
+    #ksFoundationModal.modal {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 11111;
+        display: none;
+        width: 100%;
+        height: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+        outline: 0;
+    }
+    #ksFoundationModal.modal .nav-item.z-index-2.ms-4 {
+        margin-left: 0 !important;
+    }
+    #ksFoundationModal.modal .ks-h1-text {
+        font-size: 20px;
+    }
+    #ksFoundationModal.modal .ks-foundation-text {
+        font-size: 14px;
+        width: 100%;
+    }
+    #ksFoundationModal.modal .ks-foundation-img img.border1 {
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 90%;
+        margin-top: 10px;
+    }
+    #ksFoundationModal.modal .conatiner.pt-5 {
+        margin-top: 30% !important;
+        position: relative !important;
+        transform: unset;
+    }
+    .ks-about-1 .ks-diamond-sidebar {
+        display: none;
+    }
+    .ks-about-1 #fullpage #section0 {
+        margin-top: 45px;
+    }
+    .ks-about-1 h6 {
+        font-size: 14px;
+    }
+    .ks-about-1 h3 {
+        font-size: 20px;
+        margin-top: 0px;
+    }
+    .ks-about-1 h3::before {
+        content: "";
+        width: 75px;
+        left: 110px;
+        top: 10px;
+    }
+    .ks-about-1 h3::after {
+        top: 8.5px;
+        left: 182px;
+        width: 4px;
+        height: 4px;
+    }
+    .ks-about-2 .hr1, .ks-about-2 .hr4 {
+        margin: 6px 0 !important;
+    }
+    .ks-about-1 h4 {
+        font-size: 18px;
+        margin-top: 25px !important;
+    }
+    .ks-about-1 p {
+        color: #fff;
+        width: 95%;
+        font-size: 14px;
+        margin-block-start: 1vw;
+        margin-block-end: 1vw;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 {
+        border: 0;
+        padding-left: 0 !important;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 #carouselExampleIndicators {
+        width: 100% !important;
+        margin-left: 0 !important;
+        margin-top: 20px;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 #carouselExampleIndicators .carousel-inner {
+        width: 75%;
+        margin: auto;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 #carouselExampleIndicators .carousel-control-prev {
+        height: 40px;
+        width: 7%;
+        left: 0;
+    }
+    .ks-about-1 #fullpage #section0 .ks-border-start.ks-about-1-carousel.kd-about-2 #carouselExampleIndicators .carousel-control-next{
+        height: 40px;
+        width: 7%;
+        right: 0;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators [data-bs-target]::after {
+        content: "";
+        width: 47px;
+        height: 27px;
+        background-color: unset;
+        border-top: 1px dashed #00f2ff;
+        position: absolute;
+        top: 6px;
+        left: 13px;
+        right: 0;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators [data-bs-target] {
+        background: transparent;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators {
+        bottom: 110px;
+        margin-bottom: 1vw;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .ks-about-1 .ks-about-1-carousel .carousel-indicators [data-bs-target] span {
+        font-size: 14px;
+    }
+    .ks-about-1 .ks-about-1-carousel p {
+        font-size: 14px;
+        width: 100%;
+    }
+    .ks-about-1 #fullpage #section1  h3::after {
+        left: 111px !important;
+        top: 9px;
+    }
+    .ks-about-1 #fullpage #section1 h3::before {
+        left: 67px !important;
+        width: 44px;
+    }
+    .about-team-members .team-img:nth-child(2n) {
+        margin-right: 0;
+    }
+    .about-team-members .team-img {
+        text-align: center;
+        margin-top: 30px;
+        width: 44%;
+        display: inline-block;
+        margin-right: 9%;
+    }
+    .ks-about-1 #fullpage #section2  h3::after {
+        left: 244px !important;
+        top: 8.5px;
+    }
+    .ks-about-1 #fullpage #section2 h3::before {
+        left: 182px !important;
+        width: 65px;
+    }
+
+    .ks-about-1 #fullpage #section3  h3::after {
+        left: 198px !important;
+        top: 8.4px;
+    }
+    .ks-about-1 #fullpage #section3 h3::before {
+        left: 125px !important;
+        width: 75px;
+    }
+
+    .ks-about-1 #fullpage #section4  h3::after {
+        left: 148px !important;
+        top: 8.4px;
+    }
+    .ks-about-1 #fullpage #section4 h3::before {
+        left: 74px !important;
+        width: 75px;
+    }
+    .ks-about-1 #fullpage #section4 .media-img {
+        width: 47%;
+        margin-right: 4%;
+    }
+    .ks-about-1 #fullpage #section4 .media-img:nth-child(2n) {
+        margin-right: 0;
+    }
+    .ks-about-1 #fullpage #section4  .about-team-members1 {
+        padding-bottom: 50px !important;
+    }
+    .ks-assessment-btn-1 {
+        font-size: 14px;
+    }
+    .ks-Science {
+        margin-top: 40px;
+        overflow: hidden;
+        height: 94vh;
+    }
+    .ks-Science .ks-Science-heading {
+        font-size: 20px;
+    }
+    .ks-Science .ks-Science-heading::before {
+        width: 75px;
+        height: 0.8px;
+        left: 90px !important;
+        top: 13px !important;
+    }
+    .ks-Science .ks-Science-heading::after {
+        width: 4px;
+        height: 4px;
+        top: 12px;
+        left: 165px !important;
+    }
+    .ks-Science .container {
+        max-width: 95%;
+    }
+    .ks-Science .tabset > label {
+        width: 49%;
+        font-size: 14px;
+        text-align: left;
+        padding: 0px 0px 15px;
+    }
+    .ks-Science .tabset > label:nth-child(6) {
+        padding-left: 0;
+    }
+    .ks-Science .tabset label:nth-child(6) .name {
+        margin: unset;
+    }
+    .ks-Science .tabset > input:checked + label .name {
+        padding: 0;
+    }
+    .ks-Science #content h2 {
+        font-size: 18px;
+    }
+    .ks-Science #content .points .point .head img {
+        width: 15%;
+    }
+    .ks-Science #content .points .point .head span {
+        font-size: 16px;
+    }
+    .ks-Science #content .points .point p {
+        font-size: 14px;
+        max-width: 95%;
+    }
+    .ks-Science #content .points .point {
+        width: 100%;
+    }
+    .ks-Science #content .desc {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+        max-width: 95%;
+    }
+    .ks-Science #content .mentalbox {
+        width: 95%;
+        font-size: 14px;
+    }
+    .ks-Science #content .mentalbox:last-child {
+        margin-left: 0;
+    }
+    .ks-Science #learningexperience .scrollable > p {
+        max-width: 95%;
+        font-size: 14px;
+    }
+    .ks-Science #learningexperience h2 {
+        font-size: 16px;
+    }
+    .ks-Science #learningexperience .leftcontent {
+        width: 100%;
+    }
+    .ks-Science #learningexperience p.box {
+        font-size: 14px;
+        max-width: 95%;
+    }
+    .ks-Science #learningexperience p {
+        font-size: 14px;
+    }
+    .ks-Science #learningexperience .scrollable.scrollbarstyle {
+        padding-top: 110px;
+    }
+    .ks-Science #learningexperience .rightcont {
+        width: 44%;
+        position: relative;
+        top: -350%;
+        left: 0;
+    }
+    .ks-Science #learningexperience .keycomponent .leftsec {
+        width: 96%;
+    }
+    .ks-Science #learningexperience .keycomponent .keybox .content .title {
+        font-size: 16px;
+    }
+    .ks-Science #learningexperience .keycomponent .rightsec {
+         width: 96%;
+        margin-top: 20px;
+        padding-left: 0;
+    }
+    .ks-Science #learningexperience .keycomponent .rightsec .keybox:nth-child(3) {
+        margin-top: 20px;
+    }
+    .ks-Science #learningexperience .keycomponent {
+        margin-top: 50px;
+    }
+    .ks-Science .tab-panel {
+        padding: 20px 0;
+    }
+    .ks-Science #assesment h2.headb {
+        font-size: 16px;
+    }
+    .ks-Science #assesment .leftsec {
+        width: 99%;
+    }
+    .ks-Science #assesment .rightsec {
+        width: 95%;
+        padding-left: 0;
+    }
+    .ks-Science #assesment p {
+        font-size: 14px;
+        max-width: 96%;
+    }
+    .ks-Science #validation .mainsec .leftlogo {
+        width: 20%;
+    }
+    .ks-Science #validation .mainsec .rightcon .colorbox {
+        font-size: 14px;
+        width: 97%;
+    }
+    .ks-Science #validation .mainsec .rightcon .colorbox:nth-child(2n) {
+        margin-left: 0;
+    }
+    .ks-Science #validation .mainsec .rightcon {
+        width: 100%;
+            padding-left: 0;
+    }
+    .ks-Science #validation .industrycap .headb {
+        font-size: 18px;
+    }
+    .ks-Science #validation .industrycap .profilebox {
+        width: 94%;
+        margin-bottom: 10%;
+    }
+    .ks-Science #validation .industrycap .profilebox .leftsec {
+        width: 25%;
+    }
+    .ks-Science #validation .industrycap .profilebox .leftsec .name {
+        font-size: 12px;
+    }
+    .ks-Science #validation .industrycap .profilebox .leftsec .desig {
+        font-size: 12px;
+    }
+    .ks-Science #validation .industrycap .profilebox p {
+        font-size: 14px;
+            width: 70%;
+    }
+    .ks-Science #validation .industrycap .profilebox.right {
+        margin-left: 0;
+    }
+    .ks-Science #learningexperience .scrollable.scrollbarstyle {
+        height: 65vh;
+    }
+    .ks-Science #assesment .scrollbarstyle {
+        overflow-y: scroll;
+    }
+    .ks-Science #assesment .domed {
+        display: block;
+    }
+    .ks-Science #assesment .domed1 {
+        display: block;
+    }
+    .ks-Science .tab-panel .domed svg {
+        height: 10px;
+        position: absolute;
+        right: -3px;
+        top: 16px;
+    }   
+    .ks-Science .tab-panel  .domed1 svg {
+        height: 10px;
+        position: absolute;
+        right: -2px;
+        bottom: 12px;
+    }
+    .ks-Careers .container {
+        max-width: 93%;
+    }
+    .ks-Careers {
+        margin-top: 50px;
+        height: auto;
+    }
+    .ks-Careers .ks-careers-heading {
+        font-size: 20px;
+    }
+    .ks-Careers .ks-careers-heading::before {
+        width: 50px;
+        left: 100px !important;
+        top: 14px !important;
+    }
+    .ks-Careers .ks-careers-heading::after {
+        width: 4px;
+        height: 4px;
+        top: 11.5px !important;
+        left: 150px !important;
+    }
+    .ks-Careers p {
+        font-size: 14px;
+    }
+    .ks-landing-why-details p::before {
+        display:none !important;
+    }
+    .ks-landing-why-details p::after {
+        display:none !important;
+    }
+    .ks-landing-why-details  .col-3 {
+        width: 100%;
+        text-align: center;
+    }
+    .ks-landing-why-details .col-3 p {
+        text-align: center !important;
+        font-size: 14px  !important;
+    }
+    .ks-landing-why-details  .col-6 {
+        width: 100%;
+    }
+     .ks-landing-why-details .arro1 {
+        margin-top: 24px;
+    }
+     .ks-Careers .arro1 {
+        margin-top: 40px;
+    }
+    .ks-Careers .arro1 img {
+        width: 10%;
+        margin-top: -4px;
+    }
+    .ks-jobrole .container {
+        max-width:100%;
+    }
+    .ks-jobrole p {
+        font-size: 12px;
+    }
+    .ks-jobrole .ks-jobrole-heading {
+        font-size: 20px;
+    }
+    .ks-jobrole .ks-jobrole-heading::before {
+        width: 65px;
+        height: 0.8px;
+        right: 0;
+        left: 117px !important;
+        top: 33px;
+    }
+    .ks-jobrole .ks-jobrole-heading::after {
+        width: 4px;
+        height: 4px;
+        top: 31px;
+        left: 179px !important;
+    }
+    .ks-jobrole .ks-role-title {
+        font-size: 14px;
+    }
+    .ks-jobrole .btn {
+        border: 1px solid red!important;
+        padding: 3px 10px !important;
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    .ks-jobrole .card.careers-aply {
+        margin-top: 20px;
+    }
+    .ks-jobrole {
+         margin-top: 60px !important;
+        padding-bottom: 30px;
+        height: auto;
+    }
+    .ks-careers-jobrole .container {
+        max-width: 100%;
+    }
+    .ks-careers-jobrole p {
+        font-size: 12px;
+    }
+   .ks-careers-jobrole .ks-careers-jobrole-heading {
+        font-size: 18px;
+    }
+    .ks-careers-jobrole .btn {
+        padding: 5px 10px 3px 10px !important;
+        font-size: 14px;
+    }
+    .ks-careers-jobrole .accordion-item .accordion-header .accordion-button {
+        font-size: 16px;
+        padding-top: 15px !important;
+    }
+    .ks-careers-jobrole .accordion-body {
+        font-size: 14px;
+    }
+    .ks-careers-jobrole .accordion-button::after {
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+    }
+    .ks-careers-jobrole {
+        height: auto;
+    }
+    .ks-careers-jobrole .ks-careers-jobrole-heading::before {
+        display:none;
+    }
+     .ks-careers-jobrole .ks-careers-jobrole-heading::after {
+        display:none;
+    }
+    .ks-Programs {
+        margin-top: 37px;
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .ks-Programs .ks-Programs-heading {
+        font-size: 20px;
+    }
+    .ks-Programs .ks-Programs-heading::before {
+        width: 84px;
+        height: 0.8px;
+        left: 120px !important;
+        top: 14px;
+    }
+    .ks-Programs .ks-Programs-heading::after {
+        width: 4px;
+        height: 4px;
+        top: 13px;
+        left: 200px !important;
+    }
+    .ks-Programs  .card .card-body .title.d-flex {
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+        width: 100%;
+        letter-spacing: 0.5px;
+    }
+    .ks-Programs .card .card-body .subtitle {
+        font-size: 11px;
+    }
+    .ks-Programs .card .card-body .text {
+        font-size: 15px;
+    }
+    .ks-Programs .card .card-body ul li img {
+        display: inline-block;
+        max-width: 12%;
+    }
+    .ks-Programs .card .card-body ul {
+        font-size: 14px;
+    }
+    .ks-Programs  .card {
+        margin-bottom: 20px;
+    }
+    .ks-Science.programdetail .ks-Science-topheading {
+        font-size: 12px;
+    }
+    .ks-Science.programdetail .container {
+        max-width: 97%;
+    }
+    .ks-Science.programdetail .ks-Science-heading::before {
+       display: none;
+    }
+    .ks-Science.programdetail .ks-Science-heading::after {
+        display: none;
+     }
+     .ks-Science.programdetail {
+        margin-top: 52px;
+    }
+    .ks-Science.programdetail .freetrial {
+        font-size: 14px;
+        width: 42%;
+        top: -18%;
+    }
+    .ks-Science.programdetail .tabset .tablist > label {
+        font-size: 14px;
+        margin: 0 15px;
+    }
+    .ks-Science.programdetail .cata-sub-nav  .nav-prev {
+        background-image: url(../images/prev-arrow-program.png);
+        background-color: #18275e;
+        z-index: 1;
+    }
+    .ks-Science.programdetail .cata-sub-nav .nav-next {
+        background-image: url(../images/next-arrow-program.png);
+        background-color: #131e46;
+        z-index: 1;
+    }
+    .ks-Science.programdetail section#introduction .leftsect {
+        width: 100%;
+    }
+    .ks-Science.programdetail section#introduction p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail section#introduction .rightsec {
+        width: 100%;
+        margin-top: 30px;
+
+    }
+    .ks-Science.programdetail section#introduction .rightsec img {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .ks-Science.programdetail section#introduction .rightsec .content span {
+        font-size: 12px;
+        width: 93px;
+    }
+    .ks-Science.programdetail section#introduction .rightsec .content {
+        margin-left: 0;
+        margin-bottom: 30px;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont {
+        width: 100%;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont .subtitle {
+        font-size: 12px;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont .title {
+        font-size: 20px;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #coursecontent .leftcont a {
+        width: 19%;
+        margin: 10% auto 40px auto;
+    }
+    .ks-Science.programdetail #coursecontent .rightcont {
+        width: 100%;
+        display: inline-block;
+        vertical-align: middle;
+        text-align: left;
+        margin-left: 0;
+    }
+    .ks-Science.programdetail #coursecontent .rightcont .imgbox {
+        width: 47%;
+        margin-bottom: 5%;
+    }
+    .ks-Science.programdetail #coursecontent .rightcont .imgbox .name {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #learningexper .scrollable > p {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        max-width: 100%;
+        letter-spacing: 0.5px;
+    }
+    .ks-Science.programdetail #learningexper .featurebox {
+        width: 45%;
+        margin-bottom: 6%;
+        margin-right: 4%;
+    }
+    .ks-Science.programdetail #learningexper .featurebox p {
+        color: #fff;
+        font-size: 14px;
+        width: 100%;
+        margin-top: 7px;
+        text-align: center;
+    }
+    .ks-Science.programdetail #learningexper h3 {
+        color: #8af4fb;
+        font-size: 18px;
+        margin-top: 1%;
+        margin-bottom: 30px;
+    }
+    .ks-Science.programdetail #learningexper .featurebox:nth-child(3), .ks-Science.programdetail #learningexper .featurebox:nth-child(7),.ks-Science.programdetail #learningexper .featurebox:nth-child(12) {
+        margin-right: 0;
+    }
+    .ks-Science.programdetail #learningexper .featurebox.lefttext img {
+        margin-right: auto;
+    }
+    
+    .ks-Science.programdetail #benefits .scrollable > p {
+        color: #fff;
+        max-width: 100%;
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #benefits .boxlist {
+        display: block;
+    }
+    .ks-Science.programdetail #benefits .boxlist .sameheight {
+        display: inline-block;
+        width: 100%;
+        vertical-align: top;
+    }
+    .ks-Science.programdetail #benefits .boxlist .imagebox p b {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #benefits .boxlist .imagebox p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #benefits .boxlist .imagebox {
+        width: 93%;
+    }
+    .ks-Science.programdetail #certification .leftsec {
+        width: 98%;
+    }
+    .ks-Science.programdetail #certification .rightsec {
+        width:98%;
+        margin-left: 0;
+    }
+    .ks-Science.programdetail #certification .leftsec p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #howitwork .content img {
+        display: none;
+    }
+    .ks-Science.programdetail #howitwork .content .iconbox {
+        position: relative !important;
+        width: 100% !important;
+        left: 0 !important;
+        right: 0 !important;
+        margin: auto auto 26px auto !important;
+        display: block;
+        top: 0 !important;
+        bottom: 0 !important;
+    }
+    .ks-Science.programdetail #howitwork .content .iconbox img {
+        display: inline-block !important;
+        max-width: 25%;
+        margin-right: 3% !important;
+    }
+    .ks-Science.programdetail #howitwork .content .iconbox span {
+        font-size: 16px !important;
+        vertical-align: middle !important;
+        display: inline-block !important;
+        width: 68% !important;
+        text-align: left !important;
+    }
+    .ks-Science.programdetail section#introduction .rightsec img.desktop {
+        display: none;
+    }
+    .ks-Science.programdetail section#introduction .rightsec img.mobile {
+        display: block;
+    }
+    .ks-Science.programdetail section#introduction .rightsec .content span {
+        position: relative !important;
+        font-size: 15px;
+        text-align: center !important;
+        width: 100% !important;
+        display: block;
+        top: 0 !important;
+        right: 0 !important;
+        left: 0 !important;
+        margin-top: 11px;
+    }
+    .ks-Science.programdetail #faqs .accordion-button::after {
+        width: 20px;
+        height: 20px;
+        background-size: contain;
+        position: absolute;
+        right: 0;
+        top: 10px;
+    }
+    .ks-Science.programdetail #faqs .accordion-item .accordion-header .accordion-button {
+        padding-right: 32px;
+        font-size: 14PX;
+        margin-top: 10px;
+    }
+    .ks-Science.programdetail #faqs .accordion-body {
+        padding: 0;
+        font-size: 14PX;
+    }
+    .ks-Science.programdetail #placement .leftsec {
+        width: 100%;
+    }
+    .ks-Science.programdetail #placement .leftsec p {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #placement .leftsec h3 {
+        font-size: 16px;    
+    }
+    .ks-Science.programdetail #placement .leftsec ul {
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #placement .leftsec ul li span {
+        display: inline-block;
+        width: 92%;
+        font-size: 14px;
+    }
+    .ks-Science.programdetail #placement .rightsec {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .ks-Science.programdetail section#introduction .scrollable.scrollbarstyle, .ks-Science.programdetail #coursecontent .scrollable.scrollbarstyle,  .ks-Science.programdetail #learningexper .scrollable.scrollbarstyle, .ks-Science.programdetail #benefits .scrollable.scrollbarstyle, .ks-Science.programdetail #certification .scrollable.scrollbarstyle , .ks-Science.programdetail #howitwork .scrollable.scrollbarstyle , .ks-Science.programdetail #faqs .scrollable.scrollbarstyle, .ks-Science.programdetail #placement .scrollable.scrollbarstyle {
+        height: 63vh;
+        overflow-y: scroll;
+    }
+
+    .ks-Science.programdetail section#introduction .domed, .ks-Science.programdetail #coursecontent .domed, .ks-Science.programdetail #certification .domed , .ks-Science.programdetail #howitwork .domed , .ks-Science.programdetail #faqs .domed, .ks-Science.programdetail #placement .domed {
+        display: block;
+    }
+    .ks-Science.programdetail section#introduction .domed1, .ks-Science.programdetail #coursecontent .domed1 , .ks-Science.programdetail #certification .domed1  , .ks-Science.programdetail #howitwork .domed1, .ks-Science.programdetail #faqs .domed1, .ks-Science.programdetail #placement .domed1{
+        display: block;
+    }
+    .ks-Science.programdetail section#introduction .domed1  svg,  .ks-Science.programdetail #coursecontent .domed1  svg ,  .ks-Science.programdetail #placement .domed1  svg{
+        height: 10px;
+        position: absolute;
+        right: -3px;
+        bottom: -8px;
+    }
+    .ks-Science.programdetail #certification .domed1  svg,  .ks-Science.programdetail #howitwork .domed1  svg,  .ks-Science.programdetail #faqs .domed1  svg  {
+        bottom:10px;
+        right: -2.7px;
+    }
+    .ks-Science.programdetail {
+        min-height: 91vh;
+    }
+    .ks-Science.programdetail #faqs .scrollable.scrollbarstyle .conent {
+        max-width: 96%;
+    }
+    .ks-heading .h2 {
+        color: #fff;
+        font-family: Eurostile;
+        font-size: 20px;
+        font-weight: 500;
+        letter-spacing: 0.4px;
+        word-spacing: initial;
+        line-height: initial;
+    }
+    .ks-heading p {
+        font-family: Eurostile;
+        width: auto;
+        font-size: 14px;
+        line-height: initial;
+        letter-spacing: 1.5px;
+        font-weight: 500;
+    }
+    .ks-heading .btn {
+        font-size: 14px !important;
+        letter-spacing: 0.5px;
+    }
+    .ks-heading .btn#kSBottomSec {
+        padding-top: 2px !important;
+        padding-bottom: 0px !important;
+    }
+    .collegesecone .ks-home-img {
+        height: auto;
+        padding-top: 170px;
+        background-size: cover;
+        padding-bottom: 25px;
+    }
+    .collegesecone .ks-home-img .ks-image-bg {
+        left: unset;
+        right: 11px;
+        justify-content: right !important;
+        top: 20px;
+    }
+    .collegesecone .ks-home-img .ks-box {
+        width: 56%;
+        height: 158px;
+        top: 38px;
+        left: 0;
+        right: unset;
+        box-shadow: 0 0 0.3vw 0.1px #00ffb2, 0 0 0.3vw 0.1px #00ffb2 inset;
+    }
+    .collegesecone .ks-home-img .ks-box h3 {
+        font-size: 16px;
+    }
+    .collegesecone .ks-home-img .ks-box li {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .ks-box li::before {
+        top: 6px;
+        width: 7px;
+        height: 6px;
+    }
+    .forcollege #ksWhySec .col-md-5.ps-5 {
+        padding-left: 0 !important;
+    }
+    .forcollege  .ks-change .container {
+        max-width: 100% !important;
+        height: auto;
+    }
+    .forcollege .ks-change h6 {
+        font-size: 16px;
+    }
+    .forcollege .ks-change h3 {
+        color: #00ffb2;
+        font-family: 'Oxanium', cursive;
+        position: relative;
+        font-size: 18px;
+        letter-spacing: 0.5px;
+    }
+    
+    .forcollege .ps-5 {
+        padding-left: 0 !important;
+    }
+    .forcollege .ks-change .card img {
+        height: auto;
+        width: 132px;
+        margin: auto;
+    }
+    .forcollege .ks-change .card .card-text {
+        font-size: 14px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 45px;
+    }
+    .forcollege .ks-change-para {
+        font-family: 'Oxanium', cursive;
+        font-size: 14px;
+        font-weight: 500;
+        letter-spacing: 0.5px;
+    }
+    .ks-change-second p {
+        font-size: 14px;
+        text-align: center !important;
+    }
+    .ks-change-second p::after {
+        display: none;
+    }
+    .ks-change-second p::before {
+        display: none;
+    }
+    .ks-change-second img {
+        height: auto;
+        max-width: 45%;
+    }
+    .ks-change {
+        height: auto;
+    }
+    .ks-change.whatsec .container div#ksWhatSec {
+        height: auto;
+        padding: 0 !important;
+    }
+    .ks-landing-how h3, #ksWhatSec h3 {
+        font-size: 18px;
+    }
+    .ks-landing-how .ks-landing-how-para, #ksWhatSec .ks-landing-how-para {
+        font-size: 14px;
+        width: 100%;
+    }
+    .ks-landing-how .ks-landing-how-animation, #ksWhatSec .ks-landing-how-animation {
+        position: relative;
+        width: 70%;
+        left: auto;
+        top: 0;
+    }
+    .forcollege .gallery.fg-body {
+        max-width: 100%;
+        position: relative;
+        margin-top: 0%;
+        height: 400px;
+        overflow: hidden;
+        padding-top: 156px;
+    }
+    #ksWhatSec .ks-landing-how-accelerator {
+        width: 25%;
+        right: 3%;
+        bottom: 385px;
+    }
+    #ksWhatSec .ks-landing-how-accelerator div {
+        font-size: 11px;
+    }
+    #ksWhatSec .ks-landing-how-accelerator svg {
+        height: 9px;
+        margin-right: 4px;
+        top: 0;
+        vertical-align: top;
+    }
+    .ks-landing-how-accelerator .text-white span {
+        display: inline-block;
+        width: 80%;
+        padding-bottom: 12px;
+    }
+    #ksWhatSec .ks-landing-how-accelerator div::after {
+        content: "";
+        width: 5px;
+        height: 40px !important;
+        border-right: 1px dashed #fff;
+        position: absolute;
+        left: 0px;
+        top: 10px;
+        display: inline-block;
+    }
+    #ksWhatSec .ks-landing-how-accelerator svg {
+        height: 9px;
+        margin-right: 4px;
+        top: 0;
+        vertical-align: top;
+    }
+    #ksWhatSec .ks-landing-how-accelerator h4 {
+        font-size: 14px;
+        letter-spacing: 0.5px;
+    }
+    #ksKeyBenifit h3 {
+        color: #00ffb2;
+        font-size: 18px;
+    }
+    #ksKeyBenifit .card .img-fluid {
+        max-width: unset !important;
+        height: auto;
+        width: 50px !important;
+    }
+    #ksKeyBenifit .card .card-text {
+        color: #fff;
+        font-size: 14px;
+        font-weight: 500;
+        margin-bottom: 0;
+    }
+    .ks-paraSection .text-end {
+        text-align: left !important;
+    }
+    .ks-paraSection {
+        position: relative;
+        left: unset;
+        margin-top: 229px;
+    }
+    .ks-paraSection .row {
+        left: unset !important;
+        padding-left: 0 !important;
+    }
+    .ks-paraSection .row .col-md-4 {
+        width: 20%;
+        display: inline-block;
+        text-align: left !important;
+        padding-left: 0 !important;
+    }
+    .ks-paraSection .row .col-md-8 {
+        display: inline-block;
+        width: 79%;
+        vertical-align: top;
+    }
+    .ks-insitute {
+        font-size: 16px;
+        position: relative;
+        text-align: center !important;
+        padding-left: 4px;
+    }
+    .key-circle-1{
+        width: 44%;
+    }
+    .ks-image-SectionChild {
+        left: unset;
+    }
+    .ks-image-SectionChild .col-md-4 {
+        text-align: left !important;
+        width: 20%;
+        display: inline-block;
+        padding-left: 0 !important;
+    }
+    .ks-image-SectionChild .col-md-8 {
+        width: 80%;
+        display: inline-block;
+        vertical-align: top;
+    }
+    .ks-StudentSection {
+        margin-top: 32px;
+    }
+    .ks-StudentSection .position-relative .row .col-md-4 {
+        width: 20%;
+        display: inline-block;
+        text-align: left !important;
+        padding-left: 0 !important;
+    }
+    .ks-StudentSection .position-relative .row .col-md-8 {
+        display: inline-block;
+        width: 79%;
+        vertical-align: top;
+    }
+    .ks-image-Section {
+        position: absolute;
+        left: unset;
+        top: 0;
+    }
+    .ks-StudentSection .position-relative .row {
+        right: unset;
+    }
+    .key-circle-1, .key-circle-2 {
+        width: 44%;
+        margin: auto;
+        display: block;
+    }
+    .forcollege #ksAchiveSec .ks-course {
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 500;
+        letter-spacing: 0.1vw;
+    }
+    .forcollege #ksAchiveSec .ks-pecentage {
+        font-size: 18px;
+        color: #00ffc2;
+        font-weight: 700;
+        letter-spacing: 0.1vw;
+    }
+    .forcollege #ksAchiveSec .row .col-md-6 {
+        width: 50%;
+        margin-bottom: 12px;
+    }
+    .forcollege #ksAchiveSec .carousel-inner img.w-50.img-fluid {
+        width: 85% !important;
+        margin-top: 15px;
+    }
+    .forcollege #ksAchiveSec #carouselExampleIndicators {
+        padding-bottom: 40px;
+    }
+}
+
+/* ============================================= Media 602 - 765 ================================================  */
+@media only screen and (min-width: 602px) and (max-width:765px)  {
+
+}
+
+/* ============================================= Media 766 - 1024 ================================================  */
+@media only screen and (min-width: 766px) and (max-width:1024px)  {
+
+}
+
+/* ============================================= Media 1025 - 1180 ================================================  */
+@media only screen and (min-width: 1025px) and (max-width:1180px)  {
+
+}
+
+@media only screen and (min-width: 1920px) and (max-width:3200px)  {
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .left {
+        margin-bottom: 25px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .right {
+        margin-bottom: 25px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .full {
+        margin-bottom: 25px;
+    }
+    .ks-landing .ks-heading p {
+        letter-spacing: 0.2vw;
+    }
+    .ks-landing-welive .container {
+        max-width: 90%;
+        width: 100%;
+        padding-right: 0.75vw;
+        padding-left: 0.75vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .ks-change-second .ks-change-right-para .ks-change-right-para-2::after {
+        content: "";
+        width: 3.8vw;
+        height: 1px;
+        background-color: #00ffb2;
+        position: absolute;
+        top: 3.65vw;
+        left: -3.8vw;
+    }
+    .ks-change-second .ks-change-right-para .ks-change-right-para-4::after {
+        content: "";
+        width: 5.7vw;
+        height: 1px;
+        background-color: #00ffb2;
+        position: absolute;
+        top: 3.65vw;
+        left: -5.7vw;
+    }
+    #section3 .ks-landing-how > div .container {
+        max-width:100%;
+        width: 100%;
+        padding-right: 0.75vw;
+        padding-left: 0.75vw;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .ks-landing-how  .toptext {
+        font-size: large;
+    }
+    .ks-landing-how .container.howtabview .content-container .details p {
+        color: #fff;
+        font-size: 28px !important;
+    }
+    .ks-landing-how .container.howtabview .content-container .details p .free {
+        font-size: 34px !important;
+    }
+    .ks-landing-how .container.howtabview > span {
+        width: 326px;
+        height: 72px;
+        bottom: 90px;
+    }
+    .ks-landing-how .container.howtabview .content-container .details .title {
+        font-size: larger;
+    }
+    .ks-landing-how .container.howtabview .content-container .content {
+        padding: 10px;
+    }
+    .ks-landing-how .container.howtabview label {
+        font-size: larger;
+        padding: 0 64px !important;
+        top: 0;
+    }
+    .ks-landing-how .container.howtabview input:checked + label {
+        top: 40px;
+    }
+    .ks-landing-how .container.howtabview .btntitle {
+        top: 54vh;
+        left: -188px;
+    }
+   .ks-landing-how .container.howtabview input:checked:nth-of-type(2) + label {
+        top:40px;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(4) + label {
+        top: 40px;
+    } 
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(3) + label + input + label + input + label + span {
+        --x: 216%;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(4) + label + input + label  + span {
+        --x:321%;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(1) + label + input + label + input + label + input + label+ input + label+ span {
+        --x: 0%;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(2) + label + input + label + input + label + input + label+ span {
+        --x: 108%;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(5) + label  + span {
+        --x: 423%;
+    }
+    .ks-landing-how .container.howtabview .content-container .details .title {
+        font-size: 45px !important;
+    }
+    
+    .ks-landing-welive .topline {
+        color: #fff;
+        font-size: larger;
+        margin-top: 30px;
+    }
+    .ks-landing-welive  .welivebox {
+        border: 2px dashed #fff;
+        font-size: x-large;
+    }
+    .ks-landing-welive .lastline {
+        color: #fff;
+        font-size: x-large;
+        letter-spacing: 1px;
+        word-spacing: 4px;
+    }
+    .landing-page-what-people-skills p::before {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 51px;
+        background: #2ec5ff;
+        box-shadow: 0 0 0.3vw 0.05vw #2ec5ff;
+        left: -16px;
+        bottom: -22%;
+    }
+    .landing-page-what-people-skills p::after {
+        content: "";
+        position: absolute;
+        width: 46px;
+        height: 1px;
+        background: #2ec5ff;
+        box-shadow: 0 0 0.3vw 0.05vw #2ec5ff;
+        left: -14px;
+        bottom: -21%;
+    }
+    .landing-page-what-people-skills::after {
+        content: "";
+        position: absolute;
+        width: 1px;
+        height: 23px;
+        background: #2ec5ff;
+        box-shadow: 0 0 0.3vw 0.05vw #2ec5ff;
+        left: -25px;
+        bottom: -38px;
+        transform: rotate( 52deg);
+    }
+    .landing-page-what-people-skills::before {
+        content: "";
+        position: absolute;
+        width: 46px;
+        height: 1px;
+        background: #2ec5ff;
+        box-shadow: 0 0 0.3vw 0.05vw #2ec5ff;
+        left: -79px;
+        bottom: -35px;
+    }
+    .landing-page-what-people-skills ul::after {
+        content: "";
+        width: 3px;
+        height: 3px;
+        background: #2eecff;
+        box-shadow: 0 0 0.3vw 0.05vw #2eecff;
+        position: absolute;
+        border-radius: 100%;
+        left: -81px;
+        bottom: -36px;
+    }
+    .landing-page-what-thinking-skills {
+        position: relative;
+        border: 1px solid #2ec5ff;
+        color: #fff;
+        margin-top: 190px;
+        left: 1vw;
+        font-size: 1.2vw;
+        box-shadow: 0 0 0.3vw 0.1px #2ec5ff, 0 0 3px 0.1px #2ec5ff inset;
+        background: #0f56da2b radial-gradient(rgb(46 197 255 / 0%), transparent);
+        padding: 0.8vw 2vw 0vw 0.5vw;
+        width: 373px;
+    }
+    .landing-page-what-process-skills {
+        bottom: 4vw;
+        left: 51.5vw;
+    }
+    .landing-page-what-thinking-skills ul::after {
+        top: -42px;
+        right: -100px;
+    }
+    .landing-page-what-thinking-skills p {
+            top: -22px;
+    }
+    .collegesectwo .ks-change-second .ks-change-right-para .ks-change-right-para-1 {
+        padding-top: 29px;
+    }
+    .collegesectwo .ks-change-second .ks-change-right-para .ks-change-right-para-3 {
+        padding-top: 29px;
+    }
+    .collegesectwo .ks-change-second .ks-change-right-para .ks-change-right-para-4 {
+        padding-top: 28px;
+    }
+    .collegesectwo .ks-change-second .ks-change-left-para .ks-change-left-para-3::before {
+        top: 5vw;
+    }
+    .collegesectwo .ks-change-second .ks-change-left-para .ks-change-left-para-3::after {
+        top: 5.1vw;
+        right: -56px;
+        width: 2.9vw;
+    }
+    .ks-change-second .ks-change-left-para .ks-change-left-para-2::after {
+        content: "";
+        width: 7.5vw;
+        right: -143px;
+    }
+    .ks-landing-what .thinkskill {
+        position: absolute;
+        top: 29%;
+        right: 31%;
+    }
+    .ks-landing-what .thinkskill li {
+        font-size: 1vw;
+    }
+    .ks-landing-what .thinkskill li::before {
+        height: 137px;
+        border-left: 2px solid #3CCCC2;
+    }
+    .ks-landing-what .thinkskill li:nth-child(2) {
+        margin-left: 25px;
+    }
+    .ks-landing-what .thinkskill li:nth-child(3) {
+        margin-left: 45px;
+    }
+    .ks-landing-what .thinkskill li:nth-child(4) {
+        margin-left: 71px;
+    }
+    .ks-landing-what .processskil {
+        position: absolute;
+        bottom: 17%;
+        left: 14%;
+    }
+    .ks-landing-what .processskil li {
+        font-size: 1vw;
+    }
+    .ks-landing-what .processskil li:before {
+        width: 125%;
+        border-bottom: 2px solid #3CCCC2;
+    }
+    .ks-landing-what .peopleskil {
+        position: absolute;
+        bottom: 9.4%;
+        right: 13%;
+        z-index: 2;
+    }
+    .ks-landing-what .peopleskil li {
+        font-size: 1vw;
+        margin-bottom: 17px;
+    }
+    .ks-landing-what .peopleskil li::before {
+        border-bottom: 2px solid #3CCCC2;
+        width: 167%;
+        top: -6px;
+    }
+    .ks-landing-what .peopleskil li:nth-child(1)::before {
+        width: 125%;
+    }
+    .ks-landing-what .peopleskil li:nth-child(3)::before {
+        width: 160%;
+    }
+    .ks-landing-what .thinkskill li:nth-child(3)::before {
+        height: 108px;
+    }
+    .ks-landing-what .thinkskill li:nth-child(4)::before {
+        height: 81px;
+    }
+    .ks-landing-what .peopleskil li:nth-child(2) {
+        margin-left: -32px;
+    }
+    .ks-landing-what .peopleskil li:nth-child(3) {
+        margin-left: -67px;
+    }
+    .ks-landing-what .peopleskil li:nth-child(4) {
+        margin-left: -110px;
+        margin-top: -5px;
+    }
+    .ks-landing .ks-heading .flareimg .img1 {
+        position: absolute;
+        top: -66px;
+        left: -101px;
+    }
+    .ks-landing .ks-heading .flareimg img.img2 {
+        position: absolute;
+        right: -111px;
+        top: -34px;
+    }
+    .ks-landing .ks-creative-problem-solving {
+        left: 18%;
+    }    
+    .ks-landing .ks-creative-problem-solving::before {
+        bottom: 48px;
+        right: -5px;
+    }
+    .ks-landing .ks-storytelling::before {
+        bottom: 20px;
+        left: 0;
+    }
+    .ks-landing .ks-entrepreneurship::before {
+        bottom: -20px;
+    }
+    .ks-landing-why .carousel-item {
+        min-height: 274px;
+    }
+    .ks-landing-why-detals-para-1::after {
+        height: 1px;
+        right: -4.92vw;
+    }
+    .ks-landing-why-detals-para-2::after {
+        height: 1px;
+        right: -3.4vw;
+    }
+    .ks-landing-why-detals-para-3::after {
+        height: 1px;
+    }
+    .ks-landing-why-detals-para-4::before {
+        height: 1px;
+        top: 7.2vw;
+        left: -5.95vw;
+    }
+    .ks-landing-why-detals-para-5::after {
+        bottom: -0.27vw;
+    }
+    .ks-landing-why-detals-para-6::before {
+        content: "";
+        width: 9vw;
+        height: 1px;
+        top: 1.9vw;
+        left: -7.88vw;
+    }
+    .ks-landing-why .card .card-body {
+        min-height: 274px;
+    }
+    .ks-landing-why h3::before {
+        left: 16.5vw;
+        top: 14px;
+    }
+    .ks-landing-why h3::after {
+        left: 21.5vw;
+        top: 12px;
+    }
+    .ks-career-img a.closebtn {
+        font-size: 25px;
+    }
+    .ks-career-img .title {
+        color: #fff;
+        font-size: larger;
+        font-weight: 600;
+    }
+    .ks-career-img .carrermodeltab {
+        margin-top: 52px;
+    }
+    .ks-career-img .carrermodeltab > label {
+        display: inline-block;
+        font-size: 22px;
+        height: 68px;
+        line-height: 68px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .jobdescr h5 {
+        font-size: large;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .jobdescr p {
+        font-size: medium;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .jobdescr ul li span {
+        font-size: large;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .jobdescr .btn, .ks-career-img .carrermodeltab .content-container .content .applyform .btn{
+        width: 122px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row label {
+        margin-bottom: 15px;
+        font-size: large;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .radiobox span {
+        font-size: large;
+        vertical-align: middle;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .radiobox input {
+        vertical-align: middle;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row input {
+        font-size: large;
+    }
+    .ico-text {
+        margin-top: 3.5vw;
+    }
+    .new-but {
+        margin: 3.5vw 0;
+    }
+    .im7 {
+        top: 9.5vw;
+    }
+    span#result {
+        right: 27%;
+        bottom: 227px;
+        font-size: large;
+        width: 250px;
+    }
+    .solving0 img.ring {
+        left: 228px;
+    }
+    .solving1 img.ring {
+        left: 261px;
+    }
+    .solving2 img.ring {
+        left: 233px;
+    }
+    .im6 {
+        bottom: -9px;
+    }
+    .ks-landing-how .container.howtabview .content-container .row .col-md-6:first-child {
+        padding-left: 5px;
+    }
+    .aboutus-page .container {
+        max-width: 91% !important;
+    }
+    .aboutus-page .aboutlanding {
+        padding-top: 190px !important;
+        padding-bottom: 50px !important;
+    }
+    .aboutus-page  .tab-btn span {
+        font-size: 40px !important;
+    }
+    .aboutus-page .aboutlanding .righttext {
+        font-size: 36px !important;
+    }
+    .aboutus-page .aboutlanding .righttext span {
+        font-size: 35px !important;
+    }
+    .aboutus-page .aboutlanding div#carouselExampleIndicators p.slider-text {
+        right: -69% !important;
+        font-size: 33px !important;
+    }
+    .aboutus-page .aboutlanding div#carouselExampleIndicators p.slider-text span {
+        font-size: 34px !important;
+    }
+    .aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-control-prev i, .aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-control-next i {
+        font-size: 40px !important;
+    }
+    .aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+        width: 15px !important;
+        height: 15px !important;
+        margin: 0 8px !important;
+    }
+    .aboutus-page  .tab-btn.tab-open span {
+        cursor: pointer !important;
+    }
+    .aboutus-page .teamsection {
+        padding-top: 186px;
+    }
+    .aboutus-page .teamsection .team-img h6 {
+        font-size: 20px;
+        font-family: century-gothic-bold;
+    }
+    .mediabox {
+        height: 98%;
+        width: 95%;
+    }
+    .mediabox .imagebox img {
+        width: 100%;
+    }
+    .mediabox .title {
+        font-size: 36px;
+    }
+    .mediabox p {
+        color: #fff;
+        line-height: normal;
+        font-family: 'century-gothic';
+        font-size: 24px;
+        width: 70%;
+    }
+    .science-page .container {
+        max-width: 91% !important;
+    }
+    .science-page .sciencelanding {
+        padding-top: 170px  !important;
+    }
+    .science-page  .tab-btn span {
+        font-size: 35px  !important;
+    }
+    .science-page .sciencelanding #learningexperience  .title {
+        font-size: 30px  !important;
+    }
+    .science-page .sciencelanding #learningexperience p {
+        font-size: 24px  !important;
+    }
+    .science-page .sciencelanding #learningexperience .lastnot {
+        font-size: 28px  !important;
+        margin-top: 26px  !important;
+    }
+    .science-page .sciencelanding #measurement  .title {
+        font-size: 30px  !important;
+    }
+    .science-page .sciencelanding #measurement .subtitle {
+        font-size: 28px  !important;
+    }
+    .science-page .sciencelanding #measurement p {
+        font-size: 24px  !important;
+    }
+    .science-page .sciencelanding  .immersive.col-md-4 p {
+        font-size: 20px  !important;
+    }
+    .science-page .sciencelanding #measurement ul {
+        font-size: 24px  !important;
+    }
+    .science-page .sciencelanding  #validation .mainsec .rightcon .colorbox {
+        font-size: 24px  !important;
+    }
+    .science-page .sciencelanding #validation .scrollable.scrollbarstyle {
+        overflow: hidden;
+    }
+    .aboutus-page .teamsection .team-img {
+        margin-top: 25px;
+    }
+    .aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-control-prev {
+        height: 34px;
+    }
+    .aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-control-next {
+        height: 34px;
+    }
+}
+
+@media only screen and (min-width: 2101px) and (max-width: 2500px) {
+    .team-img {
+    margin-right: 130px;
+    }
+    .media-img {
+    width: 17%;
+    margin-right: 60px;
+    }
+    .new-kd3 h3::before {
+    left: 10vw !important;
+    height: 2.5px !important;
+    }
+    .new-kd3 h3::after {
+    left: 18vw !important;
+    
+    }
+}
+        
+@media only screen and (min-width: 1500px) and (max-width: 1700px) {
+    .team-img {
+    margin-right: 86px;
+    }
+}
+
+@media only screen and (min-width: 1500px) and (max-width:1900px)  {
+    .ks-career-img .carrermodeltab .content-container {
+        height: 87vh;
+    }
+    .ks-career-img .carrermodeltab .content-container .scrollbarstyle {
+        height: 82vh;
+    }
+    .ks-landing .ks-heading .flareimg .img1 {
+        position: absolute;
+        top: -54px;
+        left: -83px;
+        opacity: 0.7;
+    }
+    .ks-landing-why-details p {
+        font-size: medium;
+    }
+    .ks-landing-why-detals-para-4::before {
+        width: 6.55vw;
+        top: 8.15vw;
+        left: -5.65vw;
+    }
+    .ks-landing-why-detals-para-5::before {
+        bottom: -0.11vw;
+    }
+    .ks-landing-why-detals-para-6::before {
+        content: "";
+        width: 7.95vw;
+        top: 4.9vw;
+        left: -7vw;
+    }
+    .ks-about-1 .fullpage-wrapper #section3 .domed1 svg {
+        bottom: 94px;
+    }
+    .ks-change-second .ks-change-left-para .ks-change-left-para-2::after {
+        top: 3.65vw;
+    }
+    .ks-change-second .ks-change-left-para .ks-change-left-para-3::after {
+        content: "";
+        width: 2.9vw;
+    }
+    .collegesectwo .ks-change-second .ks-change-left-para .ks-change-left-para-3::after {
+        top: 5.15vw;
+    }
+    .collegesectwo .ks-change-second  .ks-change-right-para .ks-change-right-para-2::after {
+        left: -3.6vw;
+    }
+    .ks-change-second .ks-change-right-para .ks-change-right-para-1::after {
+        width: 7vw;
+        top: 5.85vw;
+        left: -6.05vw;
+    }
+    .ks-change-second .ks-change-right-para .ks-change-right-para-3::after {
+        top: 3.45vw;
+    }
+    .ks-change-second .ks-change-right-para .ks-change-right-para-4::after {
+        content: "";
+        width: 5.7vw;
+        top: 3.45vw;
+        left: -5.65vw;
+    }
+    .ks-change-second .ks-change-right-para .ks-change-right-para-4::before {
+        top: 3.3vw;
+    }
+    .ks-change-second .ks-change-right-para .ks-change-right-para-3::before {
+        top: 3.3vw;
+    }
+    .ks-change-second .ks-change-right-para .ks-change-right-para-1::before {
+        top: 3.3vw;
+    }
+    .newclgdiam .ks-diamond-sidebar span::after {
+        content: "";
+        width: 1px;
+        height: 4.2vw;
+        left: 0.51vw;
+        top: 0px;
+    }
+    .ks-landing-why .row .col-5 {
+        padding-right: 5% !important;
+    }
+    .ks-landing-why-details img {
+        max-width: 104%;
+        margin-left: -2.5%;
+        margin-top: 4%;
+    }
+    .ks-landing-why .card .card-body {
+        min-height: 202px;
+    }
+    .ks-landing-how .container.howtabview .content-container .details .title {
+        font-size: large;
+        font-weight: 600;
+    }
+    .ks-landing-how .container.howtabview label {
+        padding: 0 37px;
+        font-size: larger;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(2) + label {
+        top: 0;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(4) + label {
+        top: 0;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(3) + label + input + label + input + label + span {
+        --x: 257%;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(4) + label + input + label  + span {
+        --x: 382%;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(1) + label + input + label + input + label + input + label+ input + label+ span {
+        --x: -5%;
+    }
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(2) + label + input + label + input + label + input + label+ span {
+        --x: 130%;
+    }
+   
+    .ks-landing-how .container.howtabview input:checked:nth-of-type(5) + label  + span {
+        --x: 503%;
+    }
+    .ks-landing-how .container.howtabview label:nth-child(2) {
+        margin-left: 29px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .left {
+        margin-bottom: 20px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .right {
+        margin-bottom: 20px;
+    }
+    .ks-career-img .carrermodeltab .content-container .content .applyform .row .full {
+        margin-bottom: 20px;
+    }
+    .ks-landing .ks-heading .flareimg img.img2 {
+        position: absolute;
+        right: -88px;
+        top: -27px;
+    }
+    .ks-landing-what .thinkskill {
+        position: absolute;
+       top: 34%;
+        right: 34%;
+        z-index: 2;
+    }
+    .ks-landing-what .peopleskil {
+        position: absolute;
+     bottom: 9%;
+    right: 17%;
+        z-index: 3;
+    }
+    .ks-landing-what .processskil li:before {
+        width: 137%;
+    }
+    .ks-landing-what .thinkskill li:nth-child(4)::before {
+        height: 37px;
+    }
+    .ks-landing-why-detals-para-1::after {
+        content: "";
+        width: 5.9vw;
+        height: 1px;
+    }
+    .ks-landing-why-detals-para-3::after {
+        content: "";
+        width: 5.85vw;
+        height: 1px;
+        bottom: 2vw;
+    }
+    .ks-landing-what .processskil {
+        position: absolute;
+        bottom: 14%;
+        left: 18%;
+    }
+    .ks-contact .leftsec ul li p {
+        line-height: 30px;
+    }
+    .ks-contact .rightsec .desc {
+        font-size: larger;
+    }
+    .ks-contact .rightsec input, .ks-contact .rightsec textarea {
+        padding: 7px;
+    }
+    .ks-contact .rightsec {
+        padding-left: 145px;
+        padding-right: 120px;
+    }
+    .ks-contact .rightsec button {
+        padding: 8px;
+        font-weight: 700;
+        font-size: x-large;
+    }
+    .im7 {
+        top: 11vw;
+    }
+    .ico-text {
+        margin-top: 3.5vw;
+    }
+    .new-but {
+        margin: 3.5vw 0;
+    }
+    .im3 {
+        height: 28vw;
+    }
+    span#result {
+        right: 28%;
+        bottom: 181px;
+    }
+    .solving0 img.ring {
+        left: 179px;
+    }
+    .solving1 img.ring {
+        left: 206px;
+    }
+    .solving2 img.ring {
+        left: 182px;
+    }
+    .im6 {
+        bottom: -1px;
+    }
+    .ks-landing-how .container.howtabview .content-container .row .col-md-6:first-child {
+        padding-left: 2px;
+    }
+}
+
+ @media only screen and (min-width: 768px) {
+            .student-landing #section4 {
+                display: none;
+            }
+
+            .hide_section #section3 {
+                position: fixed;
+                bottom: 0;
+                width: 100%;
+                z-index: 23;
+            }
+
+            .hide_section .section.empty_section {
+                height: 100vh;
+            }
+        }

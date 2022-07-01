@@ -1,0 +1,1423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X Billion Skills Lab :: Home</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- slider css     -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <!-- slider css     -->
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css?v=1212">
+    <!-- <link rel="stylesheet" href="./css/mystyle.css"> -->
+    <!-- <link rel="stylesheet" type="text/css" href="css/flipping_gallery.css" /> -->
+    <link rel="stylesheet" type="text/css" href="css/elusive-webfont.css" />
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/responsive.css?v=12">
+    <link rel="stylesheet" href="./css/mycoder.css">
+
+    <script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="./js/XBSL.js"></script>
+
+
+    <script>
+        var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+
+        function init() {
+            canvas = document.getElementById("canvas");
+            anim_container = document.getElementById("animation_container");
+            dom_overlay_container = document.getElementById("dom_overlay_container");
+            var comp = AdobeAn.getComposition("A003F0EED673B244A7AF4AD9F4E79042");
+            var lib = comp.getLibrary();
+            handleComplete({}, comp);
+        }
+
+        function handleComplete(evt, comp) {
+            //This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+            var lib = comp.getLibrary();
+            var ss = comp.getSpriteSheet();
+            exportRoot = new lib.XBSL();
+            stage = new lib.Stage(canvas);
+            //Registers the "tick" event listener.
+            fnStartAnimation = function () {
+                stage.addChild(exportRoot);
+                createjs.Ticker.framerate = lib.properties.fps;
+                createjs.Ticker.addEventListener("tick", stage);
+            }
+            //Code to support hidpi screens and responsive scaling.
+            AdobeAn.makeResponsive(true, 'both', false, 1, [canvas, anim_container, dom_overlay_container]);
+            AdobeAn.compositionLoaded(lib.properties.id);
+            fnStartAnimation();
+        }
+    </script>
+
+</head>
+
+<body class="no-scrollbar" id="noscroll">
+    <!-- Navbar Start -->
+    <ul class="nav myprogram-header justify-content-between align-items-center position-fixed top-0 w-100 pt-3 z-index-2"
+        id="navbar">
+        <li class="nav-item z-index-2 new-ms1">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="ks-logo-svg ks-logo-svg1 landing-page">
+                    <a href="index.html" class="active"> <img id="headerlogo" src="images/landing/logo-header.png"
+                            alt=""> </a>
+                </div>
+                <!-- <div class="ks-logo-heading">
+                    <h2>X Billion Skills Lab</h2>
+                    <h6>Enhancing workplace intelligence</h6>
+                </div> -->
+            </div>
+        </li>
+        <li class="nav-item new-ms2 z-index-2 aply right-li">
+            <!-- <a onclick="togglemenu()" href="./career.html" id="menubar" class="aply1 mobileapplylink"><img class="applydesktop" src="images/landing/apply-now-button.png" /><img class="applymobile" src="./images/landing/apply-now-button-mobile.png" alt=""><span class="mobile-apply">Apply Now <img class="mobile-applyimg" src="./images/menu/contactsubmit.png" alt=""></span></a> -->
+            <a href="javascript:void(0);" class="apppply"></a>
+            <!-- <a href="#"><img src="images/menu-bars.svg" alt="" class="ks-menu-bars"></a> -->
+            <!-- <a onclick="togglemenu()" id="menubar" class="aply2"><img src="images/landing/menu-logo.png" /></a> -->
+
+            <!-- Toggle Menu  -->
+            <nav class="mynavbar menu-overlay" id="navId">
+                <button onclick="myFunction(this);" type="button" class="toggle-collapse" id="toggle-button">
+                    <span class="toggle-icon"></span>
+                </button>
+
+                <!-- Menu section  -->
+                <ul class="slide-nav landing-slide-nav">
+                    <li class="nav-item menuactive">
+                        <a href="./index.html"><img class="one" src="./images/menu/menu-icon-1.png" alt=""><img
+                                class="one-active imactive" src="./images/menu/menu-icon-1-active.png" alt=""> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./programs.html"><img class="two" src="./images/menu/menu-icon-2.png" alt=""><img
+                                class="two-active imactive" src="./images/menu/menu-icon-2-active.png" alt="">
+                            Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./about-us.html"><img class="three" src="./images/menu/menu-icon-3.png" alt=""><img
+                                class="three-active imactive" src="./images/menu/menu-icon-3-active.png" alt=""> About
+                            Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./impact.html"><img class="four" src="./images/menu/menu-icon-4.png" alt=""><img
+                                class="four-active imactive" src="./images/menu/menu-icon-4-active.png" alt="">
+                            Impact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./science.html"><img class="five" src="./images/menu/menu-icon-5.png" alt=""><img
+                                class="five-active imactive" src="./images/menu/menu-icon-5-active.png" alt="">
+                            Science</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./career.html"><img class="six" src="./images/menu/menu-icon-6.png" alt=""><img
+                                class="six-active imactive" src="./images/menu/menu-icon-6-active.png" alt="">
+                            Career</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./contact.html"><img class="seven" src="./images/menu/menu-icon-7.png" alt=""><img
+                                class="seven-active imactive" src="./images/menu/menu-icon-7-active.png" alt=""> Contact
+                            Us</a>
+                    </li>
+                </ul>
+                <!-- Menu section  -->
+            </nav>
+            <!-- Toggle Menu  -->
+        </li>
+    </ul>
+    <div class="blakpatch" onclick="togglemenu()"></div>
+    <!--<div class="rightmenu" id="mainmenu" >
+        <a href="programe.html" class="getstarted colorful hvr-ripple-out">get
+            started</a>
+        <ul class="menu">
+            <li>
+                <a href="landing.html" class="active">
+                    <div class="diamond"></div> Home
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="about.html">
+                    <div class="diamond"></div> About
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="science.html">
+                    <div class="diamond"></div> Science
+                </a>
+                <span></span>
+            </li>
+            <!-- <li>
+                <a href="programe.html">
+                    <div class="diamond"></div> Programs
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="for-college-new.html">
+                    <div class="diamond"></div> For College
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="career.html">
+                    <div class="diamond"></div> Careers
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <div class="diamond"></div> Contact
+                </a>
+            </li>
+        </ul>
+        <!-- <a class="closebtn" onclick="togglemenu()"><img src="images/main-menu-arrow.png" /></a> 
+        <!-- <a class="knowmore blueclr hvr-ripple-out">Know More</a> 
+    </div>-->
+
+
+
+    <!-- Navbar End -->
+    <div id="fullpage" class="fullpage-wrapper student-landing">
+
+        <div class="animations-wrapper">
+
+
+            <div id="section0">
+                <!-- Landing Page -->
+                <div class="bg-darkblue" id="ksLandingNewIntro">
+                    <div class="ks-landing ks-landing1">
+                        <div class="ms-5 pt-4">
+                            <div class="row w-100 mt-4 pt-3">
+                                <div class=" col-9 ">
+                                    <div class="home-top-text d-flex align-items-end mt-5 pt-5 new-m">
+                                        <div class="ks-heading ms-1">
+                                            <div class="mt-4 hi-text mt-3 new-m1">
+                                                <h1> <b><span class="hi">Hi,</span></b><br>
+                                                    Looking to build a meaningful career?<br class="second-break">
+                                                    Well, it's certainly going to take <span>more than just technical
+                                                        skills!</span></h1>
+                                            </div>
+
+                                            <p class="f-text">
+                                                But first, let's dream… <br>
+                                                <span>Where do you see yourself 3 years from now?</span>
+                                            </p>
+                                            <!-- <ul class="tell-us">
+                                                <li><input type="text" autocomplete="off"
+                                                        class="form-control form-control_3" placeholder="Senior product architect, Head of Finance, Team Leader, Senior Analyst
+                                                    " name="name" id="designaname" required="required"><span
+                                                        class="message"></span></li>
+                                                <li><button type="submit"
+                                                        class="btn_a button-box contact_form_submit-1"><img
+                                                            src="images/landing/tell-us-how-button.png"></button></li>
+                                            </ul> -->
+                                            <form class="tell-us" onsubmit="return false;" method="post">
+                                                <div>
+                                                    <input type="text" autocomplete="off"
+                                                        class="form-control form-control_3" placeholder="Senior product architect, Head of Finance, Team Leader, Senior Analyst
+                                                " name="name" id="designaname" required="required"><span
+                                                        class="message"></span>
+                                                </div>
+                                                <button type="submit"
+                                                    class="btn_a button-box contact_form_submit-1"><img
+                                                        src="images/landing/tell-us-how-button.png"></button>
+                                            </form>
+                                            <div class="btn-grp mt-4 ">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-3 ">
+
+                                </div>
+                            </div>
+                            <div class="jobe">
+                                <p><a href="">JOBS</a></p>
+                            </div>
+                        </div>
+                        <div class="farst-img">
+                            <img class="im1 show-desktop" src="images/landing/landing-page-background-boxes.png">
+                            <img class="im4 show-mobile" src="images/landing/landing-background-mobile.png">
+                            <img class="im2 desktop" src="images/landing/landing-page-background-people.png">
+                            <img class="im3 desktop" src="images/landing/landing-page-background-1.png">
+                            <img class="mobile" src="images/landing/xbsl-landing-screen-background-mobile.png">
+                        </div>
+
+                        <!-- <div class="animation-and-image-wrapper">
+                                 
+                                    <div id="animation_container">
+                                        <canvas id="canvas"></canvas>
+                                        <div id="dom_overlay_container">
+                                        </div>
+                                    </div>
+                                
+                                 <div class="farst-img">
+                                    <img class="im1 show-desktop" src="images/landing/landing-page-background-boxes.png">
+                                    <img class="im4 show-mobile" src="images/landing/landing-background-mobile.png">
+                                    <img class="im2 desktop" src="images/landing/landing-page-background-people.png">
+                                    <img class="im3 desktop" src="images/landing/landing-page-background-1.png">
+                                    <img class="mobile" src="images/landing/xbsl-landing-screen-background-mobile.png">
+                            </div>
+                            </div> -->
+
+                    </div>
+                    <!-- background-animation  -->
+                    <div class="animation">
+                        <video src="./video/new.mp4" autoplay muted loop></video>
+                    </div>
+                    <!-- background-animation  -->
+                </div>
+                <!-- Landing Page END -->
+            </div>
+            <div id="section1">
+                <div class="bg-darkblue why" id="ksLandingwelive">
+                    <div class="ks-landing-welive position-relative ks-landing1">
+                        <div class="ms-5 pt-4">
+                            <div class="mt-4 pt-3 ">
+                                <div class="position-relative pt-6 think apply-padding">
+                                    <div class="mt-4 hi-text How-text">
+                                        <h1> How you <span>think and solve matters</span> more than just what you know
+                                        </h1>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-md-7 col-sm-7 skils-wrapper">
+                                            <div class="skils-text">
+                                                <h2>21<sup>st</sup> CENTURY WORKPLACE SKILLS</h2>
+                                                <!-- <p>are superpowers for rapid growth. <i class="mobilebottom">Master them in the </i> </p>
+                                                   <h2>WORLD'S 1<sup>st</sup> WORKPLACE SIMULATION GAME</h2> -->
+                                                <p class="show-desktop">are superpowers for growth. Master them in <br>
+                                                    our workplace simulator</p>
+                                                <p class="show-mobile">are superpowers for growth. Master them in our
+                                                    workplace simulator</p>
+
+                                                <p>@just <span class="rop">₹</span>
+                                                    <!-- <span class="sedo">1999 /-</span> -->
+                                                    <span class="price-with-shadow"><img
+                                                            src="images/landing/price-1999.png"></span>
+                                                </p>
+                                            </div>
+                                            <div class="new-but">
+                                                <span>(placement support included)</span>
+                                                <a href=""><img src="images/landing/landing-2-apply-now-button.png"></a>
+                                            </div>
+                                            <div class="how-but">
+                                                <p>KNOW HOW</p>
+                                                <a href="#section2"><img
+                                                        src="images/landing/scroll-next-button.png"></a>
+                                            </div>
+                                        </div>
+                                        <div class="col-md-5 col-sm-5">
+                                            <div class="ico-text">
+                                                <div class="solving solving0">
+                                                    <img src="images/landing/xbsl-landing-scr2-icon-1.png">
+                                                    <p>CREATIVE PROBLEM SOLVING</p>
+                                                    <img src="images/landing/xbsl-landing-screen2-iconring.png"
+                                                        class="ring">
+                                                </div>
+                                                <div class="solving solving1">
+                                                    <img src="images/landing/xbsl-landing-scr2-icon-2.png">
+                                                    <p>FIRST PRINCIPLES THINKING</p>
+                                                    <img src="images/landing/xbsl-landing-screen2-iconring.png"
+                                                        class="ring">
+                                                </div>
+                                                <div class="solving solving2">
+                                                    <img src="images/landing/xbsl-landing-scr2-icon-3.png">
+                                                    <p>CRITICAL THINKING</p>
+                                                    <img src="images/landing/xbsl-landing-screen2-iconring.png"
+                                                        class="ring">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="farst-img">
+                            <img class="show-desktop" src="images/landing/landing-page-background-boxes.png">
+                            <!-- <img class="show-mobile" src="images/landing/landing-background-mobile.png"> -->
+                            <img class="im5" src="images/landing/landing-2-desk-background-image.png">
+                            <span id="result"></span>
+                        </div>
+                        <img class="nshow-mobile" src="images/landing/landing-background-mobile.png">
+                        <!-- background-animation  -->
+                        <div class="animation1">
+                            <video src="./video/new.mp4" autoplay muted loop></video>
+                        </div>
+                        <!-- background-animation  -->
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <div class="section " id="section2">
+            <!-- What Section  -->
+            <div class="bg-darkblue why" id="ksLandingNewWhat">
+                <div class="ks-landing-what position-relative ks-landing2">
+                    <div class="ms-5 pt-4">
+                        <div class="mt-4 pt-3">
+                            <div class="position-relative pt-6 think">
+
+                                <div class="mt-4 hi-text master-text">
+                                    <h1> The best way to master <span>21<sup>ST</sup> CENTURY WORKPLACE SKILLS</span> is
+                                        by doing.</h1>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-8">
+                                        <div class="skils-text1">
+                                            <h2>Join our workplace simulation as an <span>'employee'</span> in a
+                                                fictitious startup for <span>30 days, tackling 100+ real workplace
+                                                    situations.</span> Through this, train your brain and prove your
+                                                competence to get a meaningful job in new age enterprises.</h2>
+                                            <!-- <h2 class="show-desktop">In our simulation, you <span>“WORK”</span> in a startup for <span>30 days</span>. <br>
+											Solve problems, impress bosses, collaborate with teams and <br>
+											tackle <span>100+ real workplace scenarios. </span></h2>
+
+											<h2 class="show-desktop">And yes, after you’re done playing in the simulation - <br>
+											we also enable you to get a meaningful <span>job in the real world.</span> <br>
+											There are already <span>30+ emerging startups waiting to hire <br>
+											smart generalists like you!</span></h2>
+
+                                            <h2 class="show-mobile">In our simulation, you <span>“WORK”</span> in a startup for <span>30 days</span>. 
+                                                Solve problems, impress bosses, collaborate with teams and 
+                                                tackle <span>100+ real workplace scenarios. </span></h2>
+    
+                                                <h2 class="show-mobile"><span>And yes, </span> <br> after you’re done playing in the simulation - 
+                                                we also enable you to get a meaningful <span>job in the real world.</span> <br><br>
+                                                There are already <br><span>30+ emerging startups waiting <br> to hire smart generalists like you!</span></h2> -->
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                    </div>
+                                </div>
+
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="farst-img">
+                        <img class="im6" src="images/landing/landing-3-background-mobile-img.jpg">
+                        <img class="im7 show-desktop" src="images/landing/how-it-works.png">
+                        <img class="im7 show-mobile" src="images/landing/how-it-works-mobile.png">
+                    </div>
+                </div>
+            </div>
+            <!-- What Section END -->
+        </div>
+        <div class="section empty_section"></div>
+        <div class="section " id="section3">
+            <!-- How Section -->
+            <div class="bg-darkblue acheive" id="ksLandingNewHow">
+                <div class="bg-tab"><img src="images/landing/tab-background.jpg" alt=""></div>
+                <div class="ks-landing-how ks-landing3">
+                    <div class="ms-5 pt-4">
+                        <div class="mt-4 pt-5">
+                            <div class="position-relative pt-5 think">
+                                <div class="container container_a howtabview">
+
+                                    <input type="radio" data-count="1" id="tab1" name="tab" checked>
+                                    <label for="tab1"> APPLY TO JOIN</label>
+                                    <input type="radio" data-count="2" id="tab2" name="tab">
+                                    <label for="tab2"> GET ONBOARDING<br> AND MEETING<br> YOUR TEAM</label>
+                                    <input type="radio" data-count="3" id="tab3" name="tab">
+                                    <label for="tab3"> GET TO WORK</label>
+                                    <input type="radio" data-count="4" id="tab4" name="tab">
+                                    <label for="tab4">LEARN FROM THE BEST</label>
+                                    <input type="radio" data-count="5" id="tab5" name="tab">
+                                    <label for="tab5">WORKPLACE<br> INTELLIGENCE</br> PROFILE</label>
+                                    <input type="radio" data-count="6" id="tab6" name="tab">
+                                    <label for="tab6">PLACEMENT<br> SUPPORT</label>
+                                    <span></span>
+
+                                    <div class="mobile-tabs">
+                                        <div class="tab-prev"></div>
+                                        <div class="tab-heading">
+                                            <div><span>APPLY TO JOIN</span></div>
+                                        </div>
+                                        <div class="tab-bullets">
+                                            <span class="bullet bullet-1 active"></span>
+                                            <span class="bullet bullet-2"></span>
+                                            <span class="bullet bullet-3"></span>
+                                            <span class="bullet bullet-4"></span>
+                                            <span class="bullet bullet-5"></span>
+                                            <span class="bullet bullet-6"></span>
+                                        </div>
+                                        <div class="tab-next"></div>
+                                    </div>
+
+                                    <div class="content-container">
+                                        <div class="content" id="c1">
+                                            <div class="row landing-tab-content">
+                                                <div class="col-md-6">
+                                                    <div class="details details1">
+                                                        <div class="title">Apply to join the Workverse Smart Generalist
+                                                            program</div>
+                                                        <p>We are choosy! This program is only for the driven few who
+                                                            aim to be future leaders in their industry. Apply today for
+                                                            free!</p>
+                                                        <!-- <p>This program is only for the driven select few who aim to be future leaders in their industry...  </p>
+                                                    <p class="show-desktop">Take this <span class="free">FREE 30 min assessment</span> today to help us know you and your ambitions.</p> -->
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="tab-howimage landing-how-image landing-how-image1">
+                                                        <img src="images/landing/apply-to-join-mobile.png" alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-md-6 show-mobile">
+                                                <div class="details details1">
+                                                    <p>Take this <span class="free">FREE 30 min assessment</span> today to help us know you and your ambitions.</p>
+                                                </div>
+                                            </div>      -->
+                                            </div>
+                                        </div>
+                                        <div class="content" id="c2">
+                                            <div class="row landing-tab-content second-landing-tab-content">
+                                                <div class="col-md-6">
+                                                    <div class="details details1">
+                                                        <div class="title show-desktop">GET ONBOARDED<br /> AND MEET
+                                                            YOUR TEAM</div>
+                                                        <!-- <p>Get on board as an <span class="free">“EMPLOYEE”</span> of this imaginary startup. Meet your <span class="free">“BOSS”</span> who will be tough to impress and diverse <span class="free">”COLLEAGUES”</span> who you will collaborate with. <span class="show-desktop">Prepare yourself to tackle hierarchical relationships and get work done despite differences.</span></p> -->
+
+                                                        <p>Get together on a call to onboard as an <span
+                                                                class="free">“employee”</span> of this fictitious
+                                                            startup. Meet a <span class="free">“boss”</span> who will be
+                                                            tough to impress and diverse <span
+                                                                class="free">“colleagues”</span> whom you will virtually
+                                                            collaborate with. </p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div
+                                                        class="tab-howimage tab-howimage1 landing-how-image landing-how-image2">
+                                                        <img src="images/landing/onboarding-team-img.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-md-6 show-mobile">
+                                                <div class="details details1">                                                    
+                                                    <p><span class="free">Prepare yourself </span> to tackle hierarchical relationships and get work done despite differences.</p>
+                                                </div>
+                                            </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="content" id="c3">
+                                            <div class="row landing-tab-content">
+                                                <div class="col-md-6">
+                                                    <div class="details details1">
+                                                        <div class="title show-desktop">GET TO WORK</div>
+                                                        <!-- <p>Achieve real-world business goals for your
+													company- Pitch to clients, negotiate deals,
+													and tackle emergencies.</p>
+                                                    <p class="show-desktop">
+													<span>Work individually, Work in teams!</span>
+													Prioritize your tasks, time, and energy to
+													deliver outcomes. Experience <span>EVERYTHING</span>
+													that you will in the first year of your real world job </p> -->
+                                                        <p>Experience EVERYTHING that you will in the first year of your
+                                                            real world job - Pitch to clients, take strategic decisions
+                                                            and tackle crises.</p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="tab-howimage landing-how-image landing-how-image3">
+                                                        <img src="images/landing/get-to-work-tab-img.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-md-6 show-mobile">
+                                                <div class="details details1">                                                   
+                                                     <p class="show-mobile">
+                                                     <span>Work individually, Work in teams!</span>
+                                                     Prioritize your tasks, time, and energy to
+                                                     deliver outcomes. Experience <span>EVERYTHING</span>
+                                                     that you will in the first year of your real world job </p>
+                                                    
+                                                </div>
+                                            </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="content" id="c4">
+                                            <div class="row landing-tab-content">
+                                                <div class="col-md-6">
+                                                    <div class="details details1">
+                                                        <div class="title show-desktop">AS YOU'RE “WORKING”,</div>
+                                                        <!-- <p>As you <span>"WORK"</span>, we observe and rank how
+														intelligently you deal with problems and
+														opportunities. Our science-backed algorithm
+														generates a unique</p>
+                                                        <p class="show-desktop">
+														<span>“WORKPLACE INTELLIGENCE PROFILE"</span>
+														that quantifies your achievements and abilities.
+														This is essentially a report card to see if you get
+														promoted or fired!</p> -->
+                                                        <p>Learn tricks & hacks from accomplished CEOs & Entrepreneurs
+                                                            just like how in the real world employees participate in
+                                                            capability enhancement programs.</p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div
+                                                        class="tab-howimage tab-howimage3 landing-how-image landing-how-image4">
+                                                        <img src="images/landing/workverse-learn-from-the-best-image.png"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-md-6 show-mobile">
+                                                <div class="details details1">    
+                                                        <p>                                              
+                                                         <span>“WORKPLACE INTELLIGENCE PROFILE"</span>
+                                                         that quantifies your achievements and abilities.
+                                                         This is essentially a report card to see if you get
+                                                         promoted or fired!</p>
+                                                   
+                                                </div>
+                                            </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="content" id="c5">
+                                            <div class="row landing-tab-content">
+                                                <div class="col-md-6">
+                                                    <div class="details details1">
+                                                        <div class="title show-desktop">WORKPLACE INTELLIGENCE PROFILE
+                                                        </div>
+                                                        <!-- <p>As you <span>"WORK"</span>, we observe and rank how
+														intelligently you deal with problems and
+														opportunities. Our science-backed algorithm
+														generates a unique</p>
+                                                        <p class="show-desktop">
+														<span>“WORKPLACE INTELLIGENCE PROFILE"</span>
+														that quantifies your achievements and abilities.
+														This is essentially a report card to see if you get
+														promoted or fired!</p> -->
+                                                        <p>What does a standard certification say about you? Nothing! As
+                                                            you <span class="free">“work, in our simulation”</span> our
+                                                            algorithm observes how you tackled scenarios in the
+                                                            simulation to produce your W.I.P </p>
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div
+                                                        class="tab-howimage tab-howimage3 landing-how-image landing-how-image4">
+                                                        <img src="images/landing/workplace-intelligent-profile-tab-img.jpg"
+                                                            alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-md-6 show-mobile">
+                                                <div class="details details1">    
+                                                        <p>                                              
+                                                         <span>“WORKPLACE INTELLIGENCE PROFILE"</span>
+                                                         that quantifies your achievements and abilities.
+                                                         This is essentially a report card to see if you get
+                                                         promoted or fired!</p>
+                                                   
+                                                </div>
+                                            </div> -->
+                                            </div>
+                                        </div>
+                                        <div class="content" id="c6">
+                                            <div class="row landing-tab-content">
+                                                <div class="col-md-6">
+                                                    <div class="details details1">
+                                                        <div class="title show-desktop">PLACEMENT SUPPORT</div>
+                                                        <!-- <p>Based on your <span>W.I.P</span>, we introduce you to new
+														age startups looking for smart solvers & creative
+														thinkers across domains like coding, finance,
+														engineering and marketing. </p>
+                                                        <p class="show-desktop">This experience
+														will give you a unique edge in hiring decisions.</p> -->
+                                                        <p>Based on your W.I.P, we introduce you to new age startups who
+                                                            are also looking for smart thinkers like you for meaningful
+                                                            roles</p>
+                                                        <span class="new-text">
+                                                            For more information and to apply 
+                                                            click below<br />
+                                                            <a href="./programs.html"><img src="images/landing/apply-now-button.png" alt=""></a>
+                                                            
+                                                        </span><br />
+                                                        <span class="new-text">Workverse operates in a hybrid
+                                                            environment.<br />We use both Online & Offline inventions to
+                                                            train, text & place you!</span>
+
+
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <div class="tab-howimage landing-how-image landing-how-image5">
+                                                        <img src="images/landing/placement-support-tab-img.jpg" alt="">
+                                                    </div>
+                                                </div>
+                                                <!-- <div class="col-md-6 show-mobile">
+                                                <div class="details details1">
+                                                         <p>This experience
+                                                         will give you a unique edge in hiring decisions.</p>
+                                                                                                           
+                                                </div>
+                                            </div> -->
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- How Section END -->
+        </div>
+        <div class="section scrollable-content" id="section4">
+            <!-- Why Section -->
+            <div class="bg-darkblue what landing-why-bg" id="ksLandingNewWhy">
+                <div class="ks-landing-why position-relative ks-landing1">
+                    <div class="ms-5 pt-5">
+                        <div class="mt-5 pt-4">
+                            <div class="position-relative pt-5 think pp1">
+
+                                <div class="mt-4 hi-text changed">
+                                    <h1>Hiring criteria has <span>changed</span></h1>
+                                </div>
+                                <div class="row align-items-center">
+                                    <div class="col-md-6">
+                                        <div class="changed-text">
+                                            <div class="changed-hed">
+                                                <h2>Limited opportunities</h2>
+                                            </div>
+                                            <div class="changed-p changedp2">
+                                                <img src="images/landing/limited-opportunities-1-mobile.png">
+                                                <p class="show-desktop">250+ graduates apply <br>for every job posting
+                                                </p>
+                                                <p class="show-mobile">250+ graduates apply for every job posting</p>
+                                            </div>
+                                            <div class="changed-p changedp1 changedp3">
+                                                <p class="show-desktop">A.I. is replacing humans for <br>jobs that
+                                                    requires little thinking</p>
+                                                <p class="show-mobile">A.I. is replacing humans for jobs that requires
+                                                    little thinking</p>
+                                                <img src="images/landing/limited-opportunities-2-mobile.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="changed-text changed-text1">
+                                            <div class="changed-hed">
+                                                <h2>Rapid Growth</h2>
+                                            </div>
+                                            <div class="changed-p changedp2">
+                                                <img src="images/landing/rapid-growth-1-mobile.png">
+                                                <p class="show-desktop">Employees today are <br> co creators-
+                                                    contributing <br> to vision & strategy is a must!</p>
+                                                <p class="show-mobile">Employees today are co creators - contributing to
+                                                    vision & strategy is a must!</p>
+                                            </div>
+                                            <div class="changed-p changedp1 changedp3">
+                                                <p class="show-desktop">Businesses are evolving-<br> Performing in
+                                                    uncertainty <br> is now a necessity.</p>
+                                                <p class="show-mobile">Businesses are evolving- Performing in
+                                                    uncertainty is now a necessity.</p>
+                                                <img src="images/landing/rapid-growth-2-mobile.png">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="last-p">
+                                    <p><i>Employers prefer freshers who display intelligence to deliver outcomes smartly
+                                            and independently from day one.</i></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="home-statistic-slider-wrapper">
+
+
+                    <!-- Desktop Statistics  -->
+                    <div class="home-desktop-statistics impact-top-wrapper new-ms1 new-ms2 pb-5 pt-3">
+                        <div class="impact-top-inner">
+                            <div class="percentage-inner">
+                                <div class="percentage-box">
+                                    <h1>
+                                        50+
+                                        <span class="cricle1"></span>
+                                        <span class="cricle2"></span>
+                                        <span class="cricle3"></span>
+                                    </h1>
+                                    <h5>partner<br />institutions</h5>
+                                </div>
+                                <div class="percentage-box">
+                                    <h1>100k+
+                                        <span class="cricle1"></span>
+                                        <span class="cricle2"></span>
+                                        <span class="cricle3"></span>
+                                    </h1>
+                                    <h5>learners</h5>
+                                </div>
+                                <div class="percentage-box">
+                                    <h1>92%
+                                        <span class="cricle1"></span>
+                                        <span class="cricle2"></span>
+                                        <span class="cricle3"></span>
+                                    </h1>
+                                    <h5>course<br />completion</h5>
+                                </div>
+                                <div class="percentage-box">
+                                    <h1>72%
+                                        <span class="cricle1"></span>
+                                        <span class="cricle2"></span>
+                                        <span class="cricle3"></span>
+                                    </h1>
+                                    <h5>placement<br />preference</h5>
+                                </div>
+                            </div>
+                            <div class="partners-wrapper">
+                                <h1>Partners</h1>
+                                <div class="partners-images">
+                                    <img src="./images/menu/partners-logo-1.png" alt="">
+                                    <img src="./images/menu/partners-logo-2.png" alt="">
+                                    <img src="./images/menu/partners-logo-3.png" alt="">
+                                    <img src="./images/menu/partners-logo-4.png" alt="">
+                                    <img src="./images/menu/partners-logo-5.png" alt="">
+                                </div>
+                            </div>
+                            <div class="partner-section">
+                                <h3>Partners</h3>
+                                <div class="logos">
+                                    <ul>
+                                        <li><img src="images/landing/indian-railway-logo-mobile.png"></li>
+                                        <li><img src="images/landing/jagran-lake-university-mobile.png"></li>
+                                        <li><img src="images/landing/mop-college-mobile.png"></li>
+                                        <li><img src="images/landing/united-nations-logo-mobile.png"></li>
+                                        <li><img src="images/landing/srm-logo-mobile.png"></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Desktop Statistics  -->
+                    <!-- Slider  -->
+                    <section  id="slider" class="home-desktop-slider">
+                        <div class="slider">
+                            <div class="owl-carousel impact-slider">
+                                <div class="slider-card">
+                                    <div class="slider-top">
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <p class="text-center">“During campus recruitment,employers now give equal
+                                            importance to academic competence and proficiency in non-technical
+                                            skills.Having
+                                            training in 21st century workplace skills like creative problem solving,
+                                            critical thinking and collaboration can give students a unique edge in the
+                                            early
+                                            days of their career.”</p>
+                                    </div>
+                                    <div class="slider-bottom">
+                                        <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                        <h5>Dr. Rolii Agrawal</h5>
+                                        <p>(Head, Center for Professional Skills,<br /> Jagran Lakecity University)
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <div class="slider-top">
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <p class="text-center">“In a technology and innovation driven world of work
+                                            employers seek talent who can go above and beyond their technica
+                                            competence. X Billion Skills Lab's program on 21st century workplace skills
+                                            produces high quality talent which can add value to a business' growth
+                                            agenda.”
+                                        </p>
+                                    </div>
+                                    <div class="slider-bottom">
+                                        <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                        <h5>Dr Anurag Batra</h5>
+                                        <p>(Chairman, Editor in<br /> Chief, BW Businessworld)
+
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <div class="slider-top">
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <p class="text-center">I loved learning about developing an 'Entrepreneurial
+                                            Mindset'. It equipped me with the right knowledge and awareness to approach
+                                            business realities. 'Collaboration' taught me how to handle egos and work
+                                            responsibly in a group. All in all, this program has enhanced the quality of
+                                            both my thoughts and actions.</p>
+                                    </div>
+                                    <div class="slider-bottom">
+                                        <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                        <h5>Meena Abigail</h5>
+                                        <p>(Achariya College)</p>
+                                    </div>
+                                </div>
+                                <div class="slider-card">
+                                    <div class="slider-top">
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <p class="text-center">The program delivered an exceptionally informative
+                                            learning
+                                            experience! I especially enjoyed learning about 'Storytelling.' As someone
+                                            who
+                                            never gave a second thought to communication, I was exposed to ideas and
+                                            concepts that helped me understand the power of words and improve my
+                                            abilities.
+                                        </p>
+                                    </div>
+                                    <div class="slider-bottom">
+                                        <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                        <h5>A. Mohammed</h5>
+                                        <p>(Finolex Academy of<br /> Management and Technology)
+
+
+                                        </p>
+                                    </div>
+
+                                </div>
+                                <div class="slider-card">
+                                    <div class="slider-top">
+                                        <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                        <p class="text-center">This program is the definition of 'show with substance!
+                                            The
+                                            depth and the direction in which each topic is explained, is very engaging-
+                                            just
+                                            superb! Most importantly, the content is practical and helped me understand
+                                            the
+                                            true importance of workplace skills like 'Creative Problem Solving' and
+                                            'Negotiation.'
+                                        </p>
+                                    </div>
+                                    <div class="slider-bottom">
+                                        <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                        <h5>Dr. Rolii Agrawal</h5>
+                                        <p>Bhargavi K (Finolex Academy of<br /> Management and Technology)
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </section>
+                    <!-- Slider  -->
+                </div>
+                <!-- Desktop Statistics  -->
+               
+
+            </div>
+
+
+            <div class="statistics-section show-mobile">
+
+
+                <div class="statistics">
+                    <ul>
+                        <li><img src="images/landing/impact-statistics-1.png">
+                            <span>partner <br> institutions</span>
+                            <span class="lcircle1"></span>
+                            <span class="lcircle2"></span>
+                            <span class="lcircle3"></span>
+                        </li>
+                        <li><img src="images/landing/impact-statistics-2.png"><span>learners</span>
+                            <span class="lcircle1"></span>
+                            <span class="lcircle2"></span>
+                            <span class="lcircle3"></span>
+                        </li>
+                        <li><img src="images/landing/impact-statistics-3.png"><span>course <br> completion</span>
+                            <span class="lcircle1"></span>
+                            <span class="lcircle2"></span>
+                            <span class="lcircle3"></span>
+                        </li>
+                        <span class="lcircle1"></span>
+                        <span class="lcircle2"></span>
+                        <span class="lcircle3"></span>
+                        <li><img src="images/landing/impact-statistics-4.png"><span>placement <br> preference</span>
+                            <span class="lcircle1"></span>
+                            <span class="lcircle2"></span>
+                            <span class="lcircle3"></span>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="partner-section">
+                    <h3>Partners</h3>
+                    <div class="logos">
+                        <ul>
+                            <li><img src="images/landing/indian-railway-logo-mobile.png"></li>
+                            <li><img src="images/landing/jagran-lake-university-mobile.png"></li>
+                            <li><img src="images/landing/mop-college-mobile.png"></li>
+                            <li><img src="images/landing/united-nations-logo-mobile.png"></li>
+                            <li><img src="images/landing/srm-logo-mobile.png"></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <!-- Slider  -->
+                <section id="slider">
+                    <div class="slider">
+                        <div class="owl-carousel impact-slider">
+                            <div class="slider-card">
+                                <div class="slider-top">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <p class="text-center">“During campus recruitment,employers now give equal
+                                        importance to academic competence and proficiency in non-technical
+                                        skills.Having
+                                        training in 21st century workplace skills like creative problem solving,
+                                        critical thinking and collaboration can give students a unique edge in the
+                                        early
+                                        days of their career.”</p>
+                                </div>
+                                <div class="slider-bottom">
+                                    <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                    <h5>Dr. Rolii Agrawal</h5>
+                                    <p>(Head, Center for Professional Skills,<br /> Jagran Lakecity University)
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-top">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <p class="text-center">“In a technology and innovation driven world of work
+                                        employers seek talent who can go above and beyond their technica
+                                        competence. X Billion Skills Lab's program on 21st century workplace skills
+                                        produces high quality talent which can add value to a business' growth
+                                        agenda.”
+                                    </p>
+                                </div>
+                                <div class="slider-bottom">
+                                    <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                    <h5>Dr Anurag Batra</h5>
+                                    <p>(Chairman, Editor in<br /> Chief, BW Businessworld)
+
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-top">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <p class="text-center">I loved learning about developing an 'Entrepreneurial
+                                        Mindset'. It equipped me with the right knowledge and awareness to approach
+                                        business realities. 'Collaboration' taught me how to handle egos and work
+                                        responsibly in a group. All in all, this program has enhanced the quality of
+                                        both my thoughts and actions.</p>
+                                </div>
+                                <div class="slider-bottom">
+                                    <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                    <h5>Meena Abigail</h5>
+                                    <p>(Achariya College)</p>
+                                </div>
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-top">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <p class="text-center">The program delivered an exceptionally informative
+                                        learning
+                                        experience! I especially enjoyed learning about 'Storytelling.' As someone
+                                        who
+                                        never gave a second thought to communication, I was exposed to ideas and
+                                        concepts that helped me understand the power of words and improve my
+                                        abilities.
+                                    </p>
+                                </div>
+                                <div class="slider-bottom">
+                                    <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                    <h5>A. Mohammed</h5>
+                                    <p>(Finolex Academy of<br /> Management and Technology)
+
+
+                                    </p>
+                                </div>
+
+                            </div>
+                            <div class="slider-card">
+                                <div class="slider-top">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                    <p class="text-center">This program is the definition of 'show with substance!
+                                        The
+                                        depth and the direction in which each topic is explained, is very engaging-
+                                        just
+                                        superb! Most importantly, the content is practical and helped me understand
+                                        the
+                                        true importance of workplace skills like 'Creative Problem Solving' and
+                                        'Negotiation.'
+                                    </p>
+                                </div>
+                                <div class="slider-bottom">
+                                    <img src="./images/menu/dr-rolii-agrawal.png" alt="">
+                                    <h5>Dr. Rolii Agrawal</h5>
+                                    <p>Bhargavi K (Finolex Academy of<br /> Management and Technology)
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </section>
+                <!-- Slider  -->
+
+
+            </div>
+
+
+
+
+            <div class="position-relative pt-5 think footer-area">
+                <div class="footer-outer-wrapper">
+                    <div class="footer-inner-wrapper">
+                        <a href="./index.html"><img class="footer-icon" src="./new-images/workverse-footer-icon.png"
+                                alt=""></a>
+                    </div>
+                    <div class="footer-inner-wrapper">
+                        <div class="conte-link">
+                            <ul>
+                                <li><a href="./index.html">HOME</a></li>
+                                <li><a href="./programs.html">PROGRAMS</a></li>
+                                <li><a href="./about-us.html">ABOUT US</a></li>
+                                <li><a href="./impact.html">IMPACT</a></li>
+                                <li><a href="./science.html">SCIENCE</a></li>
+                                <li><a data-role="button" target="_self" href="career.html">CAREER</a></li>
+                                <li><a href="./contact.html">CONCACT US</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="footer-inner-wrapper">
+                        <div class="footer-inner-wrapper-right">
+                            <img class="footer-icon-text" src="./new-images/workverse-footer-text.png" alt="">
+                            <div class="socials-icons">
+                                <a href=""><img src="images/landing/footer-instagram.png"></a>
+                                <a href=""><img src="images/landing/footer-linkedin.png"></a>
+                                <a href=""><img src="images/landing/footer-facebook.png"></a>
+                                <a href=""><img src="images/landing/footer-youtube.png"></a>
+                            </div>
+                            <p> All Rights Reserved © <a href="www.xbillionskillslab.com">xbillionskillslab.com</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+    <!-- Why Section END -->
+    </div>
+
+
+
+
+
+    <!-- Modal Start  -->
+    <div class="modal fade" id="ksFoundationModal" aria-hidden="true" aria-labelledby="ksFoundationModalLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="bg-darkblue w-100">
+                    <div class="ks-foundation-img ">
+                        <div class="ms-5 pt-4 ">
+                            <ul
+                                class="nav justify-content-between align-items-center position-fixed top-0 w-custom pt-4 z-index-2 ">
+                                <li class="nav-item z-index-2 ms-4">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="ks-logo-svg">
+                                            <img src="new-images/logo.png" alt="">
+                                        </div>
+                                        <!-- <div class="ks-logo-heading">
+                                            <h2>X Billion Skills Lab</h2>
+                                            <h6>Enhancing workplace intelligence</h6>
+                                        </div> -->
+                                    </div>
+                                </li>
+                                <li class="nav-item me-5 z-index-2 ">
+                                    <a href="#" data-bs-dismiss="modal" aria-label="Close"
+                                        class="closebtn border  pt-1-5 px-2 pb-1"><i
+                                            class="fas fa-times text-white"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="conatiner pt-5 mt-4">
+                            <div class="row mt-5 w-100 align-items-center">
+                                <div class="col-md-6 text-light px-5 pt-3">
+                                    <div class="ms-5">
+                                        <h2 class="ks-h1-text"> 1. FOUNDATION</h2>
+                                        <hr class="green">
+                                        <p class="ks-foundation-text">Lorem ipsum dolor sit amet, consectetuer
+                                            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                            exerci tation ullamcorper
+                                            suscipit lobortis nisl ut </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/testimonial-img.jpg" class="img-fluid w-90 border1 " alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal End -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" referrerpolicy="no-referrer">
+    </script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+        </script>
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- Custom JavaScript -->
+    <!-- <script type="text/javascript" src="js/fullpage.js"></script> -->
+    <!-- <script type="text/javascript" src="js/jquery.flipping_gallery.js"></script> -->
+    <script src="js/script-new.js"></script>
+
+    <script src="js/jquery.mobile-1.5.0-rc1.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // $(".gallery").flipping_gallery({
+            //     enableScroll: false,
+            //     spacing: 40,
+            // });
+
+            if ($(window).width() > 768) {
+
+                var delay = false;
+                var ctab = 1;
+                $(document).on('mousewheel DOMMouseScroll', function (event) {
+                    event.preventDefault();
+                    if (delay) return;
+
+                    delay = true;
+                    setTimeout(function () { delay = false }, 200)
+
+                    var selValue = $('input[type=radio]:checked').attr('id');
+                    var wd = event.originalEvent.wheelDelta || -event.originalEvent.detail;
+                    if (wd < 0) {
+                        if (ctab <= 5) {
+                            if ($(window).scrollTop() >= $('#section3').offset().top + $('#section3').outerHeight() - 100 - window.innerHeight) {
+                                $('#' + selValue).next().next().trigger('click');
+                                ctab = ctab + 1;
+                                $('html, body').animate({
+                                    scrollTop: $("#section3").offset().top + 50
+                                });
+                                $('#section4').hide();
+                                $('body').removeClass('hide_section');
+                            }
+                        } else {
+                            $('#section4').show();
+                            $('body').removeClass('hide_section');
+                        }
+                    } else {
+                        if (ctab > 1) {
+                            if ($(window).scrollTop() <= $('#section3').offset().top + $('#section3').outerHeight() + 100 - window.innerHeight) {
+                                $('#' + selValue).prev().prev().trigger('click');
+                                ctab = ctab - 1;
+                                $('html, body').animate({
+                                    scrollTop: $("#section3").offset().top + 50
+                                });
+                                $('#section4').hide();
+                                $('body').addClass('hide_section');
+                            }
+                        } else {
+                            $('#section4').hide();
+                            $('body').removeClass('hide_section');
+                        }
+                    }
+
+
+                });
+
+                $('#tab1, #tab2, #tab3, #tab4, #tab5, #tab6').click(function () {
+                    //alert($('this').data('count'));
+                    // ctab = $('this').data('count');
+                });
+
+            }
+
+            designaname.oninput = function () {
+                if (designaname.value != '') {
+                    $('.message').html('');
+                }
+            };
+
+            $(".contact_form_submit-1").click(function () {
+
+                if ($("#designaname").val() != '') {
+                    if ($(window).width() > 768) {
+                        result.innerHTML = $("#designaname").val();
+                        $('html, body').animate({
+                            scrollTop: $("#section1").offset().top
+                        }, 100);
+                    } else {
+                        $('html, body').animate({
+                            scrollTop: $("#section1").offset().top
+                        }, 100);
+                        result.innerHTML = $("#designaname").val();
+                        // $("#section0").removeClass('active');
+                        // $("#section1").addClass('active');
+                    }
+                } else {
+                    $('.message').html('This field is required');
+                }
+            });
+
+        });
+        document.addEventListener("DOMContentLoaded", () => { });
+        $(window).on("load", function () {
+            $('head').append(
+                '<style>.ks-landing::before{  -webkit-transform: scaleX(0) !important; transform: scaleX(0)!important;}</style>'
+            );
+        });
+
+
+
+
+        //  var disabledScroll = 0;
+        // $(window).bind('mousewheel DOMMouseScroll', function(event){
+        //     if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+        //         var currentScroll = $(this).scrollTop();
+        //         if(disabledScroll > 5 && currentScroll == 0){
+        //             $('#section4').removeClass('scrollable-content');
+        //         }else if(currentScroll == 0){
+        //             disabledScroll = disabledScroll+1;
+        //         }else{
+        //             disabledScroll = 0;
+        //         }
+
+        //     }else {
+        //         disabledScroll = 0;
+        //           $('#section4').addClass('scrollable-content');
+        //     }
+        // });
+
+        var tabs = [];
+        var currenttabs = 1;
+        tabs[1] = "<div><span>APPLY TO JOIN</span></div>";
+        tabs[2] = "<div><span>GET ONBOARDING AND MEETING YOUR TEAM</span></div>";
+        tabs[3] = "<div><span>GET TO WORK</span></div>";
+        tabs[4] = "<div><span>LEARN FROM THE BEST</span></div>";
+        tabs[5] = "<div><span>WORKPLACE INTELLIGENCE PROFILE</span></div>";
+        tabs[6] = "<div><span>PLACEMENT SUPPORT</span></div>";
+
+        if ($(window).width() < 768) {
+            $(".tab-next").click(function () {
+                var tab = currenttabs + 1;
+                if ($("#tab" + tab).length > 0) {
+                    $("#tab" + tab).prop("checked", true); // Change tab
+
+                    $('#c' + tab).css('left', '500px').animate({
+                        "left": "0px"
+                    }, 100);
+
+                    $('.tab-heading').html(tabs[tab]); // Chang tab heading 
+                    $('.tab-bullets .bullet').removeClass('active'); // remove class from bullet
+                    $('.tab-bullets .bullet-' + tab).addClass('active'); // add class in currnt bullet
+                    currenttabs = currenttabs + 1;
+                }
+            });
+            $(".tab-prev").click(function () {
+                var tab = currenttabs - 1;
+                if ($("#tab" + tab).length > 0) {
+                    $("#tab" + tab).prop("checked", true);
+
+                    $('#c' + tab).css('left', 'unset');
+                    $('#c' + tab).css('right', '500px').animate({
+                        "right": "0px"
+                    }, 100);
+
+                    $('.tab-heading').html(tabs[tab]);
+                    $('.tab-bullets .bullet').removeClass('active'); // remove class from bullet
+                    $('.tab-bullets .bullet-' + tab).addClass(
+                        'active'); // add class in currnt bullet            
+                    currenttabs = currenttabs - 1;
+                }
+            });
+
+            // $('.howtabview .content').on('swipeleft', function() {
+            //    alert();
+            // });
+
+            $(document).on('swipeleft', '.howtabview .content', function (event) {
+                var tab = currenttabs + 1;
+                if ($("#tab" + tab).length > 0) {
+                    $("#tab" + tab).prop("checked", true); // Change tab
+
+                    // $('#c'+currenttabs).hide("slide", { direction: "left" }, 500, function () {
+                    //     $('#c'+tab).show("slide", { direction: "left" }, 500);
+                    // });  
+
+                    $('#c' + tab).css('left', '500px').animate({
+                        "left": "0px"
+                    }, 100);
+
+                    $('.tab-heading').html(tabs[tab]); // Chang tab heading 
+                    $('.tab-bullets .bullet').removeClass('active'); // remove class from bullet
+                    $('.tab-bullets .bullet-' + tab).addClass('active'); // add class in currnt bullet
+                    currenttabs = currenttabs + 1;
+                }
+            });
+            $(document).on('swiperight', '.howtabview .content', function (event) {
+                var tab = currenttabs - 1;
+                if ($("#tab" + tab).length > 0) {
+                    $("#tab" + tab).prop("checked", true);
+
+                    // $('#c'+currenttabs).hide("slide", { direction: "right" }, 500, function () {
+                    //     $('#c'+tab).show("slide", { direction: "right" }, 500);
+                    // });  
+                    $('#c' + tab).css('left', 'unset');
+                    $('#c' + tab).css('right', '500px').animate({
+                        "right": "0px"
+                    }, 100);
+
+                    $('.tab-heading').html(tabs[tab]);
+                    $('.tab-bullets .bullet').removeClass('active'); // remove class from bullet
+                    $('.tab-bullets .bullet-' + tab).addClass(
+                        'active'); // add class in currnt bullet            
+                    currenttabs = currenttabs - 1;
+                }
+
+            });
+        }
+    </script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/owl-script.js"></script>
+    <script src="./js/mscript.js"></script>
+
+</body>
+
+</html>

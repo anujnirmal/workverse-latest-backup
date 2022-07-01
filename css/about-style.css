@@ -1,0 +1,281 @@
+.tab ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .tab {
+    margin: 0 0 2em;
+  }
+  .tabs-btn {
+    display: flex;
+    justify-content: center;
+  }
+  .tab-btn {
+    flex: 1;
+    /* color: #333; */
+    text-align: center;
+    /* padding: 1em 2em; */
+    /* background-color: #d0ddec; */
+    /* border: 1px solid #000; */
+    /* border-radius: 10px 10px 0 0; */
+    cursor: pointer;
+}
+  .tab-btn:not(:last-of-type) {
+    border-right: 0;
+  }
+  .tab-content {
+    display: none;
+    /* padding: 1em;
+    border: 1px solid #000;
+    border-top: 0; */
+    /* background-color: #fff; */
+  }
+  
+  /* tab open */
+  .tab-btn.tab-open {
+    font-weight: bold;
+    /* background-color: #fff; */
+    border-bottom: 0;
+  
+    transition: 0.3s;
+  }
+  .tab-content.tab-open {
+    display: block;
+  }
+  
+
+  .aboutus-page .aboutlanding {
+    height: 100%;
+    padding-top: 120px;
+}
+
+.tab-btn span {
+    color: #05859C;
+    font-weight: 800;
+    font-size: 26px;
+    text-transform: uppercase;
+    font-family: century-gothic-bold;
+}
+.tab-btn:first-child {
+    text-align: left;
+}
+.tab-btn:nth-child(2) {
+  text-align: left;
+  padding-left: 50px;
+}
+.tab-btn:nth-child(3) {
+  text-align: left;
+  padding-left: 50px;
+}
+.tab-btn:last-child {
+    text-align: right;
+}
+.tab-btn.tab-open span {
+    padding: 0px 8px;
+    background: #fff;
+    border-radius: 5px 0px 5px 5px;
+}
+.aboutus-page .container {
+  max-width: 1260px;
+}
+
+.aboutus-page .aboutlanding .leftimage img {
+  max-width: 93%;
+}
+.aboutus-page .aboutlanding .righttext {
+  color: #fff;
+  font-size: 22px;
+  font-family: 'century-gothic';
+}
+.aboutus-page .aboutlanding .righttext span {
+  font-family: century-gothic-bold;
+  color: #5BE2C7;
+  font-size: 23px;
+}
+.aboutus-page .aboutlanding {
+  background-image: url(../images/aboutus/02.png);
+  position: relative;
+  background-size: cover;
+  padding-bottom: 50px;
+}
+.aboutus-page .teamsection {
+  background-image: url(../images/aboutus/02.png);
+  position: relative;
+  background-size: cover;
+  height: 100vh;
+  padding-top: 140px;
+}
+.aboutus-page .teamsection h4 {
+  color: #fff;
+  font-family: century-gothic-bold;
+  font-size: 38px;
+  margin-bottom: 0;
+}
+.aboutus-page .teamsection .team-img {
+  text-align: center;
+  margin-top: 8px;
+  width: 19.5%;
+  display: inline-block;
+  margin-right: 0;
+  vertical-align: top;
+  height: 100%;
+  font-family: 'century-gothic';
+}
+
+.aboutus-page .teamsection .team-img img {
+  width: 69%;
+  margin-left: 24px;
+}
+.aboutus-page .teamsection .team-img h6 {
+  color: #fff;
+  font-size: 1vw;
+  margin-top: -25px;
+  margin-bottom: 0px;
+  letter-spacing: 0.50px;
+  text-transform: uppercase;
+  font-family: century-gothic-bold;
+}
+.aboutus-page .teamsection .team-img p {
+  color: #fff;
+  font-size: 0.8vw;
+  font-weight: 400;
+  margin-top: 5px;
+  letter-spacing: 0.50px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.aboutus-page .teamsection.advisoryboard .team-img img {
+  width: 61%;
+  margin-left: 0;
+}
+.aboutus-page .teamsection.advisoryboard h6 {
+  margin-top: 9px;
+}
+.aboutus-page .media h4 {
+  color: #fff;
+  font-family: century-gothic-bold;
+  font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.aboutus-page .media {
+  background-image: url(../images/aboutus/02.png);
+  position: relative;
+  background-size: cover;
+  /* height: 100vh; */
+  padding-top: 140px;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.mediabox {
+  background: linear-gradient(185deg, rgba(7,161,156,1) 27%, rgba(46,103,114,1) 65%);
+  padding: 15px;
+  height: 95%;
+  width: 90%;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 7px 5px 0px 0px rgb(4 4 4 / 20%);
+}
+.aboutus-page .media .col-md-4:nth-child(3n) .mediabox {
+  margin-left: auto;
+  margin-right: 0;
+}
+.aboutus-page .media .col-md-4:nth-child(3n+1) .mediabox {
+  margin-left: 0;
+}
+.mediabox .imagebox {
+  background: #3AAAB6;
+  border-radius: 14px;
+}
+.mediabox .imagebox img {
+  max-width: 100%;
+}
+.mediabox a{
+  text-decoration: none;
+}
+.mediabox .title {
+  color: #fff;
+  font-family: century-gothic-bold;
+  font-size: 25px;
+  margin-bottom: 2px;
+  text-transform: uppercase;
+  margin-top: 9px;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-inner {
+  overflow: visible;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators p.slider-text {
+  position: absolute;
+  top: 35%;
+  right: -65%;
+  width: 64%;
+  text-align: left !important;
+  color: #fff;
+  font-size: 22px;
+  font-family: 'century-gothic';
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators p.slider-text span {
+  font-family: century-gothic-bold;
+  color: #5BE2C7;
+  font-size: 23px;
+}
+.mediabox p {
+  color: #ffffffc2;
+  line-height: 18px;
+  font-family: 'century-gothic';
+  font-size: smaller;
+  width: 70%;
+}
+.aboutus-page .media .col-md-4 {
+  margin-bottom: 40px;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators {
+  max-width: 59%;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators img {
+  max-width: 100%;
+}
+
+.aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #71CDE1;
+  opacity: 1;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-indicators {
+  bottom: -20px;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-indicators [data-bs-target].active {
+  background-color: #0188A0;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-control-prev {
+  height: 24px;
+  top: 95%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 37px;
+  opacity: 1;
+  background-image: url(../images/aboutus/about-slider-left-arrow.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-control-next {
+  height: 24px;
+  top: 95%;
+  position: absolute;
+  right: 0;
+  width: 37px;
+  opacity: 1;
+  background-image: url(../images/aboutus/about-slider-rightarrow.png);
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-control-prev i, .aboutus-page .aboutlanding div#carouselExampleIndicators .carousel-control-next i {
+  font-size: 25px;
+  opacity: 0;
+}

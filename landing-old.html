@@ -1,0 +1,844 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>X Billion Skills Lab :: Home</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+        integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Fancybox -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <!-- Custom Style -->
+    <link rel="stylesheet" href="css/style.css?v=1212">
+    <link rel="stylesheet" type="text/css" href="css/flipping_gallery.css" />
+    <link rel="stylesheet" type="text/css" href="css/elusive-webfont.css" />
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css" />
+    <link rel="stylesheet" href="css/responsive.css?v=12">
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <ul class="nav justify-content-between align-items-center position-fixed top-0 w-100 pt-5 z-index-2 intro1" id="navbar">
+        <li class="nav-item z-index-2 new-ms1">
+            <div class="d-flex justify-content-between align-items-center">
+                <div class="ks-logo-svg ks-logo-svg1">
+                    <a href="landing.html" class="active">    <img id="headerlogo" src="images/landing/logo-header.png" alt="">  </a>
+                </div>
+                <!-- <div class="ks-logo-heading">
+                    <h2>X Billion Skills Lab</h2>
+                    <h6>Enhancing workplace intelligence</h6>
+                </div> -->
+            </div>
+        </li>
+        <li class="nav-item new-ms2 z-index-2 aply">
+		    <a onclick="togglemenu()" id="menubar" class="aply1"><img src="images/landing/apply-now-button.png" /></a>
+            <!-- <a href="#"><img src="images/menu-bars.svg" alt="" class="ks-menu-bars"></a> -->
+            <a onclick="togglemenu()" id="menubar" class="aply2"><img src="images/landing/menu-logo.png" /></a>
+        </li>
+    </ul>
+    <div class="blakpatch" onclick="togglemenu()"></div>
+    <!--<div class="rightmenu" id="mainmenu" >
+        <a href="programe.html" class="getstarted colorful hvr-ripple-out">get
+            started</a>
+        <ul class="menu">
+            <li>
+                <a href="landing.html" class="active">
+                    <div class="diamond"></div> Home
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="about.html">
+                    <div class="diamond"></div> About
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="science.html">
+                    <div class="diamond"></div> Science
+                </a>
+                <span></span>
+            </li>
+            <!-- <li>
+                <a href="programe.html">
+                    <div class="diamond"></div> Programs
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="for-college-new.html">
+                    <div class="diamond"></div> For College
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="career.html">
+                    <div class="diamond"></div> Careers
+                </a>
+                <span></span>
+            </li>
+            <li>
+                <a href="contact.html">
+                    <div class="diamond"></div> Contact
+                </a>
+            </li>
+        </ul>
+        <!-- <a class="closebtn" onclick="togglemenu()"><img src="images/main-menu-arrow.png" /></a> 
+        <!-- <a class="knowmore blueclr hvr-ripple-out">Know More</a> 
+    </div>-->
+
+    
+
+    <!-- Navbar End -->
+    <div id="fullpage" class="fullpage-wrapper student-landing">
+        <div class="section " id="section0">
+            <!-- Landing Page -->
+            <div class="bg-darkblue" id="ksLandingNewIntro">
+                <div class="ks-landing ks-landing1">
+                    <div class="ms-5 pt-4">
+                        <div class="row w-100 mt-4 pt-3">
+                            <div class=" col-9 ">
+                                <div class="d-flex align-items-end mt-5 pt-5 new-m">
+                                    <div class="ks-heading ms-1">
+                                        <div class="mt-4 hi-text mt-3 new-m1">
+                                           <h1> <b><span class="hi">Hi,</span></b><br>
+											Are you a fresher wanting to build a meaningful career? <br>
+											Well, it's certainly going to take <span>a lot more than just  <br>
+											certifications and hard skills!</span></h1>
+                                        </div>
+                                        
+                                        <p class="f-text">
+                                           But first, let's dream…  <br>
+										   <span>Where do you see yourself 3 years from now?</span>
+                                        </p>
+										<ul class="tell-us">
+										   <li><input type="text" class="form-control form-control_3" placeholder="Eg. graphic designer, full stack developer, etc, ..." name="name" id="designaname" required="required"><span class="message"></span></li>
+										   <li><button type="submit" class="btn_a button-box contact_form_submit-1"><img src="images/landing/tell-us-how-button.png"></button></li>
+										</ul>   
+                                        <div class="btn-grp mt-4 ">
+                                           
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-3 ">
+                                
+                            </div>
+                        </div>
+                        <div class="jobe">
+							 <p><a href="">JOBS</a></p>
+						</div>	
+                    </div>
+					<div class="farst-img">
+							<img class="im1" src="images/landing/landing-page-background-boxes.png">
+							<img class="im2 desktop" src="images/landing/landing-page-background-people.png">
+							<img class="im3 desktop" src="images/landing/landing-page-background-1.png">
+                            <img class="mobile" src="images/landing/xbsl-landing-screen-background-mobile.png">
+						</div>
+                </div>
+				
+            </div>
+            <!-- Landing Page END -->
+        </div>
+        <div class="section " id="section1">
+            <div class="bg-darkblue why" id="ksLandingwelive">
+                <div class="ks-landing-welive position-relative ks-landing1">
+                    <div class="ms-5 pt-4">
+                        <div class="mt-4 pt-3 ">
+                            <div class="position-relative pt-6 think">
+                                <div class="mt-4 hi-text How-text">
+								   <h1>	How you <span>THINK, SOLVE & COMMUNICATE</span> matters more than just what you know</h1>
+								</div>
+								<div class="row">
+								    <div class="col-md-7">
+										<div class="skils-text">
+										   <h2>21<sup>st</sup> CENTURY WORKPLACE SKILLS</h2>
+										   <p>are superpowers for rapid growth. <i class="mobilebottom">Master them in the </i> </p>
+										   <h2>WORLD'S 1<sup>st</sup> WORKPLACE SIMULATION GAME</h2>
+										   <p>@just <span class="rop">₹</span> <span class="sedo">1999 /-</span></p>
+										 </div>
+										 <div class="new-but">
+										     <a href=""><img src="images/landing/landing-2-apply-now-button.png"></a>
+										 </div>	 
+										 <div class="how-but">
+										     <p>KNOW HOW</p>
+											 <a href="#3rdPage"><img src="images/landing/scroll-next-button.png"></a>
+										 </div>	 
+                                     </div>
+									 <div class="col-md-5">
+									     <div class="ico-text">
+										     <div class="solving solving0">
+											     <img src="images/landing/xbsl-landing-scr2-icon-1.png">
+												 <p>CREATIVE PROBLEM SOLVING</p>
+                                                 <img src="images/landing/xbsl-landing-screen2-iconring.png" class="ring">
+									         </div>
+											 <div class="solving solving1">
+											     <img src="images/landing/xbsl-landing-scr2-icon-2.png">
+												 <p>FIRST PRINCIPLES THINKING</p>
+                                                 <img src="images/landing/xbsl-landing-screen2-iconring.png" class="ring">
+									         </div>
+											 <div class="solving solving2">
+											     <img src="images/landing/xbsl-landing-scr2-icon-3.png">
+												 <p>CRITICAL THINKING</p>
+                                                 <img src="images/landing/xbsl-landing-screen2-iconring.png" class="ring">
+									         </div>
+										 </div>	  
+									 </div>
+								  </div>	 
+                            </div>
+                        </div>
+                    </div>
+					<div class="farst-img">
+							<img class="im4" src="images/landing/landing-page-background-boxes.png">
+							<img class="im5" src="images/landing/landing-2-desk-background-image.png">
+                            <span id="result"></span>
+						</div>
+                </div>
+				
+            </div>
+        </div>
+        <div class="section " id="section2">
+            <!-- What Section  -->
+            <div class="bg-darkblue why" id="ksLandingNewWhat">
+                <div class="ks-landing-what position-relative ks-landing2">
+                    <div class="ms-5 pt-4">
+                        <div class="mt-4 pt-3">
+                            <div class="position-relative pt-6 think">
+
+                                <div class="mt-4 hi-text master-text">
+								   <h1>	The best way to master <span>21<sup>ST</sup> CENTURY WORKPLACE SKILLS</span> is by doing.</h1>
+								</div>
+                               <div class="row">
+								    <div class="col-md-8">
+										<div class="skils-text1">
+										   <h2 class="show-desktop">In our simulation, you <span>“WORK”</span> in a startup for <span>30 days</span>. <br>
+											Solve problems, impress bosses, collaborate with teams and <br>
+											tackle <span>100+ real workplace scenarios. </span></h2>
+
+											<h2 class="show-desktop">And yes, after you’re done playing in the simulation - <br>
+											we also enable you to get a meaningful <span>job in the real world.</span> <br>
+											There are already <span>30+ emerging startups waiting to hire <br>
+											smart generalists like you!</span></h2>
+
+                                            <h2 class="show-mobile">In our simulation, you <span>“WORK”</span> in a startup for <span>30 days</span>. 
+                                                Solve problems, impress bosses, collaborate with teams and 
+                                                tackle <span>100+ real workplace scenarios. </span></h2>
+    
+                                                <h2 class="show-mobile"><span>And yes, </span> <br> after you’re done playing in the simulation - 
+                                                we also enable you to get a meaningful <span>job in the real world.</span> <br><br>
+                                                There are already <span>30+ emerging startups waiting to hire <br>
+                                                smart generalists like you!</span></h2>
+										 </div>
+                                     </div>
+									 <div class="col-md-4">
+									 </div>
+								  </div>
+
+
+                            </div>
+                            
+                        </div>
+                    </div>
+					<div class="farst-img">
+							<img class="im6" src="images/landing/landing-3-background-mobile-img.jpg">
+							<img class="im7" src="images/landing/how-it-works.png">
+						</div>
+                </div>
+            </div>
+            <!-- What Section END -->
+        </div>
+        <div class="section " id="section3">
+            <!-- How Section -->
+            <div class="bg-darkblue acheive" id="ksLandingNewHow">
+			   <div class="bg-tab"><img src="images/landing/tab-background.jpg" alt=""></div>
+                <div class="ks-landing-how ks-landing3">
+                    <div class="ms-5 pt-4">
+                        <div class="mt-4 pt-5">
+                            <div class="position-relative pt-5 think">
+                                <div class="container container_a howtabview">
+								 
+                                    <input type="radio" id="tab1" name="tab" checked>
+                                    <label for="tab1"> APPLY TO JOIN</label>
+                                    <input type="radio" id="tab2" name="tab">
+                                    <label for="tab2"> ONBOARDING<br> AND MEETING<br> YOUR TEAM</label>
+                                    <input type="radio" id="tab3" name="tab">
+                                    <label for="tab3"> GET TO WORK</label>
+                                    <input type="radio" id="tab4" name="tab">
+                                    <label for="tab4">WORKPLACE<br> INTELLIGENCE</br> PROFILE</label>
+                                    <input type="radio" id="tab5" name="tab">
+                                    <label for="tab5">PLACEMENT<br> SUPPORT</label>
+                                    <span></span>
+
+                                    <div class="mobile-tabs">
+                                        <div class="tab-prev"></div>
+                                        <div class="tab-heading"><div><span>APPLY TO JOIN</span></div></div>    
+                                        <div class="tab-bullets">
+                                            <span class="bullet bullet-1 active"></span>
+                                            <span class="bullet bullet-2"></span>
+                                            <span class="bullet bullet-3"></span>
+                                            <span class="bullet bullet-4"></span>
+                                            <span class="bullet bullet-5"></span>
+                                        </div>
+                                        <div class="tab-next"></div>
+                                    </div>
+                                   
+                                    <div class="content-container">	
+                                      <div class="content" id="c1">
+                                       <div class="row">
+                                            <div class="col-md-6">
+                                               <div class="details details1">
+                                                    <div class="title">WE ARE CHOOSY!</div>
+                                                    <p>This program is only for the driven select few who aim to be future leaders in their industry...  </p>
+                                                    <p class="show-desktop">Take this <span class="free">FREE 30 min assessment</span> today to help us know you and your ambitions.</p>
+                                               </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                               <div class="tab-howimage">
+                                                    <img src="images/landing/apply-to-join-mobile.png" alt="">
+                                               </div>
+                                            </div>
+                                            <div class="col-md-6 show-mobile">
+                                                <div class="details details1">
+                                                    <p>Take this <span class="free">FREE 30 min assessment</span> today to help us know you and your ambitions.</p>
+                                                </div>
+                                            </div>     
+                                       </div>
+                                      </div>
+                                      <div class="content" id="c2">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <div class="details details1">
+                                                    <div class="title show-desktop">ONBOARDING AND <br>MEETING YOUR TEAM.</div>
+                                                    <p>Get on board as an <span class="free">“EMPLOYEE”</span> of this imaginary startup. Meet your <span class="free">“BOSS”</span> who will be tough to impress and diverse <span class="free">”COLLEAGUES”</span> who you will collaborate with. <span class="show-desktop">Prepare yourself to tackle hierarchical relationships and get work done despite differences.</span>
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="tab-howimage tab-howimage1">
+                                                    <img src="images/landing/onboarding-team-img.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 show-mobile">
+                                                <div class="details details1">                                                    
+                                                    <p><span class="free">Prepare yourself </span> to tackle hierarchical relationships and get work done despite differences.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="content" id="c3">
+                                        <div class="row ">
+                                            <div class="col-md-6">
+                                               <div class="details details1">
+                                                   <div class="title show-desktop">GET TO WORK</div>
+                                                   <p>Achieve real-world business goals for your
+													company- Pitch to clients, negotiate deals,
+													and tackle emergencies.</p>
+                                                    <p class="show-desktop">
+													<span>Work individually, Work in teams!</span>
+													Prioritize your tasks, time, and energy to
+													deliver outcomes. Experience <span>EVERYTHING</span>
+													that you will in the first year of your real world job </p>
+												   
+                                               </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                                <div class="tab-howimage">
+                                                 <img src="images/landing/get-to-work-tab-img.jpg" alt="">
+                                                </div>                                                
+                                            </div>
+                                            <div class="col-md-6 show-mobile">
+                                                <div class="details details1">                                                   
+                                                     <p class="show-mobile">
+                                                     <span>Work individually, Work in teams!</span>
+                                                     Prioritize your tasks, time, and energy to
+                                                     deliver outcomes. Experience <span>EVERYTHING</span>
+                                                     that you will in the first year of your real world job </p>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="content" id="c4">
+                                        <div class="row ">
+                                            <div class="col-md-6">
+                                               <div class="details details1">
+                                                   <div class="title show-desktop">WORKPLACE INTELLIGENCE PROFILE</div>
+                                                   <p>As you <span>"WORK"</span>, we observe and rank how
+														intelligently you deal with problems and
+														opportunities. Our science-backed algorithm
+														generates a unique</p>
+                                                        <p class="show-desktop">
+														<span>“WORKPLACE INTELLIGENCE PROFILE"</span>
+														that quantifies your achievements and abilities.
+														This is essentially a report card to see if you get
+														promoted or fired!</p>
+												  
+                                               </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                                <div class="tab-howimage tab-howimage3">
+                                                    <img src="images/landing/workplace-intelligent-profile-tab-img.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 show-mobile">
+                                                <div class="details details1">    
+                                                        <p>                                              
+                                                         <span>“WORKPLACE INTELLIGENCE PROFILE"</span>
+                                                         that quantifies your achievements and abilities.
+                                                         This is essentially a report card to see if you get
+                                                         promoted or fired!</p>
+                                                   
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      <div class="content" id="c5">
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                               <div class="details details1">
+                                                   <div class="title show-desktop">PLACEMENT SUPPORT</div>
+                                                   <p>Based on your <span>W.I.P</span>, we introduce you to new
+														age startups looking for smart solvers & creative
+														thinkers across domains like coding, finance,
+														engineering and marketing. </p>
+                                                        <p class="show-desktop">This experience
+														will give you a unique edge in hiring decisions.</p>
+																										  
+                                               </div>
+                                           </div>
+                                            <div class="col-md-6">
+                                                <div class="tab-howimage">
+                                                    <img src="images/landing/placement-support-tab-img.jpg" alt="">
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 show-mobile>
+                                                <div class="details details1">
+                                                         <p>This experience
+                                                         will give you a unique edge in hiring decisions.</p>
+                                                                                                           
+                                                </div>
+                                            </div>
+                                        </div>
+                                      </div>
+                                      
+                                    </div>
+                                    
+                                  </div>                         
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- How Section END -->
+        </div>
+        <div class="section scrollable-content" id="section4">
+            <!-- Why Section -->
+            <div class="bg-darkblue what" id="ksLandingNewWhy">
+                <div class="ks-landing-why position-relative ks-landing1">
+                    <div class="ms-5 pt-5">
+                        <div class="mt-5 pt-4">
+                            <div class="position-relative pt-5 think pp1">
+
+                                <div class="mt-4 hi-text changed">
+								   <h1>Hiring criteria has <span>changed</span></h1>
+								</div>
+								<div class="row align-items-center">
+								    <div class="col-md-6">
+									   <div class="changed-text">
+									       <div class="changed-hed">
+                                              <h2>Limited opportunities</h2>
+										   </div>
+											<div class="changed-p changedp2">
+											  <img src="images/landing/why-we-are-hiring.png">
+                                              <p>250+ graduates apply <br>for every job posting</p>
+										   </div>	
+										   <div class="changed-p changedp1 changedp3">
+                                              <p>A.I. is replacing humans for <br>jobs that requires little thinking</p>
+											  <img src="images/landing/why-job-interview.png">
+										   </div>	
+                                       	</div>
+                                    </div>
+									<div class="col-md-6">
+									   <div class="changed-text changed-text1">
+									       <div class="changed-hed">
+                                              <h2>Rapid Growth</h2>
+										   </div>
+											<div class="changed-p changedp2">
+											  <img src="images/landing/why-rapid-growth-1.png">
+                                              <p>Employees today are <br>
+													co creators- contributing <br>
+													to vision & strategy is a must!</p>
+										   </div>	
+										   <div class="changed-p changedp1 changedp3">
+                                              <p>Businesses are evolving-<br>
+													Performing in uncertainty <br>
+													is now a necessity.</p>
+											  <img src="images/landing/why-rapid-growth-2.png">
+										   </div>	
+                                       	</div>
+                                    </div>
+                                 </div>									
+                                 <div class="last-p">
+								    <p><i>Employers prefer freshers who display intelligence to deliver outcomes smartly and independently from day one.</i></p>
+								</div>
+								
+                            </div>
+                                
+
+                            </div>
+                            
+
+                        </div>
+                    </div>
+                      
+                    <div class="position-relative pt-5 think footer-area">
+                         <div class="row">
+						     <div class="col-md-6">
+                                 <div class="conte-icon">
+								     <div class="icon-text">
+									     <img src="images/landing/footer-instagram.png">
+										 <p><a href="">Instagram</a></p>
+									  </div>
+									  <div class="icon-text">
+									     <img src="images/landing/footer-linkedin.png">
+										 <p><a href="">Linked In</a></p>
+									  </div>
+									  <div class="icon-text">
+									     <img src="images/landing/footer-facebook.png">
+										 <p><a href="">Facebook</a></p>
+									  </div>
+									  <div class="icon-text">
+									     <img src="images/landing/footer-youtube.png">
+										 <p><a href="">Youtube</a></p>
+									  </div>
+                                  </div>
+                              </div>			
+							  <div class="col-md-6">
+                                 <div class="conte-link">
+								     <ul>
+									    <li><a href="">HOME</a></li>
+										<li><a href="">PROGRAMS</a></li>
+										<li><a href="">ABOUT US</a></li>
+										<li><a href="">SCIENCE</a></li>
+										<li><a data-role="button" target="_self" href="career.html">CAREER</a></li>
+										<li><a href="">CONCACT US</a></li>
+									 </ul>
+                                   </div>											 
+                              </div>			
+                           </div>
+						   <div class="copy-text">
+						       <p> All Rights Reserved © <a href="xbillionskillslab.com">xbillionskillslab.com</a></p>
+						   </div>	   
+                    </div>
+                                
+    
+                </div>
+            </div>
+            <!-- Why Section END -->
+    </div>
+
+    
+
+    <!-- Modal Start  -->
+    <div class="modal fade" id="ksFoundationModal" aria-hidden="true" aria-labelledby="ksFoundationModalLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content">
+                <div class="bg-darkblue w-100">
+                    <div class="ks-foundation-img ">
+                        <div class="ms-5 pt-4 ">
+                            <ul
+                                class="nav justify-content-between align-items-center position-fixed top-0 w-custom pt-4 z-index-2 ">
+                                <li class="nav-item z-index-2 ms-4">
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div class="ks-logo-svg">
+                                            <img src="new-images/logo.png" alt="">
+                                        </div>
+                                        <!-- <div class="ks-logo-heading">
+                                            <h2>X Billion Skills Lab</h2>
+                                            <h6>Enhancing workplace intelligence</h6>
+                                        </div> -->
+                                    </div>
+                                </li>
+                                <li class="nav-item me-5 z-index-2 ">
+                                    <a href="#" data-bs-dismiss="modal" aria-label="Close"
+                                        class="closebtn border  pt-1-5 px-2 pb-1"><i
+                                            class="fas fa-times text-white"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="conatiner pt-5 mt-4">
+                            <div class="row mt-5 w-100 align-items-center">
+                                <div class="col-md-6 text-light px-5 pt-3">
+                                    <div class="ms-5">
+                                        <h2 class="ks-h1-text"> 1. FOUNDATION</h2>
+                                        <hr class="green">
+                                        <p class="ks-foundation-text">Lorem ipsum dolor sit amet, consectetuer
+                                            adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore
+                                            magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud
+                                            exerci tation ullamcorper
+                                            suscipit lobortis nisl ut </p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="images/testimonial-img.jpg" class="img-fluid w-90 border1 " alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal End -->
+
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        referrerpolicy="no-referrer"></script>
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- Fancybox -->
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+
+    <!-- Custom JavaScript -->
+    <script type="text/javascript" src="js/fullpage.js"></script>
+    <script type="text/javascript" src="js/jquery.flipping_gallery.js"></script>
+    <script src="js/script-new.js"></script>
+    
+    <script src="js/jquery.mobile-1.5.0-rc1.js"></script>
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // $(".gallery").flipping_gallery({
+            //     enableScroll: false,
+            //     spacing: 40,
+            // });
+            designaname.oninput = function() {
+                if(designaname.value !=''){
+                      $('.message').html('');
+                }
+            };
+            
+            $(".contact_form_submit-1").click(function(){
+                
+                if($("#designaname").val() != ''){
+                    if ($(window).width() < 768) {
+                        result.innerHTML = $("#designaname").val();
+                        $('html, body').animate({
+                            scrollTop: $("#section1").offset().top
+                        }, 1000);
+                    }else{ 
+
+                        result.innerHTML = $("#designaname").val();
+                        $("#section0").removeClass('active');
+                        $("#section1").addClass('active');
+                    }
+                }else{
+                    $('.message').html('This field is required');
+                }
+            });
+            
+        });
+        document.addEventListener("DOMContentLoaded", () => {
+        });
+        $(window).on("load", function () {
+            $('head').append('<style>.ks-landing::before{  -webkit-transform: scaleX(0) !important; transform: scaleX(0)!important;}</style>');
+        });
+
+        if ($(window).width() < 768) {
+        } else {
+            var myFullpage = new fullpage('#fullpage', {
+                anchors: ['firstPage', 'secondPage', '3rdPage', '4rdPage', '5rdPage'],
+                navigation: true,
+                navigationPosition: 'right',
+                scrollOverflow: true,
+                normalScrollElements: '.scrollable-content',
+                navigationTooltips: ['First page', 'Second page', 'Third', 'forth', 'fifth'],
+                afterLoad: function (origin, destination, direction) {
+                    var loadedSection = this;
+                    // console.log(origin);
+                    console.log(destination.index);
+                    // console.log(direction);
+                    //using index
+
+	                $('#navbar').removeClass('sticky-header-bg');
+	
+                    //using anchorLink
+                    if (destination.index == 0) {
+                        $('.newclgdiam').css({ opacity: '0' });
+                    } else {
+                        $('.newclgdiam').css({ opacity: '1' });
+                    }
+
+                    if (destination.index == 4) {
+                        // function counter(id, start, end, duration) {
+                        //     let obj = document.getElementById(id),
+                        //         current = start,
+                        //         range = end - start,
+                        //         increment = end > start ? 1 : -1,
+                        //         step = Math.abs(Math.floor(duration / range)),
+                        //         timer = setInterval(() => {
+                        //             current += increment;
+                        //             obj.textContent = current;
+                        //             if (current == end) {
+                        //                 // clearInterval(timer);
+                        //             }
+                        //         }, step);
+                        // }
+                        // counter("count1", 99900, 100000, 1000);
+                        // counter("count2", 0, 50, 1000);
+                        // counter("count3", 0, 92, 1000);
+                        // counter("count4", 0, 70, 1000);
+                    }
+					if (destination.index == 1) {
+					   $( ".intro1" ).addClass( "intro" );  
+                    }  
+					if (destination.index == 3) {
+					   $( ".intro1" ).addClass( "intro" );  
+                    }  
+					if (destination.index == 0) {
+					   $( ".intro1" ).removeClass( "intro" );  
+                    }  
+                    if (destination.index == 2) {
+                        $("#headerlogo").attr("src","images/landing/logo-header.png");
+                        
+                    }  
+					if (destination.index == 4) {
+                        $("#headerlogo").attr("src","images/landing/logo-header.png");
+						$( ".aply" ).removeClass( "aply3" );
+						$('#section4').addClass('scrollable-content');
+						
+						$('#navbar').addClass('sticky-header-bg');
+						
+                    }  
+					if (destination.index == 5) {
+                        $("#headerlogo").attr("src","images/landing/logo-header-white-bg.png");
+                        $( ".aply" ).addClass( "aply3" ); 
+                        $( ".ks-logo-svg1" ).addClass( "ks-logo-svg0 img" ); 						
+                    }  
+                    if (destination.index == 3) {
+                        $("#headerlogo").attr("src","images/landing/logo-header-white-bg.png");
+                        
+                    } else {
+                        fullpage_api.setAllowScrolling(true, 'down');
+                        fullpage_api.setAllowScrolling(true, 'up');
+                    }
+                }
+            });
+        }
+      
+        
+     var disabledScroll = 0;
+        $(window).bind('mousewheel DOMMouseScroll', function(event){
+            if (event.originalEvent.wheelDelta > 0 || event.originalEvent.detail < 0) {
+                var currentScroll = $(this).scrollTop();
+                if(disabledScroll > 5 && currentScroll == 0){
+                    $('#section4').removeClass('scrollable-content');
+                }else if(currentScroll == 0){
+                    disabledScroll = disabledScroll+1;
+                }else{
+                    disabledScroll = 0;
+                }
+               
+            }else {
+                disabledScroll = 0;
+                  $('#section4').addClass('scrollable-content');
+            }
+        });
+
+    var tabs = [];
+    var currenttabs = 1;
+    tabs[1] = "<div><span>APPLY TO JOIN</span></div>"; 
+    tabs[2] = "<div><span>ONBOARDING AND MEETING YOUR TEAM</span></div>"; 
+    tabs[3] = "<div><span>GET TO WORK</span></div>"; 
+    tabs[4] = "<div><span>WORKPLACE INTELLIGENCE PROFILE</span></div>"; 
+    tabs[5] = "<div><span>PLACEMENT SUPPORT</span></div>";  
+    
+    if ($(window).width() < 768) {
+        $(".tab-next").click(function(){
+            var tab = currenttabs + 1;
+            if ($("#tab"+tab).length > 0) {
+                $("#tab"+tab).prop("checked", true); // Change tab
+
+                $('#c'+tab).css('left','500px').animate({"left":"0px"}, 100);
+
+                $('.tab-heading').html(tabs[tab]); // Chang tab heading 
+                $('.tab-bullets .bullet').removeClass('active'); // remove class from bullet
+                $('.tab-bullets .bullet-'+tab).addClass('active'); // add class in currnt bullet
+                currenttabs = currenttabs+1;
+            }
+        });
+        $(".tab-prev").click(function(){
+            var tab = currenttabs - 1;
+            if ($("#tab"+tab).length > 0) {
+                $("#tab"+tab).prop("checked", true);
+                
+                $('#c'+tab).css('left','unset');
+                $('#c'+tab).css('right','500px').animate({"right":"0px"}, 100);
+                
+                $('.tab-heading').html(tabs[tab]);
+                $('.tab-bullets .bullet').removeClass('active'); // remove class from bullet
+                $('.tab-bullets .bullet-'+tab).addClass('active'); // add class in currnt bullet            
+                currenttabs = currenttabs-1;
+            }
+        });
+
+        // $('.howtabview .content').on('swipeleft', function() {
+        //    alert();
+        // });
+    
+        $(document).on('swipeleft', '.howtabview .content', function(event){ 
+            var tab = currenttabs + 1;
+            if ($("#tab"+tab).length > 0) {
+                $("#tab"+tab).prop("checked", true); // Change tab
+
+                // $('#c'+currenttabs).hide("slide", { direction: "left" }, 500, function () {
+                //     $('#c'+tab).show("slide", { direction: "left" }, 500);
+                // });  
+                
+                $('#c'+tab).css('left','500px').animate({"left":"0px"},100);
+
+                $('.tab-heading').html(tabs[tab]); // Chang tab heading 
+                $('.tab-bullets .bullet').removeClass('active'); // remove class from bullet
+                $('.tab-bullets .bullet-'+tab).addClass('active'); // add class in currnt bullet
+                currenttabs = currenttabs+1;
+            }
+        });
+        $(document).on('swiperight', '.howtabview .content', function(event){ 
+            var tab = currenttabs - 1;
+            if ($("#tab"+tab).length > 0) {
+                $("#tab"+tab).prop("checked", true);
+
+                // $('#c'+currenttabs).hide("slide", { direction: "right" }, 500, function () {
+                //     $('#c'+tab).show("slide", { direction: "right" }, 500);
+                // });  
+                $('#c'+tab).css('left','unset');
+                $('#c'+tab).css('right','500px').animate({"right":"0px"},100);
+
+                $('.tab-heading').html(tabs[tab]);
+                $('.tab-bullets .bullet').removeClass('active'); // remove class from bullet
+                $('.tab-bullets .bullet-'+tab).addClass('active'); // add class in currnt bullet            
+                currenttabs = currenttabs-1;
+            }
+            
+        });
+    }
+
+    </script>
+	
+</body>
+
+</html>
